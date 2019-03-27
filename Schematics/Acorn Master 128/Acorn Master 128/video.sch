@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 10
+Sheet 10 11
 Title "Acorn Master 128"
 Date "2019-03-27"
 Rev "1.0"
@@ -56,6 +56,17 @@ F 1 "CF30060" H 5950 2487 50  0000 C CNN
 F 2 "" H 5950 1700 50  0001 C CNN
 F 3 "" H 5950 1700 50  0001 C CNN
 	1    5950 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L AcornMaster:CRTC6845 IC?
+U 1 1 5C9B9975
+P 7300 2300
+F 0 "IC?" H 7300 3778 50  0000 C CNN
+F 1 "CRTC6845" H 7300 3687 50  0000 C CNN
+F 2 "" H 7300 2300 50  0001 C CNN
+F 3 "" H 7300 2300 50  0001 C CNN
+	1    7300 2300
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
