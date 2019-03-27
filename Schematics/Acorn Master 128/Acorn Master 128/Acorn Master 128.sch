@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 9
+Sheet 1 10
 Title "Acorn Master 128"
 Date "2019-03-27"
 Rev "1.0"
@@ -53,5 +53,11 @@ S 3800 900  800  1350
 U 5C9DD915
 F0 "Memory" 50
 F1 "memory.sch" 50
+$EndSheet
+$Sheet
+S 3800 2800 800  1500
+U 5C9B687B
+F0 "Video" 50
+F1 "video.sch" 50
 $EndSheet
 $EndSCHEMATC

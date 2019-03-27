@@ -4,13 +4,13 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 9
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
+Sheet 8 10
+Title "Acorn Master 128"
+Date "2019-03-27"
+Rev "1.0"
+Comp "https://www.domesday86.com"
+Comment1 "(c)2019 Simon Inns"
+Comment2 "License: Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)"
 Comment3 ""
 Comment4 ""
 $EndDescr
