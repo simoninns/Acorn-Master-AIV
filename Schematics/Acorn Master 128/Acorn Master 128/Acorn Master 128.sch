@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 18
+Sheet 1 19
 Title "Acorn Master 128"
 Date "2019-03-28"
 Rev "1.0"
@@ -175,5 +175,18 @@ F21 "1MHzE" I R 3850 5900 50
 F22 "RnW" I R 3850 6000 50 
 F23 "BD[0..7]" B R 3850 6100 50 
 F24 "ED[0..7]" B R 3850 6200 50 
+$EndSheet
+$Sheet
+S 4550 5450 550  800 
+U 5D4D4829
+F0 "Econet Interface" 50
+F1 "econetinf.sch" 50
+F2 "~NETINT" I L 4550 5550 50 
+F3 "BRnW" I L 4550 5650 50 
+F4 "~ADLC" I L 4550 5750 50 
+F5 "phi2_in" I L 4550 5850 50 
+F6 "~RST" I L 4550 5950 50 
+F7 "A[0..15]" I L 4550 6050 50 
+F8 "CD[0..7]" B L 4550 6150 50 
 $EndSheet
 $EndSCHEMATC

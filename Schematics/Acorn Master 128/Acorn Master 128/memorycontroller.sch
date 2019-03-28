@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 18
+Sheet 10 19
 Title "Acorn Master 128"
 Date "2019-03-28"
 Rev "1.0"
@@ -326,14 +326,14 @@ Text HLabel 6600 3900 2    50   Output ~ 0
 AA14
 Wire Wire Line
 	6300 3700 6600 3700
+Wire Wire Line
+	6300 3800 6600 3800
+Wire Wire Line
+	6300 3900 6600 3900
 Wire Bus Line
 	7100 2650 7100 3600
 Wire Bus Line
 	4350 2600 4350 3500
 Wire Bus Line
 	4350 3800 4350 4600
-Wire Wire Line
-	6300 3800 6600 3800
-Wire Wire Line
-	6300 3900 6600 3900
 $EndSCHEMATC
