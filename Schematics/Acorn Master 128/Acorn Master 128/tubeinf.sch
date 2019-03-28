@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 18 20
+Sheet 18 21
 Title "Acorn Master 128"
 Date "2019-03-28"
 Rev "1.0"
@@ -1246,6 +1246,17 @@ Wire Wire Line
 	6300 5900 7550 5900
 Wire Wire Line
 	7550 5900 7550 5600
+$Comp
+L power:-5V #PWR?
+U 1 1 5D4BDC7F
+P 7550 5600
+F 0 "#PWR?" H 7550 5700 50  0001 C CNN
+F 1 "-5V" H 7565 5773 50  0000 C CNN
+F 2 "" H 7550 5600 50  0001 C CNN
+F 3 "" H 7550 5600 50  0001 C CNN
+	1    7550 5600
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	2000 4550 2000 5800
 Wire Bus Line
@@ -1272,15 +1283,4 @@ Wire Bus Line
 	4700 1600 4700 2500
 Wire Bus Line
 	6900 4300 6900 5100
-$Comp
-L power:-5V #PWR?
-U 1 1 5D4BDC7F
-P 7550 5600
-F 0 "#PWR?" H 7550 5700 50  0001 C CNN
-F 1 "-5V" H 7565 5773 50  0000 C CNN
-F 2 "" H 7550 5600 50  0001 C CNN
-F 3 "" H 7550 5600 50  0001 C CNN
-	1    7550 5600
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC
