@@ -4,9 +4,9 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 14
+Sheet 14 15
 Title "Acorn Master 128"
-Date "2019-03-27"
+Date "2019-03-28"
 Rev "1.0"
 Comp "https://www.domesday86.com"
 Comment1 "(c)2019 Simon Inns"
@@ -331,11 +331,6 @@ Wire Wire Line
 	7650 2800 7650 3200
 Connection ~ 7150 2800
 Wire Wire Line
-	7150 3100 7150 3150
-Connection ~ 7150 3150
-Wire Wire Line
-	7150 3150 7150 3200
-Wire Wire Line
 	7650 3500 7650 3550
 Wire Wire Line
 	7650 3900 7650 4000
@@ -382,6 +377,8 @@ Wire Wire Line
 	4900 4900 5100 4900
 Wire Wire Line
 	4900 5000 5100 5000
+Wire Wire Line
+	7150 3200 7150 3150
 Wire Bus Line
 	4650 3500 4650 4300
 Wire Bus Line
