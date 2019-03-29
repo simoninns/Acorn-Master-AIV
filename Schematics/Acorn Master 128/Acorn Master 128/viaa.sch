@@ -4,9 +4,9 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 22 22
+Sheet 22 23
 Title "Acorn Master 128"
-Date "2019-03-28"
+Date "2019-03-29"
 Rev "1.0"
 Comp "https://www.domesday86.com"
 Comment1 "(c)2019 Simon Inns"
@@ -185,10 +185,6 @@ Wire Wire Line
 Wire Wire Line
 	2050 2300 1700 2300
 Wire Wire Line
-	2050 2600 1700 2600
-Wire Wire Line
-	2050 2700 1700 2700
-Wire Wire Line
 	2050 2000 1700 2000
 Text Label 1800 1050 0    50   ~ 0
 SA0
@@ -214,10 +210,6 @@ Text Label 1800 2200 0    50   ~ 0
 PB2
 Text Label 1800 2300 0    50   ~ 0
 PB3
-Text Label 1800 2600 0    50   ~ 0
-PB6
-Text Label 1800 2700 0    50   ~ 0
-PB7
 Entry Wire Line
 	1600 950  1700 1050
 Entry Wire Line
@@ -1178,6 +1170,12 @@ Wire Wire Line
 Connection ~ 3250 2550
 Wire Wire Line
 	3250 2550 3350 2550
+Wire Wire Line
+	2050 2700 1900 2700
+Text HLabel 1900 2700 0    50   Output ~ 0
+RTC_AS
+Wire Wire Line
+	2050 2600 1900 2600
 Wire Bus Line
 	3700 1050 3700 1450
 Wire Bus Line
@@ -1192,4 +1190,6 @@ Wire Bus Line
 	3700 1550 3700 2350
 Wire Bus Line
 	1150 4450 1150 5850
+Text HLabel 1900 2600 0    50   Output ~ 0
+RTC_CS
 $EndSCHEMATC

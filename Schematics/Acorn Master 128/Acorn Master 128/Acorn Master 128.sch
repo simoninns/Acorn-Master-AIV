@@ -4,9 +4,9 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 22
+Sheet 1 23
 Title "Acorn Master 128"
-Date "2019-03-28"
+Date "2019-03-29"
 Rev "1.0"
 Comp "https://www.domesday86.com"
 Comment1 "(c)2019 Simon Inns"
@@ -242,5 +242,22 @@ F18 "SC1" O R 5400 1200 50
 F19 "SC2" O R 5400 1300 50 
 F20 "BREAK" O R 5400 1400 50 
 F21 "76489WE" O R 5400 1500 50 
+F22 "RTC_AS" O R 5400 1600 50 
+F23 "RTC_CS" O R 5400 1700 50 
+$EndSheet
+$Sheet
+S 5700 900  850  1150
+U 5C9DB68F
+F0 "RTC and settings" 50
+F1 "rtccmos.sch" 50
+F2 "SA[0..7]" B L 5700 1000 50 
+F3 "SC1" I L 5700 1100 50 
+F4 "SC2" I L 5700 1200 50 
+F5 "~RST" I L 5700 1300 50 
+F6 "RTC_AS" I L 5700 1400 50 
+F7 "RTC_CS" I L 5700 1500 50 
+F8 "~IRQ" O L 5700 1600 50 
+F9 "BAT" I L 5700 1700 50 
+F10 "CHRG" I L 5700 1800 50 
 $EndSheet
 $EndSCHEMATC
