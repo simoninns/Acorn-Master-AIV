@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 26 27
+Sheet 26 28
 Title "Acorn Master 128"
 Date "2019-03-29"
 Rev "1.0"
@@ -799,7 +799,7 @@ Wire Wire Line
 	5450 5100 5450 4850
 Wire Wire Line
 	5450 4850 5250 4850
+Connection ~ 8500 1550
 Wire Bus Line
 	1250 1300 1250 4200
-Connection ~ 8500 1550
 $EndSCHEMATC

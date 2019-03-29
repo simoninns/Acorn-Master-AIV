@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 27
+Sheet 1 28
 Title "Acorn Master 128"
 Date "2019-03-29"
 Rev "1.0"
@@ -288,9 +288,22 @@ F10 "I0" O L 8250 1750 50
 F11 "LPSTB" O L 8250 1850 50 
 $EndSheet
 $Sheet
-S 9900 4800 900  1150
+S 7550 4950 550  800 
 U 5CEBB5F7
 F0 "Serial" 50
 F1 "serial.sch" 50
+F2 "SERCLK" I L 7550 5050 50 
+F3 "~ACIA" I L 7550 5150 50 
+F4 "BRnW" I L 7550 5250 50 
+F5 "1MHzE" I L 7550 5350 50 
+F6 "~IRQ" I L 7550 5450 50 
+F7 "~SERPROC" I L 7550 5550 50 
+F8 "BD[0..7]" B L 7550 5650 50 
+$EndSheet
+$Sheet
+S 6250 7400 550  200 
+U 5D0D085C
+F0 "Supply" 50
+F1 "supply.sch" 50
 $EndSheet
 $EndSCHEMATC

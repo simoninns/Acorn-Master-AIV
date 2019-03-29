@@ -1,3 +1,33 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP +5VB
+D Power flag, +5VA
+K power-flag
+$ENDCMP
+#
+$CMP +5VC
+D Power flag, +5VA
+K power-flag
+$ENDCMP
+#
+$CMP 0V
+D Power flag, ground
+K power-flag
+$ENDCMP
+#
+$CMP 0VA
+D Power flag, ground
+K power-flag
+$ENDCMP
+#
+$CMP 0VB
+D Power flag, ground
+K power-flag
+$ENDCMP
+#
+$CMP 0VC
+D Power flag, ground
+K power-flag
+$ENDCMP
+#
 #End Doc Library
