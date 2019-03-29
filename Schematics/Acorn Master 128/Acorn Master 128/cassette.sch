@@ -81,28 +81,6 @@ Wire Wire Line
 Connection ~ 2100 6650
 Wire Wire Line
 	2100 6650 2100 6600
-$Comp
-L power:+5V #PWR?
-U 1 1 5CF9BA35
-P 2100 5750
-F 0 "#PWR?" H 2100 5600 50  0001 C CNN
-F 1 "+5V" H 2115 5923 50  0000 C CNN
-F 2 "" H 2100 5750 50  0001 C CNN
-F 3 "" H 2100 5750 50  0001 C CNN
-	1    2100 5750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5CF9BA66
-P 2100 7200
-F 0 "#PWR?" H 2100 6950 50  0001 C CNN
-F 1 "GND" H 2105 7027 50  0000 C CNN
-F 2 "" H 2100 7200 50  0001 C CNN
-F 3 "" H 2100 7200 50  0001 C CNN
-	1    2100 7200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2100 7200 2100 7100
 Wire Wire Line
@@ -132,17 +110,6 @@ F 1 "LM324" H 2950 1326 50  0000 C CNN
 F 2 "" H 2900 1150 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 3000 1250 50  0001 C CNN
 	4    2950 1050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Amplifier_Operational:LM324 IC46
-U 5 1 5CF9BED2
-P 7750 2150
-F 0 "IC46" H 7708 2196 50  0000 L CNN
-F 1 "LM324" H 7708 2105 50  0000 L CNN
-F 2 "" H 7700 2250 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 7800 2350 50  0001 C CNN
-	5    7750 2150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -176,17 +143,6 @@ F 1 "2.2nF" H 1965 1155 50  0000 L CNN
 F 2 "" H 1888 1050 50  0001 C CNN
 F 3 "~" H 1850 1200 50  0001 C CNN
 	1    1850 1200
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5CF9C484
-P 1850 1500
-F 0 "#PWR?" H 1850 1250 50  0001 C CNN
-F 1 "GND" H 1855 1327 50  0000 C CNN
-F 2 "" H 1850 1500 50  0001 C CNN
-F 3 "" H 1850 1500 50  0001 C CNN
-	1    1850 1500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -300,17 +256,6 @@ F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 7650 3800 50  
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+5V #PWR?
-U 1 1 5CF9E815
-P 7650 3550
-F 0 "#PWR?" H 7650 3400 50  0001 C CNN
-F 1 "+5V" H 7665 3723 50  0000 C CNN
-F 2 "" H 7650 3550 50  0001 C CNN
-F 3 "" H 7650 3550 50  0001 C CNN
-	1    7650 3550
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:-5V #PWR?
 U 1 1 5CF9E85B
 P 7650 4550
@@ -378,17 +323,6 @@ F 3 "~" H 6400 3650 50  0001 C CNN
 	1    6400 3650
 	0    -1   -1   0   
 $EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5CF9FF23
-P 7150 4900
-F 0 "#PWR?" H 7150 4650 50  0001 C CNN
-F 1 "GND" H 7155 4727 50  0000 C CNN
-F 2 "" H 7150 4900 50  0001 C CNN
-F 3 "" H 7150 4900 50  0001 C CNN
-	1    7150 4900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7150 4150 7150 4050
 Wire Wire Line
@@ -396,8 +330,6 @@ Wire Wire Line
 Wire Wire Line
 	7150 4050 7650 4050
 Connection ~ 7150 4050
-Wire Wire Line
-	7150 4450 7150 4800
 Wire Wire Line
 	6750 4050 6650 4050
 Wire Wire Line
@@ -450,12 +382,6 @@ Wire Wire Line
 	6650 4450 6650 4800
 Wire Wire Line
 	6650 4800 6550 4800
-Wire Wire Line
-	6650 4800 7150 4800
-Connection ~ 6650 4800
-Connection ~ 7150 4800
-Wire Wire Line
-	7150 4800 7150 4900
 Wire Wire Line
 	5950 4250 6050 4250
 Wire Wire Line
@@ -527,17 +453,6 @@ F 3 "~" H 4250 4400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4250 4550 4250 4600
-$Comp
-L power:GND #PWR?
-U 1 1 5CFABB52
-P 4250 4600
-F 0 "#PWR?" H 4250 4350 50  0001 C CNN
-F 1 "GND" H 4255 4427 50  0000 C CNN
-F 2 "" H 4250 4600 50  0001 C CNN
-F 3 "" H 4250 4600 50  0001 C CNN
-	1    4250 4600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5150 4150 5250 4150
 Wire Wire Line
@@ -609,17 +524,6 @@ Wire Wire Line
 Wire Wire Line
 	3450 3550 3450 4050
 Connection ~ 3450 4050
-$Comp
-L power:GND #PWR?
-U 1 1 5CFB710D
-P 4750 3650
-F 0 "#PWR?" H 4750 3400 50  0001 C CNN
-F 1 "GND" H 4755 3477 50  0000 C CNN
-F 2 "" H 4750 3650 50  0001 C CNN
-F 3 "" H 4750 3650 50  0001 C CNN
-	1    4750 3650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4650 3550 4750 3550
 Wire Wire Line
@@ -656,17 +560,6 @@ F 2 "" V 2680 4400 50  0001 C CNN
 F 3 "~" H 2750 4400 50  0001 C CNN
 	1    2750 4400
 	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5CFB8F77
-P 3000 4500
-F 0 "#PWR?" H 3000 4250 50  0001 C CNN
-F 1 "GND" H 3005 4327 50  0000 C CNN
-F 2 "" H 3000 4500 50  0001 C CNN
-F 3 "" H 3000 4500 50  0001 C CNN
-	1    3000 4500
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2900 4400 3000 4400
@@ -896,48 +789,11 @@ Wire Wire Line
 	9700 2500 10000 2500
 Wire Wire Line
 	10000 2500 10000 2550
-$Comp
-L power:GND #PWR?
-U 1 1 5D02DDB0
-P 10000 2550
-F 0 "#PWR?" H 10000 2300 50  0001 C CNN
-F 1 "GND" H 10005 2377 50  0000 C CNN
-F 2 "" H 10000 2550 50  0001 C CNN
-F 3 "" H 10000 2550 50  0001 C CNN
-	1    10000 2550
-	1    0    0    -1  
-$EndComp
 NoConn ~ 10000 2950
 Wire Wire Line
 	8300 4050 8400 4050
 Wire Wire Line
 	10150 3050 10000 3050
-$Comp
-L power:+5V #PWR?
-U 1 1 5D056EA2
-P 7650 1750
-F 0 "#PWR?" H 7650 1600 50  0001 C CNN
-F 1 "+5V" H 7665 1923 50  0000 C CNN
-F 2 "" H 7650 1750 50  0001 C CNN
-F 3 "" H 7650 1750 50  0001 C CNN
-	1    7650 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:-5V #PWR?
-U 1 1 5D056EFF
-P 7650 2550
-F 0 "#PWR?" H 7650 2650 50  0001 C CNN
-F 1 "-5V" H 7665 2723 50  0000 C CNN
-F 2 "" H 7650 2550 50  0001 C CNN
-F 3 "" H 7650 2550 50  0001 C CNN
-	1    7650 2550
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	7650 2550 7650 2450
-Wire Wire Line
-	7650 1850 7650 1750
 Wire Wire Line
 	9550 6100 9550 3600
 Wire Wire Line
@@ -955,4 +811,156 @@ SIL4_8
 Wire Wire Line
 	10300 3050 10150 3050
 Connection ~ 10150 3050
+$Comp
+L Amplifier_Operational:LM324 IC46
+U 5 1 5D18477D
+P 10250 4700
+F 0 "IC46" H 10400 4950 50  0000 C CNN
+F 1 "LM324" H 10400 4850 50  0000 C CNN
+F 2 "" H 10200 4800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 10300 4900 50  0001 C CNN
+	5    10250 4700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L AcornMaster:+5VB #PWR?
+U 1 1 5D18489C
+P 10350 4300
+F 0 "#PWR?" H 10350 4150 50  0001 C CNN
+F 1 "+5VB" H 10365 4473 50  0000 C CNN
+F 2 "" H 10350 4300 50  0001 C CNN
+F 3 "" H 10350 4300 50  0001 C CNN
+	1    10350 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-5V #PWR?
+U 1 1 5D18496D
+P 10350 5100
+F 0 "#PWR?" H 10350 5200 50  0001 C CNN
+F 1 "-5V" H 10365 5273 50  0000 C CNN
+F 2 "" H 10350 5100 50  0001 C CNN
+F 3 "" H 10350 5100 50  0001 C CNN
+	1    10350 5100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10350 5100 10350 5000
+Wire Wire Line
+	10350 4400 10350 4300
+$Comp
+L AcornMaster:0VA #PWR?
+U 1 1 5D190090
+P 10000 2550
+F 0 "#PWR?" H 10000 2300 50  0001 C CNN
+F 1 "0VA" H 10005 2377 50  0000 C CNN
+F 2 "" H 10000 2550 50  0001 C CNN
+F 3 "" H 10000 2550 50  0001 C CNN
+	1    10000 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5VA #PWR?
+U 1 1 5D1902B3
+P 2100 5750
+F 0 "#PWR?" H 2100 5600 50  0001 C CNN
+F 1 "+5VA" H 2115 5923 50  0000 C CNN
+F 2 "" H 2100 5750 50  0001 C CNN
+F 3 "" H 2100 5750 50  0001 C CNN
+	1    2100 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L AcornMaster:0VA #PWR?
+U 1 1 5D190330
+P 2100 7200
+F 0 "#PWR?" H 2100 6950 50  0001 C CNN
+F 1 "0VA" H 2105 7027 50  0000 C CNN
+F 2 "" H 2100 7200 50  0001 C CNN
+F 3 "" H 2100 7200 50  0001 C CNN
+	1    2100 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L AcornMaster:0VB #PWR?
+U 1 1 5D190480
+P 1850 1500
+F 0 "#PWR?" H 1850 1250 50  0001 C CNN
+F 1 "0VB" H 1855 1327 50  0000 C CNN
+F 2 "" H 1850 1500 50  0001 C CNN
+F 3 "" H 1850 1500 50  0001 C CNN
+	1    1850 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L AcornMaster:0VB #PWR?
+U 1 1 5D1982B9
+P 3000 4500
+F 0 "#PWR?" H 3000 4250 50  0001 C CNN
+F 1 "0VB" H 3005 4327 50  0000 C CNN
+F 2 "" H 3000 4500 50  0001 C CNN
+F 3 "" H 3000 4500 50  0001 C CNN
+	1    3000 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L AcornMaster:0VB #PWR?
+U 1 1 5D198334
+P 4250 4600
+F 0 "#PWR?" H 4250 4350 50  0001 C CNN
+F 1 "0VB" H 4255 4427 50  0000 C CNN
+F 2 "" H 4250 4600 50  0001 C CNN
+F 3 "" H 4250 4600 50  0001 C CNN
+	1    4250 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L AcornMaster:0VB #PWR?
+U 1 1 5D1983C2
+P 4750 3650
+F 0 "#PWR?" H 4750 3400 50  0001 C CNN
+F 1 "0VB" H 4755 3477 50  0000 C CNN
+F 2 "" H 4750 3650 50  0001 C CNN
+F 3 "" H 4750 3650 50  0001 C CNN
+	1    4750 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 4450 7150 4900
+$Comp
+L AcornMaster:0VB #PWR?
+U 1 1 5D19A657
+P 6650 4900
+F 0 "#PWR?" H 6650 4650 50  0001 C CNN
+F 1 "0VB" H 6655 4727 50  0000 C CNN
+F 2 "" H 6650 4900 50  0001 C CNN
+F 3 "" H 6650 4900 50  0001 C CNN
+	1    6650 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L AcornMaster:0VA #PWR?
+U 1 1 5D19A6FC
+P 7150 4900
+F 0 "#PWR?" H 7150 4650 50  0001 C CNN
+F 1 "0VA" H 7155 4727 50  0000 C CNN
+F 2 "" H 7150 4900 50  0001 C CNN
+F 3 "" H 7150 4900 50  0001 C CNN
+	1    7150 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 4900 6650 4800
+Connection ~ 6650 4800
+$Comp
+L power:+5VA #PWR?
+U 1 1 5D19FDC3
+P 7650 3550
+F 0 "#PWR?" H 7650 3400 50  0001 C CNN
+F 1 "+5VA" H 7665 3723 50  0000 C CNN
+F 2 "" H 7650 3550 50  0001 C CNN
+F 3 "" H 7650 3550 50  0001 C CNN
+	1    7650 3550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

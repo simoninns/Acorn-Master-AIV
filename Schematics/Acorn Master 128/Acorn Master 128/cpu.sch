@@ -25,28 +25,6 @@ F 3 "" H 6200 3800 50  0001 C CNN
 	1    6200 3850
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 5C9B6F2C
-P 6200 2150
-F 0 "#PWR?" H 6200 2000 50  0001 C CNN
-F 1 "+5V" H 6215 2323 50  0000 C CNN
-F 2 "" H 6200 2150 50  0001 C CNN
-F 3 "" H 6200 2150 50  0001 C CNN
-	1    6200 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5C9B6F57
-P 6200 5500
-F 0 "#PWR?" H 6200 5250 50  0001 C CNN
-F 1 "GND" H 6205 5327 50  0000 C CNN
-F 2 "" H 6200 5500 50  0001 C CNN
-F 3 "" H 6200 5500 50  0001 C CNN
-	1    6200 5500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6200 2400 6200 2250
 Wire Wire Line
@@ -280,7 +258,7 @@ Text Label 6850 4950 0    50   ~ 0
 CD1
 Text Label 6850 5050 0    50   ~ 0
 CD0
-Text Label 7350 5250 0    50   ~ 0
+Text Label 7250 5300 0    50   ~ 0
 CD[0..7]
 Text HLabel 7600 5300 2    50   BiDi ~ 0
 CD[0..7]
@@ -350,7 +328,7 @@ Wire Wire Line
 	6800 4150 7000 4150
 Wire Bus Line
 	7100 2500 7600 2500
-Text Label 7250 2450 0    50   ~ 0
+Text Label 7200 2500 0    50   ~ 0
 A[0..15]
 Text HLabel 7600 2500 2    50   Output ~ 0
 A[0..15]
@@ -390,4 +368,26 @@ Wire Bus Line
 	7100 4450 7100 5300
 Wire Bus Line
 	7100 2500 7100 4250
+$Comp
+L AcornMaster:+5VB #PWR?
+U 1 1 5D146EA8
+P 6200 2150
+F 0 "#PWR?" H 6200 2000 50  0001 C CNN
+F 1 "+5VB" H 6215 2323 50  0000 C CNN
+F 2 "" H 6200 2150 50  0001 C CNN
+F 3 "" H 6200 2150 50  0001 C CNN
+	1    6200 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L AcornMaster:0VB #PWR?
+U 1 1 5D146EDF
+P 6200 5500
+F 0 "#PWR?" H 6200 5250 50  0001 C CNN
+F 1 "0VB" H 6205 5327 50  0000 C CNN
+F 2 "" H 6200 5500 50  0001 C CNN
+F 3 "" H 6200 5500 50  0001 C CNN
+	1    6200 5500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

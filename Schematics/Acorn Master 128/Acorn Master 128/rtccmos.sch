@@ -79,17 +79,6 @@ Text Label 7250 5600 0    50   ~ 0
 SA[0..7]
 Text HLabel 7700 5600 2    50   BiDi ~ 0
 SA[0..7]
-$Comp
-L power:GND #PWR?
-U 1 1 5C9DEF1B
-P 6250 5800
-F 0 "#PWR?" H 6250 5550 50  0001 C CNN
-F 1 "GND" H 6255 5627 50  0000 C CNN
-F 2 "" H 6250 5800 50  0001 C CNN
-F 3 "" H 6250 5800 50  0001 C CNN
-	1    6250 5800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6250 4000 6250 3950
 Wire Wire Line
@@ -260,17 +249,6 @@ Wire Wire Line
 Connection ~ 4100 5600
 Wire Wire Line
 	4100 5600 4850 5600
-$Comp
-L power:GND #PWR?
-U 1 1 5CA1B686
-P 3250 5700
-F 0 "#PWR?" H 3250 5450 50  0001 C CNN
-F 1 "GND" H 3255 5527 50  0000 C CNN
-F 2 "" H 3250 5700 50  0001 C CNN
-F 3 "" H 3250 5700 50  0001 C CNN
-	1    3250 5700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3250 5700 3250 5600
 Connection ~ 3250 5600
@@ -334,17 +312,6 @@ F 3 "~" H 8500 2350 50  0001 C CNN
 	1    8500 2350
 	-1   0    0    1   
 $EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 5CA952DC
-P 8500 2100
-F 0 "#PWR?" H 8500 1950 50  0001 C CNN
-F 1 "+5V" H 8515 2273 50  0000 C CNN
-F 2 "" H 8500 2100 50  0001 C CNN
-F 3 "" H 8500 2100 50  0001 C CNN
-	1    8500 2100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7900 2000 7900 1700
 Connection ~ 7900 1700
@@ -356,17 +323,6 @@ Wire Wire Line
 	8500 2600 8200 2600
 Wire Wire Line
 	7900 2400 7900 2300
-$Comp
-L power:GND #PWR?
-U 1 1 5CA9C253
-P 7900 2900
-F 0 "#PWR?" H 7900 2650 50  0001 C CNN
-F 1 "GND" H 7905 2727 50  0000 C CNN
-F 2 "" H 7900 2900 50  0001 C CNN
-F 3 "" H 7900 2900 50  0001 C CNN
-	1    7900 2900
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R R23
 U 1 1 5CAA1160
@@ -419,17 +375,6 @@ Wire Wire Line
 	7150 2800 7150 2950
 Wire Wire Line
 	7900 2800 7900 2900
-$Comp
-L power:GND #PWR?
-U 1 1 5CAB1C56
-P 7150 3100
-F 0 "#PWR?" H 7150 2850 50  0001 C CNN
-F 1 "GND" H 7155 2927 50  0000 C CNN
-F 2 "" H 7150 3100 50  0001 C CNN
-F 3 "" H 7150 3100 50  0001 C CNN
-	1    7150 3100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7050 2100 7150 2100
 Wire Wire Line
@@ -447,17 +392,6 @@ F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7150 1175 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 7150 1350 50  0001 C CNN
 	1    7150 1350
 	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 5CAB86E0
-P 7150 1100
-F 0 "#PWR?" H 7150 950 50  0001 C CNN
-F 1 "+5V" H 7165 1273 50  0000 C CNN
-F 2 "" H 7150 1100 50  0001 C CNN
-F 3 "" H 7150 1100 50  0001 C CNN
-	1    7150 1100
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	7150 1600 7150 1500
@@ -538,17 +472,6 @@ F 3 "~" H 5050 2950 50  0001 C CNN
 	1    5050 2950
 	0    -1   -1   0   
 $EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 5CAD20C2
-P 4800 2850
-F 0 "#PWR?" H 4800 2700 50  0001 C CNN
-F 1 "+5V" H 4815 3023 50  0000 C CNN
-F 2 "" H 4800 2850 50  0001 C CNN
-F 3 "" H 4800 2850 50  0001 C CNN
-	1    4800 2850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5300 3350 5300 3450
 Wire Wire Line
@@ -593,17 +516,6 @@ F 3 "~" H 4900 2000 50  0001 C CNN
 	1    4900 2000
 	-1   0    0    1   
 $EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 5CAE0EE8
-P 5300 1950
-F 0 "#PWR?" H 5300 1800 50  0001 C CNN
-F 1 "+5V" H 5315 2123 50  0000 C CNN
-F 2 "" H 5300 1950 50  0001 C CNN
-F 3 "" H 5300 1950 50  0001 C CNN
-	1    5300 1950
-	1    0    0    -1  
-$EndComp
 Text HLabel 4900 1750 1    50   Input ~ 0
 CHRG
 Wire Wire Line
@@ -647,4 +559,92 @@ F 3 "~" H 8000 2600 50  0001 C CNN
 $EndComp
 Wire Bus Line
 	7150 4900 7150 5600
+$Comp
+L AcornMaster:+5VB #PWR?
+U 1 1 5D17575F
+P 7150 1100
+F 0 "#PWR?" H 7150 950 50  0001 C CNN
+F 1 "+5VB" H 7165 1273 50  0000 C CNN
+F 2 "" H 7150 1100 50  0001 C CNN
+F 3 "" H 7150 1100 50  0001 C CNN
+	1    7150 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L AcornMaster:+5VB #PWR?
+U 1 1 5D1757B8
+P 5300 1950
+F 0 "#PWR?" H 5300 1800 50  0001 C CNN
+F 1 "+5VB" H 5315 2123 50  0000 C CNN
+F 2 "" H 5300 1950 50  0001 C CNN
+F 3 "" H 5300 1950 50  0001 C CNN
+	1    5300 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L AcornMaster:+5VB #PWR?
+U 1 1 5D175811
+P 4800 2850
+F 0 "#PWR?" H 4800 2700 50  0001 C CNN
+F 1 "+5VB" H 4815 3023 50  0000 C CNN
+F 2 "" H 4800 2850 50  0001 C CNN
+F 3 "" H 4800 2850 50  0001 C CNN
+	1    4800 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L AcornMaster:+5VB #PWR?
+U 1 1 5D17586A
+P 8500 2100
+F 0 "#PWR?" H 8500 1950 50  0001 C CNN
+F 1 "+5VB" H 8515 2273 50  0000 C CNN
+F 2 "" H 8500 2100 50  0001 C CNN
+F 3 "" H 8500 2100 50  0001 C CNN
+	1    8500 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L AcornMaster:0VB #PWR?
+U 1 1 5D17593E
+P 7150 3100
+F 0 "#PWR?" H 7150 2850 50  0001 C CNN
+F 1 "0VB" H 7155 2927 50  0000 C CNN
+F 2 "" H 7150 3100 50  0001 C CNN
+F 3 "" H 7150 3100 50  0001 C CNN
+	1    7150 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L AcornMaster:0VB #PWR?
+U 1 1 5D1759B0
+P 7900 2900
+F 0 "#PWR?" H 7900 2650 50  0001 C CNN
+F 1 "0VB" H 7905 2727 50  0000 C CNN
+F 2 "" H 7900 2900 50  0001 C CNN
+F 3 "" H 7900 2900 50  0001 C CNN
+	1    7900 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L AcornMaster:0VB #PWR?
+U 1 1 5D175A09
+P 3250 5700
+F 0 "#PWR?" H 3250 5450 50  0001 C CNN
+F 1 "0VB" H 3255 5527 50  0000 C CNN
+F 2 "" H 3250 5700 50  0001 C CNN
+F 3 "" H 3250 5700 50  0001 C CNN
+	1    3250 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L AcornMaster:0VB #PWR?
+U 1 1 5D175A70
+P 6250 5800
+F 0 "#PWR?" H 6250 5550 50  0001 C CNN
+F 1 "0VB" H 6255 5627 50  0000 C CNN
+F 2 "" H 6250 5800 50  0001 C CNN
+F 3 "" H 6250 5800 50  0001 C CNN
+	1    6250 5800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

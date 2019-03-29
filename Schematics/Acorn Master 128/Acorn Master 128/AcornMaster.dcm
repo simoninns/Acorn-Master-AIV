@@ -1,12 +1,12 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP +5VB
-D Power flag, +5VA
+D Power flag, +5VB
 K power-flag
 $ENDCMP
 #
 $CMP +5VC
-D Power flag, +5VA
+D Power flag, +5VC
 K power-flag
 $ENDCMP
 #

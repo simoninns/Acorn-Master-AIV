@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 14 28
+Sheet 15 28
 Title "Acorn Master 128"
 Date "2019-03-29"
 Rev "1.0"
@@ -14,28 +14,6 @@ Comment2 "License: Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)"
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L power:GND #PWR?
-U 1 1 5C9CA119
-P 5600 5300
-F 0 "#PWR?" H 5600 5050 50  0001 C CNN
-F 1 "GND" H 5605 5127 50  0000 C CNN
-F 2 "" H 5600 5300 50  0001 C CNN
-F 3 "" H 5600 5300 50  0001 C CNN
-	1    5600 5300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 5C9CA16B
-P 5600 2400
-F 0 "#PWR?" H 5600 2250 50  0001 C CNN
-F 1 "+5V" H 5615 2573 50  0000 C CNN
-F 2 "" H 5600 2400 50  0001 C CNN
-F 3 "" H 5600 2400 50  0001 C CNN
-	1    5600 2400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5600 2500 5600 2400
 Wire Wire Line
@@ -310,17 +288,6 @@ F 3 "~" H 7650 3750 50  0001 C CNN
 	1    7650 3750
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5C9D057E
-P 7650 4000
-F 0 "#PWR?" H 7650 3750 50  0001 C CNN
-F 1 "GND" H 7655 3827 50  0000 C CNN
-F 2 "" H 7650 4000 50  0001 C CNN
-F 3 "" H 7650 4000 50  0001 C CNN
-	1    7650 4000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6100 2800 7150 2800
 Wire Wire Line
@@ -385,4 +352,37 @@ Wire Bus Line
 	4650 2500 4650 3300
 Wire Bus Line
 	6500 3700 6500 4500
+$Comp
+L AcornMaster:+5VB #PWR?
+U 1 1 5D15C298
+P 5600 2400
+F 0 "#PWR?" H 5600 2250 50  0001 C CNN
+F 1 "+5VB" H 5615 2573 50  0000 C CNN
+F 2 "" H 5600 2400 50  0001 C CNN
+F 3 "" H 5600 2400 50  0001 C CNN
+	1    5600 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L AcornMaster:0VB #PWR?
+U 1 1 5D15C2DB
+P 7650 4000
+F 0 "#PWR?" H 7650 3750 50  0001 C CNN
+F 1 "0VB" H 7655 3827 50  0000 C CNN
+F 2 "" H 7650 4000 50  0001 C CNN
+F 3 "" H 7650 4000 50  0001 C CNN
+	1    7650 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L AcornMaster:0VB #PWR?
+U 1 1 5D15C2F9
+P 5600 5300
+F 0 "#PWR?" H 5600 5050 50  0001 C CNN
+F 1 "0VB" H 5605 5127 50  0000 C CNN
+F 2 "" H 5600 5300 50  0001 C CNN
+F 3 "" H 5600 5300 50  0001 C CNN
+	1    5600 5300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
