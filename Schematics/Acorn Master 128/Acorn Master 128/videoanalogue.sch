@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 25
+Sheet 12 27
 Title "Acorn Master 128"
 Date "2019-03-29"
 Rev "1.0"
