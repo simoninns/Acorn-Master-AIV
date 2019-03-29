@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 22 23
+Sheet 22 24
 Title "Acorn Master 128"
 Date "2019-03-29"
 Rev "1.0"
@@ -1176,6 +1176,8 @@ Text HLabel 1900 2700 0    50   Output ~ 0
 RTC_AS
 Wire Wire Line
 	2050 2600 1900 2600
+Text HLabel 1900 2600 0    50   Output ~ 0
+RTC_CS
 Wire Bus Line
 	3700 1050 3700 1450
 Wire Bus Line
@@ -1190,6 +1192,4 @@ Wire Bus Line
 	3700 1550 3700 2350
 Wire Bus Line
 	1150 4450 1150 5850
-Text HLabel 1900 2600 0    50   Output ~ 0
-RTC_CS
 $EndSCHEMATC

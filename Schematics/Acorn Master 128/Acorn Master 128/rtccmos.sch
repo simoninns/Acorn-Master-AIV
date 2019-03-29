@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 23 23
+Sheet 23 24
 Title "Acorn Master 128"
 Date "2019-03-29"
 Rev "1.0"
@@ -324,17 +324,6 @@ F 3 "~" H 7900 2150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:Q_NJFET_DGS Q4
-U 1 1 5CA9509C
-P 8000 2600
-F 0 "Q4" H 8190 2646 50  0000 L CNN
-F 1 "J177" H 8190 2555 50  0000 L CNN
-F 2 "" H 8200 2700 50  0001 C CNN
-F 3 "~" H 8000 2600 50  0001 C CNN
-	1    8000 2600
-	-1   0    0    -1  
-$EndComp
-$Comp
 L Device:R R155
 U 1 1 5CA9518A
 P 8500 2350
@@ -645,6 +634,17 @@ Text Notes 4750 2050 0    50   ~ 0
 NF
 Text Notes 3050 3800 0    50   ~ 0
 Pin 16 of IC11 is missing from the original\nAcorn schematics... needs to be traced by\nhand from the PCB
+$Comp
+L Device:Q_PJFET_DGS Q4
+U 1 1 5CAFA72F
+P 8000 2600
+F 0 "Q4" H 8190 2646 50  0000 L CNN
+F 1 "J177" H 8190 2555 50  0000 L CNN
+F 2 "" H 8200 2700 50  0001 C CNN
+F 3 "~" H 8000 2600 50  0001 C CNN
+	1    8000 2600
+	-1   0    0    -1  
+$EndComp
 Wire Bus Line
 	7150 4900 7150 5600
 $EndSCHEMATC
