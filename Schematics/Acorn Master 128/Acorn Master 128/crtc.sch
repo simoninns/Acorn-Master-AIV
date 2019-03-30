@@ -463,7 +463,7 @@ NoConn ~ 6300 5500
 Text HLabel 6800 5600 2    50   Input ~ 0
 ~CRTC
 Text HLabel 6800 5700 2    50   Input ~ 0
-~RST
+CRTC~RST
 Text HLabel 6800 5800 2    50   Input ~ 0
 RnW
 Text HLabel 6800 5900 2    50   Input ~ 0
