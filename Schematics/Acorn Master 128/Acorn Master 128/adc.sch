@@ -4,9 +4,9 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 25 28
+Sheet 27 29
 Title "Acorn Master 128"
-Date "2019-03-29"
+Date "2019-03-30"
 Rev "1.0"
 Comp "https://www.domesday86.com"
 Comment1 "(c)2019 Simon Inns"
@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L AcornMaster:uPD7002 IC49
+L AcornMaster:uPD7002 IC?
 U 1 1 5CE0045D
 P 3550 4100
-F 0 "IC49" H 3250 5050 50  0000 C CNN
+F 0 "IC?" H 3250 5050 50  0000 C CNN
 F 1 "uPD7002" V 3550 4100 50  0000 C CNN
 F 2 "" H 2700 4300 50  0001 C CNN
 F 3 "" H 2700 4300 50  0001 C CNN
@@ -119,10 +119,10 @@ nRW
 Text HLabel 2750 4900 0    50   Input ~ 0
 ~EOC
 $Comp
-L Connector:DB15_Male_MountingHoles SK12
+L Connector:DB15_Male_MountingHoles SK?
 U 1 1 5CE02A7E
 P 9400 4000
-F 0 "SK12" H 9555 3911 50  0000 L CNN
+F 0 "SK?" H 9555 3911 50  0000 L CNN
 F 1 "Analogue" H 9555 4002 50  0000 L CNN
 F 2 "" H 9400 4000 50  0001 C CNN
 F 3 " ~" H 9400 4000 50  0001 C CNN
@@ -130,10 +130,10 @@ F 3 " ~" H 9400 4000 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:C C36
+L Device:C C?
 U 1 1 5CE02B0C
 P 4400 3650
-F 0 "C36" H 4515 3696 50  0000 L CNN
+F 0 "C?" H 4515 3696 50  0000 L CNN
 F 1 "33nF" H 4515 3605 50  0000 L CNN
 F 2 "" H 4438 3500 50  0001 C CNN
 F 3 "~" H 4400 3650 50  0001 C CNN
@@ -242,10 +242,10 @@ I1
 Text HLabel 8100 4200 0    50   Output ~ 0
 I0
 $Comp
-L Device:C C75
+L Device:C C?
 U 1 1 5CE0D432
 P 8650 5050
-F 0 "C75" H 8765 5096 50  0000 L CNN
+F 0 "C?" H 8765 5096 50  0000 L CNN
 F 1 "39pF" H 8765 5005 50  0000 L CNN
 F 2 "" H 8688 4900 50  0001 C CNN
 F 3 "~" H 8650 5050 50  0001 C CNN
@@ -253,10 +253,10 @@ F 3 "~" H 8650 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C76
+L Device:C C?
 U 1 1 5CE0E436
 P 8200 5050
-F 0 "C76" H 8315 5096 50  0000 L CNN
+F 0 "C?" H 8315 5096 50  0000 L CNN
 F 1 "39pF" H 8315 5005 50  0000 L CNN
 F 2 "" H 8238 4900 50  0001 C CNN
 F 3 "~" H 8200 5050 50  0001 C CNN
@@ -296,10 +296,10 @@ Wire Wire Line
 Wire Wire Line
 	8800 2900 8300 2900
 $Comp
-L Device:C C51
+L Device:C C?
 U 1 1 5CE1B65F
 P 8300 3100
-F 0 "C51" H 8415 3146 50  0000 L CNN
+F 0 "C?" H 8415 3146 50  0000 L CNN
 F 1 "33pF" H 8415 3055 50  0000 L CNN
 F 2 "" H 8338 2950 50  0001 C CNN
 F 3 "~" H 8300 3100 50  0001 C CNN
@@ -318,10 +318,10 @@ Connection ~ 8300 2900
 Wire Wire Line
 	8300 2900 8100 2900
 $Comp
-L Device:R R105
+L Device:R R?
 U 1 1 5CE1EB71
 P 8300 2700
-F 0 "R105" H 8370 2746 50  0000 L CNN
+F 0 "R?" H 8370 2746 50  0000 L CNN
 F 1 "2K2" H 8370 2655 50  0000 L CNN
 F 2 "" V 8230 2700 50  0001 C CNN
 F 3 "~" H 8300 2700 50  0001 C CNN
@@ -340,10 +340,10 @@ Connection ~ 8900 3800
 Wire Wire Line
 	8900 3800 9100 3800
 $Comp
-L Device:Net-Tie_4_Cross SP4
+L Device:Net-Tie_4_Cross SP?
 U 1 1 5CE2971B
 P 6500 5250
-F 0 "SP4" H 6641 5296 50  0000 L CNN
+F 0 "SP?" H 6641 5296 50  0000 L CNN
 F 1 "Star Ground" H 6641 5205 50  0000 L CNN
 F 2 "" H 6500 5250 50  0001 C CNN
 F 3 "~" H 6500 5250 50  0001 C CNN
@@ -370,10 +370,10 @@ Wire Wire Line
 Wire Wire Line
 	6500 5450 6500 5350
 $Comp
-L Diode:1N4148 D17
+L Diode:1N4148 D?
 U 1 1 5CE310CA
 P 5200 3600
-F 0 "D17" H 5200 3384 50  0000 C CNN
+F 0 "D?" H 5200 3384 50  0000 C CNN
 F 1 "1N4148" H 5200 3475 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5200 3425 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 5200 3600 50  0001 C CNN
@@ -381,10 +381,10 @@ F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 5200 3600 50  
 	-1   0    0    1   
 $EndComp
 $Comp
-L Diode:1N4148 D18
+L Diode:1N4148 D?
 U 1 1 5CE31110
 P 5550 3600
-F 0 "D18" H 5550 3384 50  0000 C CNN
+F 0 "D?" H 5550 3384 50  0000 C CNN
 F 1 "1N4148" H 5550 3475 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5550 3425 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 5550 3600 50  0001 C CNN
@@ -392,10 +392,10 @@ F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 5550 3600 50  
 	-1   0    0    1   
 $EndComp
 $Comp
-L Diode:1N4148 D19
+L Diode:1N4148 D?
 U 1 1 5CE3113E
 P 5900 3600
-F 0 "D19" H 5900 3384 50  0000 C CNN
+F 0 "D?" H 5900 3384 50  0000 C CNN
 F 1 "1N4148" H 5900 3475 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5900 3425 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 5900 3600 50  0001 C CNN
@@ -403,10 +403,10 @@ F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 5900 3600 50  
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 PR1
+L Connector_Generic:Conn_01x02 PR?
 U 1 1 5CE3121B
 P 7350 3500
-F 0 "PR1" H 7429 3492 50  0000 L CNN
+F 0 "PR?" H 7429 3492 50  0000 L CNN
 F 1 "Link" H 7429 3401 50  0000 L CNN
 F 2 "" H 7350 3500 50  0001 C CNN
 F 3 "~" H 7350 3500 50  0001 C CNN
@@ -414,10 +414,10 @@ F 3 "~" H 7350 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP C49
+L Device:CP C?
 U 1 1 5CE312CA
 P 6500 3100
-F 0 "C49" H 6618 3146 50  0000 L CNN
+F 0 "C?" H 6618 3146 50  0000 L CNN
 F 1 "1uF Tant" H 6618 3055 50  0000 L CNN
 F 2 "" H 6538 2950 50  0001 C CNN
 F 3 "~" H 6500 3100 50  0001 C CNN
@@ -425,10 +425,10 @@ F 3 "~" H 6500 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper:Jumper_3_Bridged12 LK13
+L Jumper:Jumper_3_Bridged12 LK?
 U 1 1 5CE313BC
 P 6500 3600
-F 0 "LK13" H 6500 3804 50  0000 C CNN
+F 0 "LK?" H 6500 3804 50  0000 C CNN
 F 1 "Jumper_3_Bridged12" H 6500 3713 50  0000 C CNN
 F 2 "" H 6500 3600 50  0001 C CNN
 F 3 "~" H 6500 3600 50  0001 C CNN
@@ -476,10 +476,10 @@ Connection ~ 4950 2850
 Wire Wire Line
 	4950 2850 6500 2850
 $Comp
-L Device:R R88
+L Device:R R?
 U 1 1 5CE5FDB0
 P 4950 2450
-F 0 "R88" H 5020 2496 50  0000 L CNN
+F 0 "R?" H 5020 2496 50  0000 L CNN
 F 1 "2K7" H 5020 2405 50  0000 L CNN
 F 2 "" V 4880 2450 50  0001 C CNN
 F 3 "~" H 4950 2450 50  0001 C CNN
@@ -495,10 +495,10 @@ Wire Wire Line
 Wire Wire Line
 	4950 2300 4950 2050
 $Comp
-L Device:C C47
+L Device:C C?
 U 1 1 5CE69CC5
 P 6450 2350
-F 0 "C47" H 6565 2396 50  0000 L CNN
+F 0 "C?" H 6565 2396 50  0000 L CNN
 F 1 "10nF" H 6565 2305 50  0000 L CNN
 F 2 "" H 6488 2200 50  0001 C CNN
 F 3 "~" H 6450 2350 50  0001 C CNN
@@ -519,10 +519,10 @@ $EndComp
 Wire Wire Line
 	6450 2550 6450 2500
 $Comp
-L Device:Net-Tie_4_Cross SP3
+L Device:Net-Tie_4_Cross SP?
 U 1 1 5CE83712
 P 6450 2050
-F 0 "SP3" H 6591 2096 50  0000 L CNN
+F 0 "SP?" H 6591 2096 50  0000 L CNN
 F 1 "Star" H 6591 2005 50  0000 L CNN
 F 2 "" H 6450 2050 50  0001 C CNN
 F 3 "~" H 6450 2050 50  0001 C CNN
@@ -540,10 +540,6 @@ Wire Wire Line
 Wire Wire Line
 	4950 2050 6350 2050
 Connection ~ 4950 2050
-Wire Bus Line
-	2750 2950 2750 3300
-Wire Bus Line
-	2100 3150 2100 4100
 $Comp
 L AcornMaster:0VA #PWR?
 U 1 1 5D1B621A
@@ -599,4 +595,8 @@ F 3 "" H 6450 1900 50  0001 C CNN
 	1    6450 1900
 	1    0    0    -1  
 $EndComp
+Wire Bus Line
+	2750 2950 2750 3300
+Wire Bus Line
+	2100 3150 2100 4100
 $EndSCHEMATC

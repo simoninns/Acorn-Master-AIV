@@ -4,9 +4,9 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 17 28
+Sheet 19 29
 Title "Acorn Master 128"
-Date "2019-03-29"
+Date "2019-03-30"
 Rev "1.0"
 Comp "https://www.domesday86.com"
 Comment1 "(c)2019 Simon Inns"
@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector_Generic:Conn_02x22_Row_Letter_First SK3
+L Connector_Generic:Conn_02x22_Row_Letter_First SK?
 U 1 1 5CA59439
 P 6200 2550
-F 0 "SK3" H 6250 3767 50  0000 C CNN
+F 0 "SK?" H 6250 3767 50  0000 C CNN
 F 1 "Cartridge" H 6250 3676 50  0000 C CNN
 F 2 "" H 6200 2550 50  0001 C CNN
 F 3 "~" H 6200 2550 50  0001 C CNN
@@ -26,10 +26,10 @@ F 3 "~" H 6200 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x22_Row_Letter_First SK4
+L Connector_Generic:Conn_02x22_Row_Letter_First SK?
 U 1 1 5CA59479
 P 6200 5050
-F 0 "SK4" H 6250 6267 50  0000 C CNN
+F 0 "SK?" H 6250 6267 50  0000 C CNN
 F 1 "Cartridge" H 6250 6176 50  0000 C CNN
 F 2 "" H 6200 5050 50  0001 C CNN
 F 3 "~" H 6200 5050 50  0001 C CNN
@@ -620,10 +620,10 @@ F 3 "" H 1900 850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R9
+L Device:R R?
 U 1 1 5CE37169
 P 1900 1100
-F 0 "R9" H 1970 1146 50  0000 L CNN
+F 0 "R?" H 1970 1146 50  0000 L CNN
 F 1 "10R" H 1970 1055 50  0000 L CNN
 F 2 "" V 1830 1100 50  0001 C CNN
 F 3 "~" H 1900 1100 50  0001 C CNN
@@ -631,10 +631,10 @@ F 3 "~" H 1900 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Jumper LK2
+L Device:Jumper LK?
 U 1 1 5CE371DE
 P 1400 1250
-F 0 "LK2" V 1354 1377 50  0000 L CNN
+F 0 "LK?" V 1354 1377 50  0000 L CNN
 F 1 "Jumper" V 1445 1377 50  0000 L CNN
 F 2 "" H 1400 1250 50  0001 C CNN
 F 3 "~" H 1400 1250 50  0001 C CNN
@@ -642,10 +642,10 @@ F 3 "~" H 1400 1250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C4
+L Device:C C?
 U 1 1 5CE372B2
 P 1900 1800
-F 0 "C4" H 2015 1846 50  0000 L CNN
+F 0 "C?" H 2015 1846 50  0000 L CNN
 F 1 "330nF" H 2015 1755 50  0000 L CNN
 F 2 "" H 1938 1650 50  0001 C CNN
 F 3 "~" H 1900 1800 50  0001 C CNN
@@ -673,10 +673,10 @@ Connection ~ 1900 1600
 Wire Wire Line
 	1900 1950 1900 2100
 $Comp
-L Jumper:Jumper_3_Bridged12 LK12
+L Jumper:Jumper_3_Bridged12 LK?
 U 1 1 5CE9F579
 P 2000 3300
-F 0 "LK12" V 1954 3366 50  0000 L CNN
+F 0 "LK?" V 1954 3366 50  0000 L CNN
 F 1 "Jumper_3_Bridged12" V 2045 3366 50  0000 L CNN
 F 2 "" H 2000 3300 50  0001 C CNN
 F 3 "~" H 2000 3300 50  0001 C CNN
@@ -698,10 +698,10 @@ Wire Wire Line
 Wire Wire Line
 	2000 3650 2000 3550
 $Comp
-L Device:R R34
+L Device:R R?
 U 1 1 5CED0245
 P 3000 4550
-F 0 "R34" V 2793 4550 50  0000 C CNN
+F 0 "R?" V 2793 4550 50  0000 C CNN
 F 1 "1K" V 2884 4550 50  0000 C CNN
 F 2 "" V 2930 4550 50  0001 C CNN
 F 3 "~" H 3000 4550 50  0001 C CNN
@@ -709,10 +709,10 @@ F 3 "~" H 3000 4550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R33
+L Device:R R?
 U 1 1 5CED0279
 P 3000 4900
-F 0 "R33" V 2793 4900 50  0000 C CNN
+F 0 "R?" V 2793 4900 50  0000 C CNN
 F 1 "1K" V 2884 4900 50  0000 C CNN
 F 2 "" V 2930 4900 50  0001 C CNN
 F 3 "~" H 3000 4900 50  0001 C CNN
@@ -720,10 +720,10 @@ F 3 "~" H 3000 4900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C91
+L Device:C C?
 U 1 1 5CED0309
 P 3000 4150
-F 0 "C91" V 2748 4150 50  0000 C CNN
+F 0 "C?" V 2748 4150 50  0000 C CNN
 F 1 "10nF" V 2839 4150 50  0000 C CNN
 F 2 "" H 3038 4000 50  0001 C CNN
 F 3 "~" H 3000 4150 50  0001 C CNN
@@ -764,10 +764,10 @@ Wire Wire Line
 Wire Wire Line
 	4400 4900 4400 6050
 $Comp
-L Device:C C13
+L Device:C C?
 U 1 1 5CF5A8D9
 P 3700 3650
-F 0 "C13" H 3585 3604 50  0000 R CNN
+F 0 "C?" H 3585 3604 50  0000 R CNN
 F 1 "10pF" H 3585 3695 50  0000 R CNN
 F 2 "" H 3738 3500 50  0001 C CNN
 F 3 "~" H 3700 3650 50  0001 C CNN
@@ -791,10 +791,10 @@ Wire Wire Line
 	2350 1600 1900 1600
 Connection ~ 5600 2350
 $Comp
-L Device:R R67
+L Device:R R?
 U 1 1 5CFB46B7
 P 3100 3650
-F 0 "R67" V 2893 3650 50  0000 C CNN
+F 0 "R?" V 2893 3650 50  0000 C CNN
 F 1 "3K3" V 2984 3650 50  0000 C CNN
 F 2 "" V 3030 3650 50  0001 C CNN
 F 3 "~" H 3100 3650 50  0001 C CNN
@@ -819,10 +819,10 @@ Wire Wire Line
 Wire Wire Line
 	7000 2450 8250 2450
 $Comp
-L Device:Jumper LK21
+L Device:Jumper LK?
 U 1 1 5D023A82
 P 8800 4450
-F 0 "LK21" H 8800 4714 50  0000 C CNN
+F 0 "LK?" H 8800 4714 50  0000 C CNN
 F 1 "Jumper" H 8800 4623 50  0000 C CNN
 F 2 "" H 8800 4450 50  0001 C CNN
 F 3 "~" H 8800 4450 50  0001 C CNN
@@ -833,14 +833,6 @@ Text HLabel 9250 4450 2    50   Output ~ 0
 LPSTB
 Wire Wire Line
 	9250 4450 9100 4450
-Wire Bus Line
-	7550 750  7550 1450
-Wire Bus Line
-	5000 750  7550 750 
-Wire Bus Line
-	8050 2650 8050 3350
-Wire Bus Line
-	8500 1150 8500 3900
 $Comp
 L AcornMaster:+5VC #PWR?
 U 1 1 5D157380
@@ -918,4 +910,12 @@ F 3 "" H 1900 2100 50  0001 C CNN
 	1    1900 2100
 	1    0    0    -1  
 $EndComp
+Wire Bus Line
+	7550 750  7550 1450
+Wire Bus Line
+	5000 750  7550 750 
+Wire Bus Line
+	8050 2650 8050 3350
+Wire Bus Line
+	8500 1150 8500 3900
 $EndSCHEMATC

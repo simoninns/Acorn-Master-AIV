@@ -4,9 +4,9 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 21 28
+Sheet 21 29
 Title "Acorn Master 128"
-Date "2019-03-29"
+Date "2019-03-30"
 Rev "1.0"
 Comp "https://www.domesday86.com"
 Comment1 "(c)2019 Simon Inns"
@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L AcornMaster:WD1772 IC3
+L AcornMaster:WD1772 IC?
 U 1 1 5CA99C84
 P 6850 2450
-F 0 "IC3" H 6550 3600 50  0000 C CNN
+F 0 "IC?" H 6550 3600 50  0000 C CNN
 F 1 "WD1772" H 6850 2400 50  0000 C CNN
 F 2 "" H 6850 2450 50  0001 C CNN
 F 3 "" H 6850 2450 50  0001 C CNN
@@ -26,10 +26,10 @@ F 3 "" H 6850 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74LS174 IC4
+L 74xx:74LS174 IC?
 U 1 1 5CA9B330
 P 6850 5150
-F 0 "IC4" H 6600 5700 50  0000 C CNN
+F 0 "IC?" H 6600 5700 50  0000 C CNN
 F 1 "74LS174" V 6850 5100 50  0000 C CNN
 F 2 "" H 6850 5150 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS174" H 6850 5150 50  0001 C CNN
@@ -37,10 +37,10 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS174" H 6850 5150 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L 74xx:74LS06 IC1
+L 74xx:74LS06 IC?
 U 1 1 5CA9B4BB
 P 4700 3500
-F 0 "IC1" H 4750 3350 50  0000 C CNN
+F 0 "IC?" H 4750 3350 50  0000 C CNN
 F 1 "7406" H 5000 3350 50  0000 C CNN
 F 2 "" H 4700 3500 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS06" H 4700 3500 50  0001 C CNN
@@ -48,10 +48,10 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS06" H 4700 3500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 74xx:74LS06 IC1
+L 74xx:74LS06 IC?
 U 2 1 5CA9B4EA
 P 4700 3050
-F 0 "IC1" H 4900 2950 50  0000 C CNN
+F 0 "IC?" H 4900 2950 50  0000 C CNN
 F 1 "7406" H 5150 2950 50  0000 C CNN
 F 2 "" H 4700 3050 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS06" H 4700 3050 50  0001 C CNN
@@ -59,10 +59,10 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS06" H 4700 3050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 74xx:74LS06 IC1
+L 74xx:74LS06 IC?
 U 3 1 5CA9B51A
 P 4500 2750
-F 0 "IC1" H 4500 2600 50  0000 C CNN
+F 0 "IC?" H 4500 2600 50  0000 C CNN
 F 1 "7406" H 4750 2600 50  0000 C CNN
 F 2 "" H 4500 2750 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS06" H 4500 2750 50  0001 C CNN
@@ -70,10 +70,10 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS06" H 4500 2750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 74xx:74LS06 IC1
+L 74xx:74LS06 IC?
 U 4 1 5CA9B544
 P 4700 1850
-F 0 "IC1" H 4900 1750 50  0000 C CNN
+F 0 "IC?" H 4900 1750 50  0000 C CNN
 F 1 "7406" H 5150 1750 50  0000 C CNN
 F 2 "" H 4700 1850 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS06" H 4700 1850 50  0001 C CNN
@@ -81,10 +81,10 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS06" H 4700 1850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 74xx:74LS06 IC1
+L 74xx:74LS06 IC?
 U 5 1 5CA9B570
 P 4500 2150
-F 0 "IC1" H 4500 2000 50  0000 C CNN
+F 0 "IC?" H 4500 2000 50  0000 C CNN
 F 1 "7406" H 4750 2000 50  0000 C CNN
 F 2 "" H 4500 2150 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS06" H 4500 2150 50  0001 C CNN
@@ -92,10 +92,10 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS06" H 4500 2150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 74xx:74LS06 IC1
+L 74xx:74LS06 IC?
 U 6 1 5CA9B59E
 P 4700 2450
-F 0 "IC1" H 4900 2350 50  0000 C CNN
+F 0 "IC?" H 4900 2350 50  0000 C CNN
 F 1 "7406" H 5150 2350 50  0000 C CNN
 F 2 "" H 4700 2450 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS06" H 4700 2450 50  0001 C CNN
@@ -103,10 +103,10 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS06" H 4700 2450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 74xx:74LS06 IC1
+L 74xx:74LS06 IC?
 U 7 1 5CA9B655
 P 10650 5400
-F 0 "IC1" H 10880 5446 50  0000 L CNN
+F 0 "IC?" H 10880 5446 50  0000 L CNN
 F 1 "7406" H 10880 5355 50  0000 L CNN
 F 2 "" H 10650 5400 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS06" H 10650 5400 50  0001 C CNN
@@ -114,10 +114,10 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS06" H 10650 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74LS38 IC2
+L 74xx:74LS38 IC?
 U 2 1 5CA9CFBE
 P 4350 5250
-F 0 "IC2" H 4350 4933 50  0000 C CNN
+F 0 "IC?" H 4350 4933 50  0000 C CNN
 F 1 "74LS38" H 4350 5024 50  0000 C CNN
 F 2 "" H 4350 5250 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS38" H 4350 5250 50  0001 C CNN
@@ -125,10 +125,10 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS38" H 4350 5250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 74xx:74LS38 IC2
+L 74xx:74LS38 IC?
 U 1 1 5CA9D00C
 P 4350 5800
-F 0 "IC2" H 4350 5483 50  0000 C CNN
+F 0 "IC?" H 4350 5483 50  0000 C CNN
 F 1 "74LS38" H 4350 5574 50  0000 C CNN
 F 2 "" H 4350 5800 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS38" H 4350 5800 50  0001 C CNN
@@ -136,10 +136,10 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS38" H 4350 5800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 74xx:74LS38 IC2
+L 74xx:74LS38 IC?
 U 5 1 5CA9D046
 P 9750 5400
-F 0 "IC2" H 9980 5446 50  0000 L CNN
+F 0 "IC?" H 9980 5446 50  0000 L CNN
 F 1 "74LS38" H 9980 5355 50  0000 L CNN
 F 2 "" H 9750 5400 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS38" H 9750 5400 50  0001 C CNN
@@ -147,10 +147,10 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS38" H 9750 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R1
+L Device:R R?
 U 1 1 5CA9D4E3
 P 5200 1100
-F 0 "R1" H 5270 1146 50  0000 L CNN
+F 0 "R?" H 5270 1146 50  0000 L CNN
 F 1 "150R" H 5270 1055 50  0000 L CNN
 F 2 "" V 5130 1100 50  0001 C CNN
 F 3 "~" H 5200 1100 50  0001 C CNN
@@ -158,10 +158,10 @@ F 3 "~" H 5200 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R3
+L Device:R R?
 U 1 1 5CA9D572
 P 5550 1100
-F 0 "R3" H 5620 1146 50  0000 L CNN
+F 0 "R?" H 5620 1146 50  0000 L CNN
 F 1 "150R" H 5620 1055 50  0000 L CNN
 F 2 "" V 5480 1100 50  0001 C CNN
 F 3 "~" H 5550 1100 50  0001 C CNN
@@ -169,10 +169,10 @@ F 3 "~" H 5550 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R5
+L Device:R R?
 U 1 1 5CA9D5A4
 P 5900 1100
-F 0 "R5" H 5970 1146 50  0000 L CNN
+F 0 "R?" H 5970 1146 50  0000 L CNN
 F 1 "150R" H 5970 1055 50  0000 L CNN
 F 2 "" V 5830 1100 50  0001 C CNN
 F 3 "~" H 5900 1100 50  0001 C CNN
@@ -180,10 +180,10 @@ F 3 "~" H 5900 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R6
+L Device:R R?
 U 1 1 5CA9D5DC
 P 6250 1100
-F 0 "R6" H 6320 1146 50  0000 L CNN
+F 0 "R?" H 6320 1146 50  0000 L CNN
 F 1 "150R" H 6320 1055 50  0000 L CNN
 F 2 "" V 6180 1100 50  0001 C CNN
 F 3 "~" H 6250 1100 50  0001 C CNN
@@ -256,10 +256,10 @@ Wire Wire Line
 Wire Wire Line
 	5300 3050 5000 3050
 $Comp
-L Connector_Generic:Conn_02x17_Odd_Even PL1
+L Connector_Generic:Conn_02x17_Odd_Even PL?
 U 1 1 5CA9FADE
 P 1050 2050
-F 0 "PL1" H 1100 1025 50  0000 C CNN
+F 0 "PL?" H 1100 1025 50  0000 C CNN
 F 1 "Disc Ext." H 1100 1116 50  0000 C CNN
 F 2 "" H 1050 2050 50  0001 C CNN
 F 3 "~" H 1050 2050 50  0001 C CNN
@@ -267,10 +267,10 @@ F 3 "~" H 1050 2050 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x17_Odd_Even PL2
+L Connector_Generic:Conn_02x17_Odd_Even PL?
 U 1 1 5CA9FBA6
 P 1050 4100
-F 0 "PL2" H 1100 3075 50  0000 C CNN
+F 0 "PL?" H 1100 3075 50  0000 C CNN
 F 1 "Disc Int. (NF)" H 1100 3166 50  0000 C CNN
 F 2 "" H 1050 4100 50  0001 C CNN
 F 3 "~" H 1050 4100 50  0001 C CNN
@@ -614,10 +614,10 @@ Text HLabel 7550 5450 2    50   Input ~ 0
 Wire Wire Line
 	7550 5450 7350 5450
 $Comp
-L Diode:1N4148 D2
+L Diode:1N4148 D?
 U 1 1 5CB7D94A
 P 4750 4050
-F 0 "D2" H 4750 3834 50  0000 C CNN
+F 0 "D?" H 4750 3834 50  0000 C CNN
 F 1 "1N4148" H 4750 3925 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4750 3875 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4750 4050 50  0001 C CNN
@@ -625,10 +625,10 @@ F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4750 4050 50  
 	-1   0    0    1   
 $EndComp
 $Comp
-L Diode:1N4148 D3
+L Diode:1N4148 D?
 U 1 1 5CB7DA5B
 P 4750 4400
-F 0 "D3" H 4750 4184 50  0000 C CNN
+F 0 "D?" H 4750 4184 50  0000 C CNN
 F 1 "1N4148" H 4750 4275 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4750 4225 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4750 4400 50  0001 C CNN
@@ -636,10 +636,10 @@ F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4750 4400 50  
 	-1   0    0    1   
 $EndComp
 $Comp
-L Diode:1N4148 D1
+L Diode:1N4148 D?
 U 1 1 5CB7DAE3
 P 4050 4400
-F 0 "D1" H 4050 4616 50  0000 C CNN
+F 0 "D?" H 4050 4616 50  0000 C CNN
 F 1 "1N4148" H 4050 4525 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4050 4225 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4050 4400 50  0001 C CNN
@@ -685,10 +685,10 @@ Connection ~ 4500 4400
 Wire Wire Line
 	4500 4400 4600 4400
 $Comp
-L Device:Q_NPN_CBE Q1
+L Device:Q_NPN_CBE Q?
 U 1 1 5CBBD5D2
 P 3550 4400
-F 0 "Q1" H 3740 4446 50  0000 L CNN
+F 0 "Q?" H 3740 4446 50  0000 L CNN
 F 1 "BC239" H 3740 4355 50  0000 L CNN
 F 2 "" H 3750 4500 50  0001 C CNN
 F 3 "~" H 3550 4400 50  0001 C CNN
@@ -776,10 +776,10 @@ Connection ~ 2650 2550
 Wire Wire Line
 	2650 2550 1350 2550
 $Comp
-L Device:C C1
+L Device:C C?
 U 1 1 5CC92601
 P 9000 5350
-F 0 "C1" H 9115 5396 50  0000 L CNN
+F 0 "C?" H 9115 5396 50  0000 L CNN
 F 1 "33/47nF" H 9115 5305 50  0000 L CNN
 F 2 "" H 9038 5200 50  0001 C CNN
 F 3 "~" H 9000 5350 50  0001 C CNN
@@ -821,10 +821,10 @@ DRQ
 Text HLabel 8100 3250 2    50   Output ~ 0
 INTRQ
 $Comp
-L Device:C C27
+L Device:C C?
 U 1 1 5CD1CF5F
 P 7850 3550
-F 0 "C27" H 7965 3596 50  0000 L CNN
+F 0 "C?" H 7965 3596 50  0000 L CNN
 F 1 "200pF" H 7965 3505 50  0000 L CNN
 F 2 "" H 7888 3400 50  0001 C CNN
 F 3 "~" H 7850 3550 50  0001 C CNN

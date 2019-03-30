@@ -4,9 +4,9 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 28
+Sheet 5 29
 Title "Acorn Master 128"
-Date "2019-03-29"
+Date "2019-03-30"
 Rev "1.0"
 Comp "https://www.domesday86.com"
 Comment1 "(c)2019 Simon Inns"
@@ -315,5 +315,17 @@ CD[0..7]
 Text Label 6600 2850 0    50   ~ 0
 RD[0..7]
 Text Label 6650 4150 0    50   ~ 0
+DMA[0..7]
+Wire Wire Line
+	6150 2350 6150 1550
+Wire Wire Line
+	6150 1550 3500 1550
+Connection ~ 6150 2350
+Text HLabel 3500 1550 0    50   Output ~ 0
+AT12
+Wire Bus Line
+	7350 4150 8300 4150
+Connection ~ 7350 4150
+Text HLabel 8300 4150 2    50   Output ~ 0
 DMA[0..7]
 $EndSCHEMATC

@@ -4,9 +4,9 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 28
+Sheet 7 29
 Title "Acorn Master 128"
-Date "2019-03-29"
+Date "2019-03-30"
 Rev "1.0"
 Comp "https://www.domesday86.com"
 Comment1 "(c)2019 Simon Inns"
@@ -542,22 +542,6 @@ F 3 "" H 8550 4600 50  0001 C CNN
 	1    8550 4600
 	1    0    0    -1  
 $EndComp
-Wire Bus Line
-	5850 2700 5850 3900
-Wire Bus Line
-	7550 2700 7550 3900
-Wire Bus Line
-	9250 2700 9250 3900
-Wire Bus Line
-	4150 2700 4150 3900
-Wire Bus Line
-	4450 2550 4450 4100
-Wire Bus Line
-	6150 2550 6150 4100
-Wire Bus Line
-	7850 2550 7850 4100
-Wire Bus Line
-	2750 2550 2750 4100
 Text Label 2850 3500 0    50   ~ 0
 DMA6
 Text Label 2850 3600 0    50   ~ 0
@@ -622,4 +606,20 @@ Text Label 7950 4100 0    50   ~ 0
 DMA0
 Text Label 7950 4200 0    50   ~ 0
 DMA7
+Wire Bus Line
+	5850 2700 5850 3900
+Wire Bus Line
+	7550 2700 7550 3900
+Wire Bus Line
+	9250 2700 9250 3900
+Wire Bus Line
+	4150 2700 4150 3900
+Wire Bus Line
+	4450 2550 4450 4100
+Wire Bus Line
+	6150 2550 6150 4100
+Wire Bus Line
+	7850 2550 7850 4100
+Wire Bus Line
+	2750 2550 2750 4100
 $EndSCHEMATC

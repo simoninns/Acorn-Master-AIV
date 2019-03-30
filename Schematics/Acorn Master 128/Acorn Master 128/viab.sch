@@ -4,9 +4,9 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 20 28
+Sheet 22 29
 Title "Acorn Master 128"
-Date "2019-03-29"
+Date "2019-03-30"
 Rev "1.0"
 Comp "https://www.domesday86.com"
 Comment1 "(c)2019 Simon Inns"
@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector_Generic:Conn_02x13_Odd_Even PL3
+L Connector_Generic:Conn_02x13_Odd_Even PL?
 U 1 1 5C9CE660
 P 2450 2200
-F 0 "PL3" H 2500 1375 50  0000 C CNN
+F 0 "PL?" H 2500 1375 50  0000 C CNN
 F 1 "Printer" H 2500 1466 50  0000 C CNN
 F 2 "" H 2450 2200 50  0001 C CNN
 F 3 "~" H 2450 2200 50  0001 C CNN
@@ -26,10 +26,10 @@ F 3 "~" H 2450 2200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x10_Odd_Even PL4
+L Connector_Generic:Conn_02x10_Odd_Even PL?
 U 1 1 5C9CE6F1
 P 2500 6100
-F 0 "PL4" H 2550 5375 50  0000 C CNN
+F 0 "PL?" H 2550 5375 50  0000 C CNN
 F 1 "User Port" H 2550 5466 50  0000 C CNN
 F 2 "" H 2500 6100 50  0001 C CNN
 F 3 "~" H 2500 6100 50  0001 C CNN
@@ -37,10 +37,10 @@ F 3 "~" H 2500 6100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 74xx:74LS244 IC5
+L 74xx:74LS244 IC?
 U 1 1 5C9CE7A2
 P 4850 2500
-F 0 "IC5" H 5100 3150 50  0000 C CNN
+F 0 "IC?" H 5100 3150 50  0000 C CNN
 F 1 "74LS244" H 4850 2200 50  0000 C CNN
 F 2 "" H 4850 2500 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS244" H 4850 2500 50  0001 C CNN
@@ -48,10 +48,10 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS244" H 4850 2500 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L 74xx:74LS38 IC2
+L 74xx:74LS38 IC?
 U 3 1 5C9CE894
 P 4400 4600
-F 0 "IC2" H 4400 4283 50  0000 C CNN
+F 0 "IC?" H 4400 4283 50  0000 C CNN
 F 1 "7438" H 4400 4374 50  0000 C CNN
 F 2 "" H 4400 4600 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS38" H 4400 4600 50  0001 C CNN
@@ -59,10 +59,10 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS38" H 4400 4600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 74xx:74LS38 IC2
+L 74xx:74LS38 IC?
 U 4 1 5C9CE8B4
 P 5250 4600
-F 0 "IC2" H 5250 4283 50  0000 C CNN
+F 0 "IC?" H 5250 4283 50  0000 C CNN
 F 1 "7438" H 5250 4374 50  0000 C CNN
 F 2 "" H 5250 4600 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS38" H 5250 4600 50  0001 C CNN
@@ -70,10 +70,10 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS38" H 5250 4600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L AcornMaster:R6522 IC6
+L AcornMaster:R6522 IC?
 U 1 1 5C9D04F4
 P 7500 3150
-F 0 "IC6" H 7100 4450 50  0000 C CNN
+F 0 "IC?" H 7100 4450 50  0000 C CNN
 F 1 "R6522" H 7500 3150 50  0000 C CNN
 F 2 "" H 6500 2950 50  0001 C CNN
 F 3 "" H 6500 2950 50  0001 C CNN
@@ -434,10 +434,10 @@ Wire Wire Line
 Text Label 3050 1900 0    50   ~ 0
 CA1
 $Comp
-L Device:R R11
+L Device:R R?
 U 1 1 5CA25B2C
 P 2950 1550
-F 0 "R11" H 3020 1596 50  0000 L CNN
+F 0 "R?" H 3020 1596 50  0000 L CNN
 F 1 "2K2" H 3020 1505 50  0000 L CNN
 F 2 "" V 2880 1550 50  0001 C CNN
 F 3 "~" H 2950 1550 50  0001 C CNN
@@ -476,10 +476,10 @@ Connection ~ 4800 4600
 Wire Wire Line
 	4800 4600 4800 4700
 $Comp
-L Device:R R7
+L Device:R R?
 U 1 1 5CA40443
 P 4800 4250
-F 0 "R7" H 4870 4296 50  0000 L CNN
+F 0 "R?" H 4870 4296 50  0000 L CNN
 F 1 "4K7" H 4870 4205 50  0000 L CNN
 F 2 "" V 4730 4250 50  0001 C CNN
 F 3 "~" H 4800 4250 50  0001 C CNN
@@ -492,10 +492,10 @@ Connection ~ 4800 4500
 Wire Wire Line
 	4800 4100 4800 4000
 $Comp
-L Device:R R4
+L Device:R R?
 U 1 1 5CA4ECAD
 P 4000 4250
-F 0 "R4" H 4070 4296 50  0000 L CNN
+F 0 "R?" H 4070 4296 50  0000 L CNN
 F 1 "4K7" H 4070 4205 50  0000 L CNN
 F 2 "" V 3930 4250 50  0001 C CNN
 F 3 "~" H 4000 4250 50  0001 C CNN
@@ -630,10 +630,6 @@ Text HLabel 9200 1700 2    50   Input ~ 0
 A[0..15]
 Text HLabel 9450 2350 2    50   BiDi ~ 0
 BD[0..7]
-Wire Bus Line
-	8500 1700 8500 2400
-Wire Bus Line
-	8850 2350 8850 3300
 $Comp
 L AcornMaster:+5VC #PWR?
 U 1 1 5D1CEFB8
@@ -744,4 +740,8 @@ F 3 "" H 2800 6650 50  0001 C CNN
 	1    2800 6650
 	1    0    0    -1  
 $EndComp
+Wire Bus Line
+	8500 1700 8500 2400
+Wire Bus Line
+	8850 2350 8850 3300
 $EndSCHEMATC

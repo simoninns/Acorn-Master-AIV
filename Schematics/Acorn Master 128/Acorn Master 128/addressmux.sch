@@ -4,9 +4,9 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 16 28
+Sheet 16 29
 Title "Acorn Master 128"
-Date "2019-03-29"
+Date "2019-03-30"
 Rev "1.0"
 Comp "https://www.domesday86.com"
 Comment1 "(c)2019 Simon Inns"
@@ -312,10 +312,6 @@ Wire Wire Line
 	6350 4150 6550 4150
 Wire Wire Line
 	6350 3400 6350 3300
-Wire Bus Line
-	6050 2450 6050 2850
-Wire Bus Line
-	4300 2450 4300 3250
 $Comp
 L AcornMaster:+5VB #PWR?
 U 1 1 5D15B019
@@ -360,4 +356,8 @@ F 3 "" H 8550 3950 50  0001 C CNN
 	1    8550 3950
 	1    0    0    -1  
 $EndComp
+Wire Bus Line
+	6050 2450 6050 2850
+Wire Bus Line
+	4300 2450 4300 3250
 $EndSCHEMATC
