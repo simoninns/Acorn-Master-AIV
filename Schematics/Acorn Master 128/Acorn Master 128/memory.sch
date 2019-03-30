@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 29
+Sheet 4 29
 Title "Acorn Master 128"
 Date "2019-03-30"
 Rev "1.0"
@@ -79,7 +79,7 @@ F15 "~RAS" O R 5700 4850 50
 F16 "8M" I L 4600 4950 50 
 F17 "~DRAS" O R 5700 5450 50 
 F18 "6M" O L 4600 4850 50 
-F19 "phi2_in" I L 4600 5050 50 
+F19 "phi2_in" O L 4600 5050 50 
 $EndSheet
 $Sheet
 S 4600 1950 1100 1100
@@ -301,7 +301,7 @@ Text HLabel 3500 5150 0    50   Input ~ 0
 nRW
 Text HLabel 3500 4850 0    50   Output ~ 0
 6M
-Text HLabel 3500 5050 0    50   Input ~ 0
+Text HLabel 3500 5050 0    50   Output ~ 0
 phi2_in
 Wire Bus Line
 	4400 1800 3500 1800

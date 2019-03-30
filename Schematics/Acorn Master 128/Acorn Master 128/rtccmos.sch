@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L AcornMaster:MC146818A IC11
+L AcornMaster:MC146818A IC?
 U 1 1 5C9DD2C9
 P 6250 4850
 F 0 "IC?" H 5900 5650 50  0000 C CNN
@@ -104,7 +104,7 @@ Wire Wire Line
 NoConn ~ 5750 4500
 NoConn ~ 5750 4200
 $Comp
-L Connector:TestPoint TP1
+L Connector:TestPoint TP?
 U 1 1 5CA13BC1
 P 5350 5300
 F 0 "TP?" H 5292 5327 50  0000 R CNN
@@ -136,7 +136,7 @@ Connection ~ 6800 4200
 Wire Wire Line
 	6800 4200 6750 4200
 $Comp
-L Device:R R24
+L Device:R R?
 U 1 1 5CA15F2B
 P 4600 5000
 F 0 "R?" V 4393 5000 50  0000 C CNN
@@ -147,7 +147,7 @@ F 3 "~" H 4600 5000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R17
+L Device:R R?
 U 1 1 5CA15F74
 P 3500 5000
 F 0 "R?" V 3293 5000 50  0000 C CNN
@@ -158,7 +158,7 @@ F 3 "~" H 3500 5000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Crystal X1
+L Device:Crystal X?
 U 1 1 5CA15FFC
 P 3850 4700
 F 0 "X?" V 3804 4831 50  0000 L CNN
@@ -193,7 +193,7 @@ Wire Wire Line
 	3250 4450 3850 4450
 Connection ~ 3850 4450
 $Comp
-L Device:C C6
+L Device:C C?
 U 1 1 5CA17C65
 P 4100 5350
 F 0 "C?" H 4215 5396 50  0000 L CNN
@@ -204,7 +204,7 @@ F 3 "~" H 4100 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C7
+L Device:C C?
 U 1 1 5CA17CB3
 P 4850 5350
 F 0 "C?" H 4965 5396 50  0000 L CNN
@@ -215,7 +215,7 @@ F 3 "~" H 4850 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Variable VC1
+L Device:C_Variable VC?
 U 1 1 5CA1854F
 P 3250 5350
 F 0 "VC?" H 3365 5396 50  0000 L CNN
@@ -253,7 +253,7 @@ Wire Wire Line
 	3250 5700 3250 5600
 Connection ~ 3250 5600
 $Comp
-L Device:Jumper LK4
+L Device:Jumper LK?
 U 1 1 5CA1C2E2
 P 4450 4250
 F 0 "LK?" H 4450 4514 50  0000 C CNN
@@ -274,7 +274,7 @@ Wire Wire Line
 Text HLabel 4000 4250 0    50   Output ~ 0
 ~IRQ
 $Comp
-L Connector_Generic:Conn_01x03 PL8
+L Connector_Generic:Conn_01x03 PL?
 U 1 1 5CA93F29
 P 8200 1600
 F 0 "PL?" H 8279 1642 50  0000 L CNN
@@ -291,7 +291,7 @@ Wire Wire Line
 Wire Wire Line
 	7900 1700 8000 1700
 $Comp
-L Device:R R154
+L Device:R R?
 U 1 1 5CA94EBD
 P 7900 2150
 F 0 "R?" H 7830 2104 50  0000 R CNN
@@ -302,7 +302,7 @@ F 3 "~" H 7900 2150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R155
+L Device:R R?
 U 1 1 5CA9518A
 P 8500 2350
 F 0 "R?" H 8430 2304 50  0000 R CNN
@@ -324,7 +324,7 @@ Wire Wire Line
 Wire Wire Line
 	7900 2400 7900 2300
 $Comp
-L Device:R R23
+L Device:R R?
 U 1 1 5CAA1160
 P 6500 1850
 F 0 "R?" H 6430 1804 50  0000 R CNN
@@ -343,7 +343,7 @@ Wire Wire Line
 Wire Wire Line
 	6250 1600 6250 2100
 $Comp
-L Device:R R29
+L Device:R R?
 U 1 1 5CAA6BC9
 P 6900 2100
 F 0 "R?" V 7107 2100 50  0000 C CNN
@@ -357,7 +357,7 @@ Wire Wire Line
 	6750 2100 6250 2100
 Connection ~ 6250 2100
 $Comp
-L Device:Q_NPN_CBE Q3
+L Device:Q_NPN_CBE Q?
 U 1 1 5CAA7FC9
 P 7050 2600
 F 0 "Q?" H 7241 2646 50  0000 L CNN
@@ -383,7 +383,7 @@ Connection ~ 7150 2100
 Wire Wire Line
 	7150 2100 7550 2100
 $Comp
-L Diode:1N4148 D8
+L Diode:1N4148 D?
 U 1 1 5CAB863C
 P 7150 1350
 F 0 "D?" V 7196 1271 50  0000 R CNN
@@ -408,7 +408,7 @@ Connection ~ 6250 3950
 Wire Wire Line
 	6250 2100 6250 2950
 $Comp
-L Device:CP C11
+L Device:CP C?
 U 1 1 5CACCE27
 P 6650 2950
 F 0 "C?" V 6905 2950 50  0000 C CNN
@@ -429,7 +429,7 @@ Connection ~ 6250 2950
 Wire Wire Line
 	6250 2950 6250 3950
 $Comp
-L Diode:1N4148 D6
+L Diode:1N4148 D?
 U 1 1 5CAD1E53
 P 5800 3200
 F 0 "D?" V 5754 3279 50  0000 L CNN
@@ -440,7 +440,7 @@ F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 5800 3200 50  
 	0    1    1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D5
+L Diode:1N4148 D?
 U 1 1 5CAD1F47
 P 5300 3200
 F 0 "D?" V 5346 3121 50  0000 R CNN
@@ -451,7 +451,7 @@ F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 5300 3200 50  
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R16
+L Device:R R?
 U 1 1 5CAD1FC3
 P 5300 2700
 F 0 "R?" H 5230 2654 50  0000 R CNN
@@ -462,7 +462,7 @@ F 3 "~" H 5300 2700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R15
+L Device:R R?
 U 1 1 5CAD2039
 P 5050 2950
 F 0 "R?" V 5257 2950 50  0000 C CNN
@@ -495,7 +495,7 @@ Wire Wire Line
 	5200 3450 5300 3450
 Connection ~ 5300 3450
 $Comp
-L Device:Q_PNP_ECB Q2
+L Device:Q_PNP_ECB Q?
 U 1 1 5CADE9C4
 P 5200 2250
 F 0 "Q?" H 5391 2204 50  0000 L CNN
@@ -506,7 +506,7 @@ F 3 "~" H 5200 2250 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:R R12
+L Device:R R?
 U 1 1 5CAE0E92
 P 4900 2000
 F 0 "R?" H 4830 1954 50  0000 R CNN
@@ -547,7 +547,7 @@ NF
 Text Notes 3050 3800 0    50   ~ 0
 Pin 16 of IC11 is missing from the original\nAcorn schematics... needs to be traced by\nhand from the PCB
 $Comp
-L Device:Q_PJFET_DGS Q4
+L Device:Q_PJFET_DGS Q?
 U 1 1 5CAFA72F
 P 8000 2600
 F 0 "Q?" H 8190 2646 50  0000 L CNN

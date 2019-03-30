@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 16 29
+Sheet 10 29
 Title "Acorn Master 128"
 Date "2019-03-30"
 Rev "1.0"
@@ -136,9 +136,9 @@ Wire Wire Line
 Wire Wire Line
 	6150 5250 6600 5250
 Text HLabel 6350 4350 2    50   Input ~ 0
-M1
+1M
 Text HLabel 6350 5000 2    50   Input ~ 0
-M8
+8M
 Wire Wire Line
 	6350 4350 6250 4350
 Connection ~ 6250 4350

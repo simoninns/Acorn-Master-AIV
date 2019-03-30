@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 20 29
+Sheet 16 29
 Title "Acorn Master 128"
 Date "2019-03-30"
 Rev "1.0"
@@ -240,7 +240,7 @@ Text HLabel 1400 5200 2    50   Input ~ 0
 ~INTUBE
 Text HLabel 1400 5300 2    50   Input ~ 0
 ~RST
-Text HLabel 1400 5400 2    50   Input ~ 0
+Text HLabel 1400 5400 2    50   Output ~ 0
 phi2_in
 Text HLabel 1400 5800 2    50   Input ~ 0
 BRnW

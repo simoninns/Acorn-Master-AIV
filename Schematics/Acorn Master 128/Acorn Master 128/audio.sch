@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L AcornMaster:SN76489AN IC12
+L AcornMaster:SN76489AN IC?
 U 1 1 5CB022E8
 P 1700 1650
 F 0 "IC?" H 1400 2150 50  0000 C CNN
@@ -119,7 +119,7 @@ F 3 "~" H 4550 1300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R25
+L Device:R R?
 U 1 1 5CB16E4E
 P 4200 1550
 F 0 "R?" H 4130 1504 50  0000 R CNN
@@ -130,7 +130,7 @@ F 3 "~" H 4200 1550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C8
+L Device:C C?
 U 1 1 5CB16F01
 P 3850 1550
 F 0 "C?" H 3965 1596 50  0000 L CNN
@@ -141,7 +141,7 @@ F 3 "~" H 3850 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R30
+L Device:R R?
 U 1 1 5CB16FED
 P 4550 2600
 F 0 "R?" V 4757 2600 50  0000 C CNN
@@ -178,7 +178,7 @@ Connection ~ 3600 1300
 Wire Wire Line
 	3600 1300 3850 1300
 $Comp
-L Amplifier_Operational:LM324 IC9
+L Amplifier_Operational:LM324 IC?
 U 1 1 5CB1812B
 P 8700 3950
 F 0 "IC?" H 8700 4317 50  0000 C CNN
@@ -189,7 +189,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 8750 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:LM324 IC9
+L Amplifier_Operational:LM324 IC?
 U 2 1 5CB18183
 P 5450 1400
 F 0 "IC?" H 5450 1033 50  0000 C CNN
@@ -200,7 +200,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 5500 1600 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Amplifier_Operational:LM324 IC9
+L Amplifier_Operational:LM324 IC?
 U 3 1 5CB181C9
 P 5450 2700
 F 0 "IC?" H 5450 2333 50  0000 C CNN
@@ -211,7 +211,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 5500 2900 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Amplifier_Operational:LM324 IC9
+L Amplifier_Operational:LM324 IC?
 U 4 1 5CB18207
 P 5450 3850
 F 0 "IC?" H 5450 4217 50  0000 C CNN
@@ -222,7 +222,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 5500 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:LM324 IC9
+L Amplifier_Operational:LM324 IC?
 U 5 1 5CB18253
 P 2650 3850
 F 0 "IC?" H 2608 3896 50  0000 L CNN
@@ -250,7 +250,7 @@ Wire Wire Line
 Wire Wire Line
 	4700 1300 5000 1300
 $Comp
-L Device:R R19
+L Device:R R?
 U 1 1 5CB19455
 P 5400 850
 F 0 "R?" V 5193 850 50  0000 C CNN
@@ -274,7 +274,7 @@ Wire Wire Line
 Wire Wire Line
 	5850 1400 5750 1400
 $Comp
-L Diode:1N4148 D7
+L Diode:1N4148 D?
 U 1 1 5CB1A130
 P 6100 1400
 F 0 "D?" H 6100 1184 50  0000 C CNN
@@ -288,7 +288,7 @@ Wire Wire Line
 	5950 1400 5850 1400
 Connection ~ 5850 1400
 $Comp
-L Device:CP C14
+L Device:CP C?
 U 1 1 5CB1A8E8
 P 6350 1650
 F 0 "C?" H 6468 1696 50  0000 L CNN
@@ -299,7 +299,7 @@ F 3 "~" H 6350 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R32
+L Device:R R?
 U 1 1 5CB1A943
 P 6950 1650
 F 0 "R?" H 6880 1604 50  0000 R CNN
@@ -339,7 +339,7 @@ Wire Wire Line
 	6950 1400 6950 1500
 Connection ~ 6350 1400
 $Comp
-L Device:R R35
+L Device:R R?
 U 1 1 5CB1CA4B
 P 7200 1400
 F 0 "R?" V 7407 1400 50  0000 C CNN
@@ -368,7 +368,7 @@ $EndComp
 Wire Wire Line
 	5150 2800 5050 2800
 $Comp
-L Device:CP C17
+L Device:CP C?
 U 1 1 5CB1FCC6
 P 1950 3500
 F 0 "C?" H 2068 3546 50  0000 L CNN
@@ -379,7 +379,7 @@ F 3 "~" H 1950 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R27
+L Device:R R?
 U 1 1 5CB226F6
 P 1700 3250
 F 0 "R?" V 1907 3250 50  0000 C CNN
@@ -394,7 +394,7 @@ Wire Wire Line
 Wire Wire Line
 	1400 3250 1400 3150
 $Comp
-L Device:R R39
+L Device:R R?
 U 1 1 5CB240BC
 P 7200 2700
 F 0 "R?" V 7407 2700 50  0000 C CNN
@@ -426,7 +426,7 @@ Wire Wire Line
 	4950 2200 3400 2200
 Connection ~ 4950 2200
 $Comp
-L Diode:1N4148 D23
+L Diode:1N4148 D?
 U 1 1 5CB29C50
 P 6900 2950
 F 0 "D?" V 6946 2871 50  0000 R CNN
@@ -437,7 +437,7 @@ F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 6900 2950 50  
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148 D24
+L Diode:1N4148 D?
 U 1 1 5CB29CEE
 P 6900 3450
 F 0 "D?" V 6854 3529 50  0000 L CNN
@@ -453,7 +453,7 @@ Connection ~ 6900 2700
 Wire Wire Line
 	6900 2700 7050 2700
 $Comp
-L Device:C C79
+L Device:C C?
 U 1 1 5CB2C175
 P 3600 4900
 F 0 "C?" H 3485 4854 50  0000 R CNN
@@ -488,7 +488,7 @@ Wire Wire Line
 Wire Wire Line
 	1950 3650 1950 3750
 $Comp
-L Device:R R37
+L Device:R R?
 U 1 1 5CB3DF2C
 P 1700 4550
 F 0 "R?" V 1907 4550 50  0000 C CNN
@@ -510,7 +510,7 @@ F 3 "" H 1400 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP C15
+L Device:CP C?
 U 1 1 5CB3E04F
 P 1950 4800
 F 0 "C?" H 2068 4846 50  0000 L CNN
@@ -547,7 +547,7 @@ Wire Wire Line
 Wire Wire Line
 	1950 5050 1950 4950
 $Comp
-L Device:R R20
+L Device:R R?
 U 1 1 5CB4F5B2
 P 3850 3750
 F 0 "R?" V 4057 3750 50  0000 C CNN
@@ -558,7 +558,7 @@ F 3 "~" H 3850 3750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R28
+L Device:R R?
 U 1 1 5CB4F5FA
 P 4250 3750
 F 0 "R?" V 4457 3750 50  0000 C CNN
@@ -569,7 +569,7 @@ F 3 "~" H 4250 3750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C9
+L Device:C C?
 U 1 1 5CB4F694
 P 4500 4000
 F 0 "C?" H 4385 3954 50  0000 R CNN
@@ -580,7 +580,7 @@ F 3 "~" H 4500 4000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R36
+L Device:R R?
 U 1 1 5CB4F74F
 P 5400 4300
 F 0 "R?" V 5607 4300 50  0000 C CNN
@@ -591,7 +591,7 @@ F 3 "~" H 5400 4300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R31
+L Device:R R?
 U 1 1 5CB4F7CC
 P 4900 4500
 F 0 "R?" H 4970 4546 50  0000 L CNN
@@ -626,7 +626,7 @@ Wire Wire Line
 Wire Wire Line
 	5900 3850 5750 3850
 $Comp
-L Device:C C12
+L Device:C C?
 U 1 1 5CB5A4A9
 P 5900 3600
 F 0 "C?" H 5785 3554 50  0000 R CNN
@@ -649,7 +649,7 @@ Connection ~ 4050 3750
 Wire Wire Line
 	4050 3750 4100 3750
 $Comp
-L Device:R R26
+L Device:R R?
 U 1 1 5CB617AF
 P 3600 4500
 F 0 "R?" H 3670 4546 50  0000 L CNN
@@ -660,7 +660,7 @@ F 3 "~" H 3600 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R13
+L Device:R R?
 U 1 1 5CB6183C
 P 3900 4500
 F 0 "R?" H 3970 4546 50  0000 L CNN
@@ -710,7 +710,7 @@ Wire Wire Line
 Wire Wire Line
 	3600 5050 3600 5150
 $Comp
-L Device:R R120
+L Device:R R?
 U 1 1 5CB8C034
 P 6650 3200
 F 0 "R?" V 6857 3200 50  0000 C CNN
@@ -721,7 +721,7 @@ F 3 "~" H 6650 3200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R119
+L Device:R R?
 U 1 1 5CB8C0C0
 P 6400 3450
 F 0 "R?" H 6470 3496 50  0000 L CNN
@@ -776,7 +776,7 @@ Connection ~ 2550 4250
 Wire Wire Line
 	2550 4250 2550 4150
 $Comp
-L Amplifier_Audio:LM386 IC13
+L Amplifier_Audio:LM386 IC?
 U 1 1 5CC2357E
 P 8700 2150
 F 0 "IC?" H 8750 2400 50  0000 L CNN
@@ -787,7 +787,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm386.pdf" H 8900 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C10
+L Device:C C?
 U 1 1 5CC2371A
 P 8150 2050
 F 0 "C?" V 8402 2050 50  0000 C CNN
@@ -823,7 +823,7 @@ Connection ~ 8600 2900
 Wire Wire Line
 	8600 2900 8600 2450
 $Comp
-L Device:R R38
+L Device:R R?
 U 1 1 5CC3D35B
 P 9050 2350
 F 0 "R?" H 9120 2396 50  0000 L CNN
@@ -834,7 +834,7 @@ F 3 "~" H 9050 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C16
+L Device:C C?
 U 1 1 5CC3D450
 P 9050 2700
 F 0 "C?" H 9165 2746 50  0000 L CNN
@@ -862,7 +862,7 @@ Wire Wire Line
 Wire Wire Line
 	8600 1850 8600 1750
 $Comp
-L Device:CP C18
+L Device:CP C?
 U 1 1 5CC67066
 P 9350 2150
 F 0 "C?" V 9095 2150 50  0000 C CNN
@@ -873,7 +873,7 @@ F 3 "~" H 9350 2150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 PL9
+L Connector_Generic:Conn_01x02 PL?
 U 1 1 5CC671D6
 P 9750 2400
 F 0 "PL?" H 9829 2392 50  0000 L CNN
@@ -896,7 +896,7 @@ Wire Wire Line
 	9550 2900 9050 2900
 Connection ~ 9050 2900
 $Comp
-L Device:C C77
+L Device:C C?
 U 1 1 5CC76364
 P 10100 2700
 F 0 "C?" H 10215 2746 50  0000 L CNN
@@ -912,7 +912,7 @@ Wire Wire Line
 	10100 2150 9550 2150
 Connection ~ 9550 2150
 $Comp
-L Connector:Conn_Coaxial SK13
+L Connector:Conn_Coaxial SK?
 U 1 1 5CC80D89
 P 10450 2150
 F 0 "SK?" H 10549 2126 50  0000 L CNN
@@ -930,7 +930,7 @@ Wire Wire Line
 Wire Wire Line
 	10450 2400 10450 2350
 $Comp
-L Device:R R71
+L Device:R R?
 U 1 1 5CC914E6
 P 8150 3850
 F 0 "R?" V 8357 3850 50  0000 C CNN
@@ -941,7 +941,7 @@ F 3 "~" H 8150 3850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R115
+L Device:R R?
 U 1 1 5CC96C5B
 P 9050 3700
 F 0 "R?" H 9120 3746 50  0000 L CNN
@@ -988,7 +988,7 @@ Wire Wire Line
 Wire Wire Line
 	9050 3950 9000 3950
 $Comp
-L Device:R R116
+L Device:R R?
 U 1 1 5CCB3D22
 P 9050 4200
 F 0 "R?" H 9120 4246 50  0000 L CNN
@@ -1004,7 +1004,7 @@ Wire Wire Line
 	9050 4050 9050 3950
 Connection ~ 9050 3950
 $Comp
-L Device:C C2
+L Device:C C?
 U 1 1 5CCC0663
 P 9500 3950
 F 0 "C?" V 9752 3950 50  0000 C CNN
@@ -1015,7 +1015,7 @@ F 3 "~" H 9500 3950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R117
+L Device:R R?
 U 1 1 5CCC06E9
 P 9900 3950
 F 0 "R?" V 10107 3950 50  0000 C CNN
@@ -1035,7 +1035,7 @@ Wire Wire Line
 	5900 3850 7900 3850
 Connection ~ 7900 3850
 $Comp
-L Connector_Generic:Conn_01x05 PL10
+L Connector_Generic:Conn_01x05 PL?
 U 1 1 5CCF233E
 P 10600 5050
 F 0 "PL?" V 10700 5100 50  0000 L CNN
@@ -1046,7 +1046,7 @@ F 3 "~" H 10600 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R22
+L Device:R R?
 U 1 1 5CCF4350
 P 9250 5050
 F 0 "R?" H 9320 5096 50  0000 L CNN
@@ -1057,7 +1057,7 @@ F 3 "~" H 9250 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R10
+L Device:R R?
 U 1 1 5CCF44A2
 P 9250 5450
 F 0 "R?" H 9320 5496 50  0000 L CNN
@@ -1068,7 +1068,7 @@ F 3 "~" H 9250 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R8
+L Device:R R?
 U 1 1 5CCF45BD
 P 8900 5850
 F 0 "R?" H 8970 5896 50  0000 L CNN
@@ -1079,7 +1079,7 @@ F 3 "~" H 8900 5850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C3
+L Device:C C?
 U 1 1 5CCF4705
 P 9250 5850
 F 0 "C?" H 9135 5804 50  0000 R CNN
@@ -1137,7 +1137,7 @@ Connection ~ 9250 5650
 Wire Wire Line
 	9250 5650 9250 5600
 $Comp
-L Jumper:Jumper_3_Bridged12 LK1
+L Jumper:Jumper_3_Bridged12 LK?
 U 1 1 5CD3D704
 P 8500 5650
 F 0 "LK?" H 8500 5854 50  0000 C CNN

@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 29
+Sheet 8 29
 Title "Acorn Master 128"
 Date "2019-03-30"
 Rev "1.0"
@@ -278,7 +278,7 @@ Text HLabel 950  3700 0    50   Input ~ 0
 4M
 Text HLabel 2400 3600 0    50   Input ~ 0
 DRAMEN
-Text HLabel 2100 2800 0    50   Input ~ 0
+Text HLabel 2100 2800 0    50   Output ~ 0
 phi2_in
 Wire Wire Line
 	1500 3500 1600 3500

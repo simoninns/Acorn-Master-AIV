@@ -364,10 +364,6 @@ Text Label 6850 2750 0    50   ~ 0
 A14
 Text Label 6850 2650 0    50   ~ 0
 A15
-Wire Bus Line
-	7100 4450 7100 5300
-Wire Bus Line
-	7100 2500 7100 4250
 $Comp
 L AcornMaster:+5VB #PWR?
 U 1 1 5D146EA8
@@ -390,4 +386,8 @@ F 3 "" H 6200 5500 50  0001 C CNN
 	1    6200 5500
 	1    0    0    -1  
 $EndComp
+Wire Bus Line
+	7100 4450 7100 5300
+Wire Bus Line
+	7100 2500 7100 4250
 $EndSCHEMATC
