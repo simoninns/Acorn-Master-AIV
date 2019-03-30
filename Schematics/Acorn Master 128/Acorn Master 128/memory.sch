@@ -4,8 +4,8 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 29
-Title "Acorn Master 128"
+Sheet 3 29
+Title "Acorn Master 128 - Memory"
 Date "2019-03-30"
 Rev "1.0"
 Comp "https://www.domesday86.com"
@@ -328,4 +328,22 @@ Wire Bus Line
 Connection ~ 7350 4150
 Text HLabel 8300 4150 2    50   Output ~ 0
 DMA[0..7]
+Wire Wire Line
+	6000 2950 6650 2950
+Connection ~ 6000 2950
+Text HLabel 6650 2950 2    50   Output ~ 0
+DRAMEN
+Wire Wire Line
+	6250 2450 6250 1450
+Wire Wire Line
+	6250 1450 3500 1450
+Connection ~ 6250 2450
+Text HLabel 3500 1450 0    50   Output ~ 0
+AT13
+Wire Wire Line
+	6450 2650 6450 1350
+Wire Wire Line
+	6450 1350 3500 1350
+Text HLabel 3500 1350 0    50   Output ~ 0
+AT15
 $EndSCHEMATC

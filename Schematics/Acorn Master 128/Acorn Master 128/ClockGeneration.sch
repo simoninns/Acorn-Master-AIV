@@ -4,8 +4,8 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 29 29
-Title "Acorn Master 128"
+Sheet 28 29
+Title "Acorn Master 128 - Clock generation"
 Date "2019-03-30"
 Rev "1.0"
 Comp "https://www.domesday86.com"

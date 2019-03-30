@@ -4,8 +4,8 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 19 29
-Title "Acorn Master 128"
+Sheet 23 29
+Title "Acorn Master 128 - Cartridge"
 Date "2019-03-30"
 Rev "1.0"
 Comp "https://www.domesday86.com"
@@ -272,8 +272,6 @@ Wire Wire Line
 	3100 3250 3350 3250
 Wire Wire Line
 	4600 3350 5100 3350
-Wire Wire Line
-	4200 3450 4300 3450
 Wire Wire Line
 	5950 1550 5950 4050
 Connection ~ 5950 1550
@@ -599,13 +597,11 @@ Text HLabel 4600 2950 0    50   Input ~ 0
 Text HLabel 4600 3050 0    50   Input ~ 0
 AA14
 Text HLabel 3550 3150 0    50   Input ~ 0
-16MHz
+16M
 Text HLabel 3100 3250 0    50   Input ~ 0
 CRTC~RST
 Text HLabel 4600 3350 0    50   Input ~ 0
 ANOUT
-Text HLabel 4200 3450 0    50   Input ~ 0
-AGND
 Text HLabel 4850 4150 0    50   Input ~ 0
 AT15
 $Comp
@@ -747,10 +743,9 @@ Connection ~ 2700 4900
 Text HLabel 2450 4900 0    50   Input ~ 0
 SPEECH
 Wire Wire Line
-	3150 4150 4300 4150
+	3150 4150 4050 4150
 Wire Wire Line
 	4300 4150 4300 3450
-Connection ~ 4300 3450
 Wire Wire Line
 	4300 3450 5050 3450
 Wire Wire Line
@@ -910,6 +905,19 @@ F 3 "" H 1900 2100 50  0001 C CNN
 	1    1900 2100
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:GNDA #PWR?
+U 1 1 5CC73EFC
+P 4050 4250
+F 0 "#PWR?" H 4050 4000 50  0001 C CNN
+F 1 "GNDA" H 4055 4077 50  0000 C CNN
+F 2 "" H 4050 4250 50  0001 C CNN
+F 3 "" H 4050 4250 50  0001 C CNN
+	1    4050 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 4250 4050 4150
 Wire Bus Line
 	7550 750  7550 1450
 Wire Bus Line
@@ -918,4 +926,7 @@ Wire Bus Line
 	8050 2650 8050 3350
 Wire Bus Line
 	8500 1150 8500 3900
+Connection ~ 4050 4150
+Wire Wire Line
+	4050 4150 4300 4150
 $EndSCHEMATC

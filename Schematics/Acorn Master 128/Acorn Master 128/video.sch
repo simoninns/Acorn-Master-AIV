@@ -4,8 +4,8 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 25 29
-Title "Acorn Master 128"
+Sheet 24 29
+Title "Acorn Master 128 - Video"
 Date "2019-03-30"
 Rev "1.0"
 Comp "https://www.domesday86.com"
@@ -74,13 +74,13 @@ F12 "1MHzE" I L 6250 5400 50
 F13 "DEN" I L 6250 4400 50 
 F14 "DMA[0..7]" I L 6250 5000 50 
 F15 "DRAMEN" I L 6250 5500 50 
-F16 "C0" O R 7250 5200 50 
-F17 "C1" O R 7250 5300 50 
-F18 "~PRST" I R 7250 5100 50 
-F19 "~RAS" O R 7250 5000 50 
-F20 "DISEN" O R 7250 4500 50 
-F21 "LOSE" O R 7250 4400 50 
-F22 "CRS" O R 7250 4800 50 
+F16 "~PRST" I R 7250 5100 50 
+F17 "~RAS" O R 7250 5000 50 
+F18 "DISEN" O R 7250 4500 50 
+F19 "LOSE" O R 7250 4400 50 
+F20 "CRS" O R 7250 4800 50 
+F21 "C0" I R 7250 5200 50 
+F22 "C1" I R 7250 5300 50 
 $EndSheet
 Wire Wire Line
 	6250 3300 5050 3300
@@ -145,9 +145,9 @@ Text HLabel 7450 5000 2    50   Output ~ 0
 ~RAS
 Text HLabel 7450 5100 2    50   Input ~ 0
 ~PRST
-Text HLabel 7450 5200 2    50   Output ~ 0
+Text HLabel 7450 5200 2    50   Input ~ 0
 C0
-Text HLabel 7450 5300 2    50   Output ~ 0
+Text HLabel 7450 5300 2    50   Input ~ 0
 C1
 Wire Wire Line
 	7250 5000 7450 5000

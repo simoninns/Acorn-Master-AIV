@@ -4,8 +4,8 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 24 29
-Title "Acorn Master 128"
+Sheet 18 29
+Title "Acorn Master 128 - Audio"
 Date "2019-03-30"
 Rev "1.0"
 Comp "https://www.domesday86.com"
@@ -86,7 +86,7 @@ Wire Wire Line
 Wire Wire Line
 	1250 1300 1050 1300
 Text HLabel 1050 1300 0    50   Input ~ 0
-4MHz
+4M
 Text HLabel 1050 1600 0    50   Input ~ 0
 76489WE
 Wire Wire Line

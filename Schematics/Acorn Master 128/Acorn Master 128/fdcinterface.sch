@@ -4,8 +4,8 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 21 29
-Title "Acorn Master 128"
+Sheet 15 29
+Title "Acorn Master 128 - Floppy Disc Controller"
 Date "2019-03-30"
 Rev "1.0"
 Comp "https://www.domesday86.com"
@@ -922,10 +922,6 @@ Text Label 8200 1200 0    50   ~ 0
 BD[0..7]
 Text HLabel 8650 1200 2    50   BiDi ~ 0
 BD[0..7]
-Wire Bus Line
-	8500 2350 8500 2700
-Wire Bus Line
-	8000 1200 8000 2250
 $Comp
 L AcornMaster:+5VC #PWR?
 U 1 1 5D1DD81D
@@ -1047,4 +1043,8 @@ F 3 "" H 6850 3650 50  0001 C CNN
 	1    6850 3650
 	1    0    0    -1  
 $EndComp
+Wire Bus Line
+	8500 2350 8500 2700
+Wire Bus Line
+	8000 1200 8000 2250
 $EndSCHEMATC

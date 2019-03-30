@@ -4,8 +4,8 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 16 29
-Title "Acorn Master 128"
+Sheet 22 29
+Title "Acorn Master 128 - Tube and 1MHz Bus"
 Date "2019-03-30"
 Rev "1.0"
 Comp "https://www.domesday86.com"
@@ -144,8 +144,8 @@ Wire Wire Line
 Wire Wire Line
 	1250 1100 1250 850 
 Text HLabel 1800 2000 2    50   Input ~ 0
-8MHz
-Text HLabel 1800 2100 2    50   Input ~ 0
+8M
+Text HLabel 1800 2100 2    50   Output ~ 0
 ~IRQ
 Wire Wire Line
 	1000 2450 1000 3700
@@ -240,7 +240,7 @@ Text HLabel 1400 5200 2    50   Input ~ 0
 ~INTUBE
 Text HLabel 1400 5300 2    50   Input ~ 0
 ~RST
-Text HLabel 1400 5400 2    50   Output ~ 0
+Text HLabel 1400 5400 2    50   Input ~ 0
 phi2_in
 Text HLabel 1400 5800 2    50   Input ~ 0
 BRnW
@@ -509,7 +509,7 @@ Wire Wire Line
 Wire Wire Line
 	9500 1600 9500 1500
 Text HLabel 10100 2800 2    50   Input ~ 0
-4MHz
+4M
 Wire Wire Line
 	10100 2800 10000 2800
 Text HLabel 8050 1400 0    50   Output ~ 0

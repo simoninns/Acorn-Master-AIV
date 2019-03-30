@@ -5,7 +5,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 10 29
-Title "Acorn Master 128"
+Title "Acorn Master 128 - Address Bus Multiplexer"
 Date "2019-03-30"
 Rev "1.0"
 Comp "https://www.domesday86.com"
@@ -245,9 +245,9 @@ Text HLabel 4550 3650 0    50   Output ~ 0
 Text HLabel 4550 3750 0    50   Output ~ 0
 ~SERPROC
 Text HLabel 4550 3850 0    50   Output ~ 0
-~VIA(A)
+~VIAA
 Text HLabel 4550 3950 0    50   Output ~ 0
-~VIA(B)
+~VIAB
 Text HLabel 4550 4050 0    50   Output ~ 0
 ~MODEM
 Text HLabel 4550 4150 0    50   Output ~ 0

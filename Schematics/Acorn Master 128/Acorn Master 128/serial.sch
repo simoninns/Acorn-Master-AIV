@@ -4,8 +4,8 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 26 29
-Title "Acorn Master 128"
+Sheet 20 29
+Title "Acorn Master 128 - Serial Interface"
 Date "2019-03-30"
 Rev "1.0"
 Comp "https://www.domesday86.com"
@@ -646,8 +646,6 @@ Wire Wire Line
 Wire Wire Line
 	5450 4850 5250 4850
 Connection ~ 8500 1550
-Wire Bus Line
-	1250 1300 1250 4200
 $Comp
 L AcornMaster:+5VB #PWR?
 U 1 1 5D17DBD0
@@ -802,4 +800,6 @@ F 3 "" H 9450 2300 50  0001 C CNN
 	1    9450 2300
 	1    0    0    -1  
 $EndComp
+Wire Bus Line
+	1250 1300 1250 4200
 $EndSCHEMATC

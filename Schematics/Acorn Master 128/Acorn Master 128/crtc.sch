@@ -4,8 +4,8 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 29 29
-Title "Acorn Master 128"
+Sheet 27 29
+Title "Acorn Master 128 - CRT Controller"
 Date "2019-03-30"
 Rev "1.0"
 Comp "https://www.domesday86.com"
@@ -747,9 +747,9 @@ Wire Wire Line
 	5200 1200 4850 1200
 Text HLabel 4850 1200 0    50   Input ~ 0
 DRAMEN
-Text HLabel 6700 2200 2    50   Output ~ 0
+Text HLabel 6700 2200 2    50   Input ~ 0
 C0
-Text HLabel 6700 2300 2    50   Output ~ 0
+Text HLabel 6700 2300 2    50   Input ~ 0
 C1
 Wire Wire Line
 	6300 5700 6800 5700

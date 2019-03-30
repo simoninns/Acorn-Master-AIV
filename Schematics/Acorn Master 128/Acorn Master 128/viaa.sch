@@ -4,8 +4,8 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 24 29
-Title "Acorn Master 128"
+Sheet 16 29
+Title "Acorn Master 128 - VIA A"
 Date "2019-03-30"
 Rev "1.0"
 Comp "https://www.domesday86.com"
@@ -559,9 +559,7 @@ Wire Wire Line
 Wire Wire Line
 	3900 3050 3150 3050
 Wire Wire Line
-	7200 4050 6900 4050
-Text Label 6900 4050 0    50   ~ 0
-BAT
+	7200 4050 6950 4050
 Wire Wire Line
 	7200 4250 4500 4250
 Wire Wire Line
@@ -571,21 +569,21 @@ Wire Wire Line
 Wire Wire Line
 	7600 1850 7600 2100
 Wire Wire Line
-	7600 4600 7100 4600
+	7600 4600 7150 4600
 Wire Wire Line
-	7100 4600 7100 4350
+	7150 4600 7150 4350
 Wire Wire Line
-	7100 4350 7200 4350
+	7150 4350 7200 4350
 Wire Wire Line
 	6500 1750 7700 1750
 Wire Wire Line
 	7700 1750 7700 4700
 Wire Wire Line
-	7700 4700 7000 4700
+	7700 4700 7050 4700
 Wire Wire Line
-	7000 4700 7000 4450
+	7050 4700 7050 4450
 Wire Wire Line
-	7000 4450 7200 4450
+	7050 4450 7200 4450
 Wire Wire Line
 	7100 1450 7100 3150
 Text HLabel 6750 1150 2    50   Output ~ 0
@@ -712,8 +710,6 @@ R7
 Wire Wire Line
 	5100 4900 4800 4900
 Wire Wire Line
-	5100 5000 4800 5000
-Wire Wire Line
 	5100 5100 4800 5100
 Wire Wire Line
 	5100 5200 4800 5200
@@ -741,8 +737,6 @@ Wire Wire Line
 	5100 6300 4800 6300
 Text Label 4850 4900 0    50   ~ 0
 C6
-Text Label 4850 5000 0    50   ~ 0
-BAT
 Text Label 4850 5100 0    50   ~ 0
 R0
 Text Label 4850 5200 0    50   ~ 0
@@ -1178,6 +1172,19 @@ F 3 "" H 2550 7400 50  0001 C CNN
 	1    2550 7400
 	1    0    0    -1  
 $EndComp
+Text HLabel 6900 4050 0    50   Input ~ 0
+BAT
+Wire Wire Line
+	6950 4050 6950 4700
+Wire Wire Line
+	6950 4700 4600 4700
+Wire Wire Line
+	4600 4700 4600 5000
+Wire Wire Line
+	4600 5000 5100 5000
+Connection ~ 6950 4050
+Wire Wire Line
+	6950 4050 6900 4050
 Wire Bus Line
 	3700 1050 3700 1450
 Wire Bus Line
