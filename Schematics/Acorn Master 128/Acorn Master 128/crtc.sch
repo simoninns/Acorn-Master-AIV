@@ -445,7 +445,7 @@ Text Label 3050 2450 0    50   ~ 0
 MA[0..13]
 Text Label 3800 5150 0    50   ~ 0
 RA[0..3]
-Text HLabel 3600 5150 0    50   Output ~ 0
+Text HLabel 3600 5150 0    50   Input ~ 0
 RA[0..3]
 Text HLabel 2900 2450 0    50   Input ~ 0
 MA[0..13]
@@ -500,12 +500,6 @@ Wire Wire Line
 	6400 2300 6400 2200
 Wire Wire Line
 	6400 5050 6400 4950
-Wire Bus Line
-	4450 4350 4450 5150
-Wire Bus Line
-	8050 2300 8050 3300
-Wire Bus Line
-	3550 2450 3550 4100
 $Comp
 L AcornMaster:+5VB #PWR?
 U 1 1 5D238CC1
@@ -528,4 +522,10 @@ F 3 "" H 6400 5050 50  0001 C CNN
 	1    6400 5050
 	1    0    0    -1  
 $EndComp
+Wire Bus Line
+	4450 4350 4450 5150
+Wire Bus Line
+	8050 2300 8050 3300
+Wire Bus Line
+	3550 2450 3550 4100
 $EndSCHEMATC

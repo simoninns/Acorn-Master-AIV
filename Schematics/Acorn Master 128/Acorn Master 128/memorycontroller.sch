@@ -170,9 +170,9 @@ A9
 Text Label 6800 3500 0    50   ~ 0
 A8
 Text HLabel 5000 4800 0    50   Input ~ 0
-M2
+2M
 Text HLabel 5000 4900 0    50   Input ~ 0
-M8
+8M
 Wire Wire Line
 	5000 4800 5200 4800
 Wire Wire Line
@@ -286,12 +286,6 @@ Wire Wire Line
 	6300 3800 6600 3800
 Wire Wire Line
 	6300 3900 6600 3900
-Wire Bus Line
-	7100 2650 7100 3600
-Wire Bus Line
-	4350 2600 4350 3500
-Wire Bus Line
-	4350 3800 4350 4600
 $Comp
 L AcornMaster:+5VB #PWR?
 U 1 1 5D1FA32D
@@ -336,4 +330,10 @@ F 3 "" H 5700 5250 50  0001 C CNN
 	1    5700 5250
 	1    0    0    -1  
 $EndComp
+Wire Bus Line
+	7100 2650 7100 3600
+Wire Bus Line
+	4350 2600 4350 3500
+Wire Bus Line
+	4350 3800 4350 4600
 $EndSCHEMATC

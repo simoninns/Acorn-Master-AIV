@@ -1497,7 +1497,7 @@ Wire Wire Line
 Wire Wire Line
 	1300 6900 900  6900
 Text HLabel 900  6000 0    50   Input ~ 0
-16MHz
+16M
 Wire Wire Line
 	900  6000 1500 6000
 Wire Wire Line
@@ -1512,7 +1512,7 @@ Wire Wire Line
 Connection ~ 8800 6100
 Wire Wire Line
 	2450 1000 2450 2450
-Text HLabel 900  5150 0    50   Output ~ 0
+Text HLabel 900  5150 0    50   Input ~ 0
 HS
 Wire Wire Line
 	900  5150 1100 5150

@@ -413,71 +413,7 @@ Text HLabel 2550 5050 0    50   Input ~ 0
 Text HLabel 2550 5250 0    50   Input ~ 0
 ~CAS1
 Text HLabel 2550 5150 0    50   Input ~ 0
-~WE
-Text Label 2900 3500 0    50   ~ 0
-A0
-Text Label 2900 3600 0    50   ~ 0
-A1
-Text Label 2900 3700 0    50   ~ 0
-A2
-Text Label 2900 3800 0    50   ~ 0
-A3
-Text Label 2900 3900 0    50   ~ 0
-A4
-Text Label 2900 4000 0    50   ~ 0
-A5
-Text Label 2900 4100 0    50   ~ 0
-A6
-Text Label 2900 4200 0    50   ~ 0
-A7
-Text Label 4600 3500 0    50   ~ 0
-A0
-Text Label 4600 3600 0    50   ~ 0
-A1
-Text Label 4600 3700 0    50   ~ 0
-A2
-Text Label 4600 3800 0    50   ~ 0
-A3
-Text Label 4600 3900 0    50   ~ 0
-A4
-Text Label 4600 4000 0    50   ~ 0
-A5
-Text Label 4600 4100 0    50   ~ 0
-A6
-Text Label 4600 4200 0    50   ~ 0
-A7
-Text Label 6300 3500 0    50   ~ 0
-A0
-Text Label 6300 3600 0    50   ~ 0
-A1
-Text Label 6300 3700 0    50   ~ 0
-A2
-Text Label 6300 3800 0    50   ~ 0
-A3
-Text Label 6300 3900 0    50   ~ 0
-A4
-Text Label 6300 4000 0    50   ~ 0
-A5
-Text Label 6300 4100 0    50   ~ 0
-A6
-Text Label 6300 4200 0    50   ~ 0
-A7
-Text Label 8000 3500 0    50   ~ 0
-A0
-Text Label 8000 3600 0    50   ~ 0
-A1
-Text Label 8000 3700 0    50   ~ 0
-A2
-Text Label 8000 3800 0    50   ~ 0
-A3
-Text Label 8000 3900 0    50   ~ 0
-A4
-Text Label 8000 4000 0    50   ~ 0
-A5
-Text Label 8000 4100 0    50   ~ 0
-A6
-Text Label 8000 4200 0    50   ~ 0
-A7
+~W
 Text Label 9000 3500 0    50   ~ 0
 CD3
 Text Label 9000 3600 0    50   ~ 0
@@ -511,29 +447,13 @@ CD1
 Text Label 3900 3800 0    50   ~ 0
 CD0
 Text Label 3000 2550 0    50   ~ 0
-A[0..7]
+DMA[0..7]
 Text Label 3000 2700 0    50   ~ 0
-CD[0..3]
+CD[0..7]
 Text HLabel 2500 2550 0    50   Input ~ 0
-A[0..7]
+DMA[0..7]
 Text HLabel 2500 2700 0    50   BiDi ~ 0
-CD[0..3]
-Wire Bus Line
-	5850 2700 5850 3900
-Wire Bus Line
-	7550 2700 7550 3900
-Wire Bus Line
-	9250 2700 9250 3900
-Wire Bus Line
-	4150 2700 4150 3900
-Wire Bus Line
-	4450 2550 4450 4100
-Wire Bus Line
-	6150 2550 6150 4100
-Wire Bus Line
-	7850 2550 7850 4100
-Wire Bus Line
-	2750 2550 2750 4100
+CD[0..7]
 $Comp
 L AcornMaster:+5VB #PWR?
 U 1 1 5D1ED822
@@ -622,4 +542,84 @@ F 3 "" H 8550 4600 50  0001 C CNN
 	1    8550 4600
 	1    0    0    -1  
 $EndComp
+Wire Bus Line
+	5850 2700 5850 3900
+Wire Bus Line
+	7550 2700 7550 3900
+Wire Bus Line
+	9250 2700 9250 3900
+Wire Bus Line
+	4150 2700 4150 3900
+Wire Bus Line
+	4450 2550 4450 4100
+Wire Bus Line
+	6150 2550 6150 4100
+Wire Bus Line
+	7850 2550 7850 4100
+Wire Bus Line
+	2750 2550 2750 4100
+Text Label 2850 3500 0    50   ~ 0
+DMA6
+Text Label 2850 3600 0    50   ~ 0
+DMA5
+Text Label 2850 3700 0    50   ~ 0
+DMA4
+Text Label 2850 3800 0    50   ~ 0
+DMA3
+Text Label 2850 3900 0    50   ~ 0
+DMA2
+Text Label 2850 4000 0    50   ~ 0
+DMA1
+Text Label 2850 4100 0    50   ~ 0
+DMA0
+Text Label 2850 4200 0    50   ~ 0
+DMA7
+Text Label 4550 3500 0    50   ~ 0
+DMA6
+Text Label 4550 3600 0    50   ~ 0
+DMA5
+Text Label 4550 3700 0    50   ~ 0
+DMA4
+Text Label 4550 3800 0    50   ~ 0
+DMA3
+Text Label 4550 3900 0    50   ~ 0
+DMA2
+Text Label 4550 4000 0    50   ~ 0
+DMA1
+Text Label 4550 4100 0    50   ~ 0
+DMA0
+Text Label 4550 4200 0    50   ~ 0
+DMA7
+Text Label 6250 3500 0    50   ~ 0
+DMA6
+Text Label 6250 3600 0    50   ~ 0
+DMA5
+Text Label 6250 3700 0    50   ~ 0
+DMA4
+Text Label 6250 3800 0    50   ~ 0
+DMA3
+Text Label 6250 3900 0    50   ~ 0
+DMA2
+Text Label 6250 4000 0    50   ~ 0
+DMA1
+Text Label 6250 4100 0    50   ~ 0
+DMA0
+Text Label 6250 4200 0    50   ~ 0
+DMA7
+Text Label 7950 3500 0    50   ~ 0
+DMA6
+Text Label 7950 3600 0    50   ~ 0
+DMA5
+Text Label 7950 3700 0    50   ~ 0
+DMA4
+Text Label 7950 3800 0    50   ~ 0
+DMA3
+Text Label 7950 3900 0    50   ~ 0
+DMA2
+Text Label 7950 4000 0    50   ~ 0
+DMA1
+Text Label 7950 4100 0    50   ~ 0
+DMA0
+Text Label 7950 4200 0    50   ~ 0
+DMA7
 $EndSCHEMATC

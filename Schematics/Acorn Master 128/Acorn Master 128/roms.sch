@@ -677,7 +677,7 @@ Wire Wire Line
 Text Label 3550 1700 0    50   ~ 0
 CD[0..7]
 Text Label 3550 1950 0    50   ~ 0
-A[0..13]
+A[0..15]
 Text Label 3550 2200 0    50   ~ 0
 RD[0..7]
 Wire Wire Line
@@ -764,7 +764,7 @@ CD[0..7]
 Text HLabel 3250 2200 0    50   BiDi ~ 0
 RD[0..7]
 Text HLabel 3250 1950 0    50   Input ~ 0
-A[0..13]
+A[0..15]
 Wire Wire Line
 	5200 4250 4800 4250
 Wire Wire Line
@@ -827,22 +827,6 @@ Wire Wire Line
 	6600 5550 6750 5550
 Wire Wire Line
 	6750 5550 6750 5500
-Wire Bus Line
-	6200 2200 6200 3350
-Wire Bus Line
-	9250 2200 9250 3350
-Wire Bus Line
-	7700 2200 7700 3350
-Wire Bus Line
-	4750 2200 4750 3350
-Wire Bus Line
-	8000 1950 8000 3750
-Wire Bus Line
-	6450 1950 6450 3750
-Wire Bus Line
-	4950 1950 4950 3750
-Wire Bus Line
-	3500 1950 3500 3750
 $Comp
 L AcornMaster:+5VB #PWR?
 U 1 1 5D1E93C9
@@ -898,4 +882,20 @@ F 3 "" H 2500 4300 50  0001 C CNN
 	1    2500 4300
 	1    0    0    -1  
 $EndComp
+Wire Bus Line
+	6200 2200 6200 3350
+Wire Bus Line
+	9250 2200 9250 3350
+Wire Bus Line
+	7700 2200 7700 3350
+Wire Bus Line
+	4750 2200 4750 3350
+Wire Bus Line
+	8000 1950 8000 3750
+Wire Bus Line
+	6450 1950 6450 3750
+Wire Bus Line
+	4950 1950 4950 3750
+Wire Bus Line
+	3500 1950 3500 3750
 $EndSCHEMATC

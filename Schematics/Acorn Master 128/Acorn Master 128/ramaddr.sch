@@ -333,23 +333,11 @@ Connection ~ 2400 2100
 Text Label 2700 2300 0    50   ~ 0
 DMA[0..7]
 Text Label 2700 2100 0    50   ~ 0
-A[0..13]
+A[0..15]
 Text HLabel 2100 2300 0    50   Output ~ 0
 DMA[0..7]
 Text HLabel 2100 2100 0    50   Input ~ 0
-A[0..13]
-Wire Bus Line
-	4600 2300 4600 3900
-Wire Bus Line
-	7300 2300 7300 3900
-Wire Bus Line
-	2400 2100 2400 4000
-Wire Bus Line
-	9900 2300 9900 4100
-Wire Bus Line
-	5050 2100 5050 3800
-Wire Bus Line
-	8100 2100 8100 4000
+A[0..15]
 $Comp
 L AcornMaster:+5VB #PWR?
 U 1 1 5D1F1934
@@ -416,4 +404,16 @@ F 3 "" H 9000 4750 50  0001 C CNN
 	1    9000 4750
 	1    0    0    -1  
 $EndComp
+Wire Bus Line
+	4600 2300 4600 3900
+Wire Bus Line
+	7300 2300 7300 3900
+Wire Bus Line
+	2400 2100 2400 4000
+Wire Bus Line
+	9900 2300 9900 4100
+Wire Bus Line
+	5050 2100 5050 3800
+Wire Bus Line
+	8100 2100 8100 4000
 $EndSCHEMATC

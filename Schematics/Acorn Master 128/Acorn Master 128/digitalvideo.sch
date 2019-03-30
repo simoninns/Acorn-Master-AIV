@@ -108,7 +108,7 @@ Wire Bus Line
 	3600 4250 3150 4250
 Text Label 3200 4250 0    50   ~ 0
 CD[0..7]
-Text HLabel 3150 4250 0    50   Input ~ 0
+Text HLabel 3150 4250 0    50   BiDi ~ 0
 CD[0..7]
 Wire Wire Line
 	7750 3450 6700 3450
@@ -225,7 +225,7 @@ Wire Wire Line
 Wire Wire Line
 	7750 3250 7400 3250
 Text HLabel 7400 3250 0    50   Input ~ 0
-6MHz
+6M
 Wire Wire Line
 	7750 3850 7200 3850
 Wire Wire Line
@@ -272,7 +272,7 @@ Wire Bus Line
 	7100 5400 7700 5400
 Text Label 7200 5400 0    50   ~ 0
 BD[0..7]
-Text HLabel 7700 5400 2    50   Input ~ 0
+Text HLabel 7700 5400 2    50   BiDi ~ 0
 BD[0..7]
 $Comp
 L Device:R R56
@@ -469,8 +469,6 @@ Wire Wire Line
 Wire Wire Line
 	3700 1950 3700 1850
 Wire Wire Line
-	4400 3050 3200 3050
-Wire Wire Line
 	3200 3050 3200 1950
 Connection ~ 3200 1950
 Wire Wire Line
@@ -485,10 +483,6 @@ Text Notes 2850 3150 0    50   ~ 0
 NF
 Text Notes 2100 2750 0    50   ~ 0
 NF
-Wire Bus Line
-	7100 3750 7100 5400
-Wire Bus Line
-	3600 3450 3600 4250
 $Comp
 L AcornMaster:+5VB #PWR?
 U 1 1 5D236682
@@ -588,4 +582,10 @@ F 3 "" H 8250 5050 50  0001 C CNN
 	1    8250 5050
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3200 3050 4450 3050
+Wire Bus Line
+	7100 3750 7100 5400
+Wire Bus Line
+	3600 3450 3600 4250
 $EndSCHEMATC
