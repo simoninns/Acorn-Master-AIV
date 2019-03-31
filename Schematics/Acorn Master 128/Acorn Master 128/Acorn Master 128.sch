@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 29
+Sheet 1 30
 Title "Acorn Master 128"
 Date "2019-03-30"
 Rev "1.0"
@@ -916,8 +916,14 @@ Text Label 7400 4450 0    50   ~ 0
 DMA[0..7]
 Wire Wire Line
 	6050 4750 5700 4750
-Wire Bus Line
-	5250 1700 5250 4650
 Text Label 5700 4750 2    50   ~ 0
 ~RAS
+$Sheet
+S 4950 6550 850  1100
+U 5CEB514A
+F0 "Decoupling" 50
+F1 "decoupling.sch" 50
+$EndSheet
+Wire Bus Line
+	5250 1700 5250 4650
 $EndSCHEMATC

@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 28 29
+Sheet 28 30
 Title "Acorn Master 128 - Clock generation"
 Date "2019-03-30"
 Rev "1.0"
