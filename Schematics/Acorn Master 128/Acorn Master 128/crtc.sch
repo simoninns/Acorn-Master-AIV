@@ -103,10 +103,10 @@ F 3 "~" H 4600 4100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP6
+L Connector:TestPoint TP8
 U 1 1 5C9E1CE5
 P 4400 4000
-F 0 "TP6" V 4400 4300 50  0000 C CNN
+F 0 "TP8" V 4400 4300 50  0000 C CNN
 F 1 "TestPoint" V 4400 4600 50  0000 C CNN
 F 2 "" H 4600 4000 50  0001 C CNN
 F 3 "~" H 4600 4000 50  0001 C CNN

@@ -222,45 +222,16 @@ Wire Wire Line
 Wire Wire Line
 	4300 4700 3950 4700
 $Comp
-L 74xx:74LS02 IC39
-U 5 1 5C9DBF56
-P 9200 3200
-F 0 "IC39" H 9400 3550 50  0000 C CNN
-F 1 "74LS02" H 9200 3200 50  0000 C CNN
-F 2 "" H 9200 3200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 9200 3200 50  0001 C CNN
-	5    9200 3200
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	9200 2700 9200 2650
-Wire Wire Line
-	9200 3700 9200 3750
-$Comp
 L 74xx:74LS14 IC19
 U 7 1 5C9DC9EA
-P 9800 3200
-F 0 "IC19" H 9600 3550 50  0000 C CNN
-F 1 "74LS14" H 9800 3200 50  0000 C CNN
-F 2 "" H 9800 3200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS14" H 9800 3200 50  0001 C CNN
-	7    9800 3200
+P 9200 3200
+F 0 "IC19" H 9000 3550 50  0000 C CNN
+F 1 "74LS14" H 9200 3200 50  0000 C CNN
+F 2 "" H 9200 3200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS14" H 9200 3200 50  0001 C CNN
+	7    9200 3200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9800 2700 9800 2650
-Wire Wire Line
-	9800 2650 9200 2650
-Connection ~ 9200 2650
-Wire Wire Line
-	9200 2650 9200 2600
-Wire Wire Line
-	9800 3700 9800 3750
-Wire Wire Line
-	9800 3750 9200 3750
-Connection ~ 9200 3750
-Wire Wire Line
-	9200 3750 9200 3800
 $Comp
 L AcornMaster:+5VB #PWR0331
 U 1 1 5D1411FF
@@ -338,4 +309,8 @@ F 3 "" H 4750 5250 50  0001 C CNN
 	1    4750 5250
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	9200 2600 9200 2700
+Wire Wire Line
+	9200 3700 9200 3800
 $EndSCHEMATC

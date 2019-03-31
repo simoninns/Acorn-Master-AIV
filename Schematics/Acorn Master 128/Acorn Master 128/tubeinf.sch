@@ -26,10 +26,10 @@ F 3 "~" H 750 1500 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x12 SK1A
+L Connector_Generic:Conn_01x12 SKA1
 U 1 1 5D04724D
 P 750 2950
-F 0 "SK1A" H 670 3667 50  0000 C CNN
+F 0 "SKA1" H 670 3667 50  0000 C CNN
 F 1 "Internal Tube" H 670 3576 50  0000 C CNN
 F 2 "" H 750 2950 50  0001 C CNN
 F 3 "~" H 750 2950 50  0001 C CNN
