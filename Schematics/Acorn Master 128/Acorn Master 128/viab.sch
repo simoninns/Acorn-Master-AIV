@@ -536,7 +536,7 @@ Text HLabel 8200 3500 2    50   Input ~ 0
 1MHzE
 Text HLabel 8200 3400 2    50   Input ~ 0
 BRnW
-Text HLabel 8200 3700 2    50   Input ~ 0
+Text HLabel 8200 3700 2    50   Output ~ 0
 ~IRQ
 Wire Wire Line
 	8050 3400 8200 3400

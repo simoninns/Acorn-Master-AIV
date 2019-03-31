@@ -346,7 +346,7 @@ Text HLabel 5650 3150 2    50   Output ~ 0
 G
 Text HLabel 5650 3250 2    50   Output ~ 0
 B
-Text HLabel 5650 3650 2    50   Output ~ 0
+Text HLabel 5650 3650 2    50   Input ~ 0
 CURSOR
 Text HLabel 5650 3750 2    50   Output ~ 0
 CRTCK
@@ -386,7 +386,7 @@ Wire Wire Line
 Wire Wire Line
 	5550 3550 5550 4650
 Wire Wire Line
-	5550 4650 5900 4650
+	5550 4650 5800 4650
 $Comp
 L Diode:1N4001 D14
 U 1 1 5D48ECF4
@@ -584,6 +584,25 @@ F 3 "" H 8250 5050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3200 3050 4450 3050
+$Comp
+L power:PWR_FLAG #FLG0121
+U 1 1 5CE2A27D
+P 5800 4500
+F 0 "#FLG0121" H 5800 4575 50  0001 C CNN
+F 1 "PWR_FLAG" H 5800 4674 50  0000 C CNN
+F 2 "" H 5800 4500 50  0001 C CNN
+F 3 "~" H 5800 4500 50  0001 C CNN
+	1    5800 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 4500 5800 4650
+Connection ~ 5800 4650
+Wire Wire Line
+	5800 4650 5900 4650
+NoConn ~ 8750 3950
+NoConn ~ 8750 4150
+NoConn ~ 8750 4250
 Wire Bus Line
 	7100 3750 7100 5400
 Wire Bus Line

@@ -468,7 +468,7 @@ Text HLabel 6800 5800 2    50   Input ~ 0
 RnW
 Text HLabel 6800 5900 2    50   Input ~ 0
 1MHzE
-Text HLabel 6800 6100 2    50   Input ~ 0
+Text HLabel 6800 6100 2    50   Output ~ 0
 DEN
 Wire Wire Line
 	6300 5200 6800 5200
@@ -755,7 +755,7 @@ Wire Wire Line
 	6300 5700 6800 5700
 Text HLabel 6700 2050 2    50   Input ~ 0
 ~PRST
-Text HLabel 6700 2550 2    50   Output ~ 0
+Text HLabel 6700 2550 2    50   Input ~ 0
 ~RAS
 Text HLabel 6700 2650 2    50   Output ~ 0
 DISEN

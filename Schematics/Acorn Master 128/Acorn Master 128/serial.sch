@@ -802,6 +802,10 @@ Wire Wire Line
 	7100 1150 7200 1150
 Wire Wire Line
 	7200 1150 7200 1050
+Text HLabel 2400 4450 0    50   Input ~ 0
+A0
+Wire Wire Line
+	2400 4450 2550 4450
 Wire Bus Line
 	1250 1300 1250 4200
 $EndSCHEMATC

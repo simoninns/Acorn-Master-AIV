@@ -154,7 +154,7 @@ Wire Wire Line
 Wire Wire Line
 	5700 4750 7600 4750
 Wire Wire Line
-	5700 4850 7600 4850
+	5700 4850 6650 4850
 Wire Wire Line
 	5700 4950 7600 4950
 Wire Wire Line
@@ -346,4 +346,13 @@ Wire Wire Line
 	6450 1350 3500 1350
 Text HLabel 3500 1350 0    50   Output ~ 0
 AT15
+Wire Wire Line
+	6650 4850 6650 4450
+Wire Wire Line
+	6650 4450 6700 4450
+Connection ~ 6650 4850
+Wire Wire Line
+	6650 4850 7600 4850
+Text HLabel 6700 4450 2    50   Output ~ 0
+~RAS
 $EndSCHEMATC
