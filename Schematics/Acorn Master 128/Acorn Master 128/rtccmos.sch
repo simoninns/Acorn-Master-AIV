@@ -544,8 +544,6 @@ Text Notes 5550 2200 0    50   ~ 0
 NF
 Text Notes 4750 2050 0    50   ~ 0
 NF
-Text Notes 3050 3800 0    50   ~ 0
-Pin 16 of IC11 is missing from the original\nAcorn schematics... needs to be traced by\nhand from the PCB
 $Comp
 L Device:Q_PJFET_DGS Q4
 U 1 1 5CAFA72F
@@ -645,6 +643,7 @@ F 3 "" H 6250 5800 50  0001 C CNN
 	1    6250 5800
 	1    0    0    -1  
 $EndComp
+NoConn ~ 5750 4600
 Wire Bus Line
 	7150 4900 7150 5600
 $EndSCHEMATC
