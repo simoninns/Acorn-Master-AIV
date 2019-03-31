@@ -887,8 +887,8 @@ Text Label 9300 6100 2    50   ~ 0
 AT13
 Wire Wire Line
 	9750 5500 9300 5500
-Wire Bus Line
-	5250 1700 5250 4650
 Text Label 9300 5500 2    50   ~ 0
 CRTC~RST
+Wire Bus Line
+	5250 1700 5250 4650
 $EndSCHEMATC

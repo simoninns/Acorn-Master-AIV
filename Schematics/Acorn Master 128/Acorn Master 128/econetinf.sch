@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector_Generic:Conn_01x19 SK?
+L Connector_Generic:Conn_01x19 SK5
 U 1 1 5D4D4863
 P 2500 3900
-F 0 "SK?" H 2420 5017 50  0000 C CNN
+F 0 "SK5" H 2420 5017 50  0000 C CNN
 F 1 "Econet Module" H 2420 4926 50  0000 C CNN
 F 2 "" H 2500 3900 50  0001 C CNN
 F 3 "~" H 2500 3900 50  0001 C CNN
@@ -146,10 +146,10 @@ A[0..15]
 Text HLabel 4350 4800 2    50   BiDi ~ 0
 CD[0..7]
 $Comp
-L Connector_Generic:Conn_01x05 SK?
+L Connector_Generic:Conn_01x05 SK6
 U 1 1 5D4D5B20
 P 6250 4200
-F 0 "SK?" H 6170 3775 50  0000 C CNN
+F 0 "SK6" H 6170 3775 50  0000 C CNN
 F 1 "Econet Module" H 6170 3866 50  0000 C CNN
 F 2 "" H 6250 4200 50  0001 C CNN
 F 3 "~" H 6250 4200 50  0001 C CNN
@@ -161,10 +161,10 @@ Wire Wire Line
 Wire Wire Line
 	6550 4200 6550 4500
 $Comp
-L Connector_Generic:Conn_02x06_Row_Letter_First SIL?
+L Connector_Generic:Conn_02x06_Row_Letter_First SIL2
 U 1 1 5D4D66AB
 P 7450 3250
-F 0 "SIL?" H 7500 2725 50  0000 C CNN
+F 0 "SIL2" H 7500 2725 50  0000 C CNN
 F 1 "NF" H 7500 2816 50  0000 C CNN
 F 2 "" H 7450 3250 50  0001 C CNN
 F 3 "~" H 7450 3250 50  0001 C CNN
@@ -250,10 +250,10 @@ Wire Wire Line
 	8250 3350 7750 3350
 Connection ~ 6950 4400
 $Comp
-L Connector:DIN-5_180degree SK?
+L Connector:DIN-5_180degree SK7
 U 1 1 5D4DDC0A
 P 9250 3350
-F 0 "SK?" H 9250 3076 50  0000 C CNN
+F 0 "SK7" H 9250 3076 50  0000 C CNN
 F 1 "ECONET" H 9250 2985 50  0000 C CNN
 F 2 "" H 9250 3350 50  0001 C CNN
 F 3 "http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf" H 9250 3350 50  0001 C CNN

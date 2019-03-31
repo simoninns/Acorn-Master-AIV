@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector_Generic:Conn_01x12 SK?
+L Connector_Generic:Conn_01x12 SK1
 U 1 1 5D047195
 P 750 1500
-F 0 "SK?" H 670 2217 50  0000 C CNN
+F 0 "SK1" H 670 2217 50  0000 C CNN
 F 1 "Internal Tube" H 670 2126 50  0000 C CNN
 F 2 "" H 750 1500 50  0001 C CNN
 F 3 "~" H 750 1500 50  0001 C CNN
@@ -26,10 +26,10 @@ F 3 "~" H 750 1500 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x12 SK1A?
+L Connector_Generic:Conn_01x12 SK1A
 U 1 1 5D04724D
 P 750 2950
-F 0 "SK1A?" H 670 3667 50  0000 C CNN
+F 0 "SK1A" H 670 3667 50  0000 C CNN
 F 1 "Internal Tube" H 670 3576 50  0000 C CNN
 F 2 "" H 750 2950 50  0001 C CNN
 F 3 "~" H 750 2950 50  0001 C CNN
@@ -189,10 +189,10 @@ CD[0..7]
 Text HLabel 2950 900  2    50   BiDi ~ 0
 CD[0..7]
 $Comp
-L Connector_Generic:Conn_01x12 SK?
+L Connector_Generic:Conn_01x12 SK2
 U 1 1 5D05087A
 P 750 5200
-F 0 "SK?" H 670 5917 50  0000 C CNN
+F 0 "SK2" H 670 5917 50  0000 C CNN
 F 1 "Internal Tube" H 670 5826 50  0000 C CNN
 F 2 "" H 750 5200 50  0001 C CNN
 F 3 "~" H 750 5200 50  0001 C CNN
@@ -263,10 +263,10 @@ A[0..15]
 Text HLabel 2600 4550 2    50   Input ~ 0
 A[0..15]
 $Comp
-L 74xx:74LS373 IC?
+L 74xx:74LS373 IC7
 U 1 1 5D05CA9B
 P 9500 2400
-F 0 "IC?" H 9750 3050 50  0000 C CNN
+F 0 "IC7" H 9750 3050 50  0000 C CNN
 F 1 "74LS373" V 9500 2350 50  0000 C CNN
 F 2 "" H 9500 2400 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS373" H 9500 2400 50  0001 C CNN
@@ -274,10 +274,10 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS373" H 9500 2400 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:R_Network08 RP?
+L Device:R_Network08 RP2
 U 1 1 5D05DD9B
 P 9650 4500
-F 0 "RP?" H 10030 4546 50  0000 L CNN
+F 0 "RP2" H 10030 4546 50  0000 L CNN
 F 1 "2K2" H 10030 4455 50  0000 L CNN
 F 2 "Resistor_THT:R_Array_SIP9" V 10125 4500 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 9650 4500 50  0001 C CNN
@@ -285,10 +285,10 @@ F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 9650 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Network08 RP?
+L Device:R_Network08 RP1
 U 1 1 5D05DDE9
 P 9550 5800
-F 0 "RP?" H 9070 5754 50  0000 R CNN
+F 0 "RP1" H 9070 5754 50  0000 R CNN
 F 1 "2K2" H 9070 5845 50  0000 R CNN
 F 2 "Resistor_THT:R_Array_SIP9" V 10025 5800 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 9550 5800 50  0001 C CNN
@@ -515,10 +515,10 @@ Wire Wire Line
 Text HLabel 8050 1400 0    50   Output ~ 0
 BA[0..7]
 $Comp
-L Connector_Generic:Conn_02x20_Odd_Even PL?
+L Connector_Generic:Conn_02x20_Odd_Even PL6
 U 1 1 5D0ACD37
 P 5800 2200
-F 0 "PL?" H 5850 975 50  0000 C CNN
+F 0 "PL6" H 5850 975 50  0000 C CNN
 F 1 "TUBE" H 5850 1066 50  0000 C CNN
 F 2 "" H 5800 2200 50  0001 C CNN
 F 3 "~" H 5800 2200 50  0001 C CNN
@@ -734,10 +734,10 @@ phi2_out
 Wire Wire Line
 	4450 3000 4550 3000
 $Comp
-L Device:R R?
+L Device:R R122
 U 1 1 5D180F16
 P 4550 2800
-F 0 "R?" H 4620 2846 50  0000 L CNN
+F 0 "R122" H 4620 2846 50  0000 L CNN
 F 1 "1K" H 4620 2755 50  0000 L CNN
 F 2 "" V 4480 2800 50  0001 C CNN
 F 3 "~" H 4550 2800 50  0001 C CNN
@@ -775,10 +775,10 @@ Text Label 5350 2900 0    50   ~ 0
 Text Label 1600 2100 0    50   ~ 0
 ~IRQ
 $Comp
-L Connector_Generic:Conn_02x17_Odd_Even PL?
+L Connector_Generic:Conn_02x17_Odd_Even PL5
 U 1 1 5D1BC61F
 P 4300 5500
-F 0 "PL?" H 4350 4475 50  0000 C CNN
+F 0 "PL5" H 4350 4475 50  0000 C CNN
 F 1 "1MHz Bus" H 4350 4566 50  0000 C CNN
 F 2 "" H 4300 5500 50  0001 C CNN
 F 3 "~" H 4300 5500 50  0001 C CNN
@@ -977,10 +977,10 @@ Wire Wire Line
 Text Label 3650 6300 0    50   ~ 0
 EXTRnW
 $Comp
-L Connector_Generic:Conn_01x20 PL?
+L Connector_Generic:Conn_01x20 PL12
 U 1 1 5D3CD090
 P 6100 5000
-F 0 "PL?" H 6020 6117 50  0000 C CNN
+F 0 "PL12" H 6020 6117 50  0000 C CNN
 F 1 "Int 1MHz Bus" H 6020 6026 50  0000 C CNN
 F 2 "" H 6100 5000 50  0001 C CNN
 F 3 "~" H 6100 5000 50  0001 C CNN
