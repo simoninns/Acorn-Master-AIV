@@ -1,0 +1,19 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Keyswitch
+#
+DEF Keyswitch SW 0 0 N N 1 F N
+F0 "SW" 150 100 50 H V C CNN
+F1 "Keyswitch" 250 0 50 H V C CNN
+F2 "" -100 0 50 H I C CNN
+F3 "" -100 0 50 H I C CNN
+DRAW
+C 450 100 0 0 1 0 N
+P 2 0 1 0 50 50 0 -50 N
+X 1 1 -100 0 100 R 50 50 1 1 P
+X 2 2 50 150 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

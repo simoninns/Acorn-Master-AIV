@@ -1,0 +1,1852 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Acorn Master Keyboard"
+Date "2019-03-31"
+Rev "1.0"
+Comp "https://www.domesday86.com"
+Comment1 "(c)2019 Simon Inns"
+Comment2 "License: Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L AcornKeyswitch:Keyswitch SW1
+U 1 1 5CA0B061
+P 2750 3600
+F 0 "SW1" H 2850 3700 50  0000 L CNN
+F 1 "ESCAPE" H 2850 3600 50  0000 L CNN
+F 2 "" H 2650 3600 50  0001 C CNN
+F 3 "" H 2650 3600 50  0001 C CNN
+	1    2750 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 3600 2650 3050
+Wire Wire Line
+	2150 3450 2800 3450
+Wire Wire Line
+	2800 3450 3350 3450
+Connection ~ 2800 3450
+$Comp
+L AcornKeyswitch:Keyswitch SW9
+U 1 1 5CA0B10B
+P 3300 3600
+F 0 "SW9" H 3400 3700 50  0000 L CNN
+F 1 "f1" H 3400 3600 50  0000 L CNN
+F 2 "" H 3200 3600 50  0001 C CNN
+F 3 "" H 3200 3600 50  0001 C CNN
+	1    3300 3600
+	1    0    0    -1  
+$EndComp
+Connection ~ 3350 3450
+Wire Wire Line
+	3350 3450 3900 3450
+$Comp
+L AcornKeyswitch:Keyswitch SW18
+U 1 1 5CA0B133
+P 3850 3600
+F 0 "SW18" H 3950 3700 50  0000 L CNN
+F 1 "f2" H 3950 3600 50  0000 L CNN
+F 2 "" H 3750 3600 50  0001 C CNN
+F 3 "" H 3750 3600 50  0001 C CNN
+	1    3850 3600
+	1    0    0    -1  
+$EndComp
+Connection ~ 3900 3450
+Wire Wire Line
+	3900 3450 4450 3450
+$Comp
+L AcornKeyswitch:Keyswitch SW25
+U 1 1 5CA0B15F
+P 4400 3600
+F 0 "SW25" H 4500 3700 50  0000 L CNN
+F 1 "f3" H 4500 3600 50  0000 L CNN
+F 2 "" H 4300 3600 50  0001 C CNN
+F 3 "" H 4300 3600 50  0001 C CNN
+	1    4400 3600
+	1    0    0    -1  
+$EndComp
+Connection ~ 4450 3450
+Wire Wire Line
+	4450 3450 5000 3450
+$Comp
+L AcornKeyswitch:Keyswitch SW32
+U 1 1 5CA0B18F
+P 4950 3600
+F 0 "SW32" H 5050 3700 50  0000 L CNN
+F 1 "f5" H 5050 3600 50  0000 L CNN
+F 2 "" H 4850 3600 50  0001 C CNN
+F 3 "" H 4850 3600 50  0001 C CNN
+	1    4950 3600
+	1    0    0    -1  
+$EndComp
+Connection ~ 5000 3450
+Wire Wire Line
+	3200 3050 3200 3600
+Wire Wire Line
+	3750 3600 3750 3050
+Wire Wire Line
+	4300 3600 4300 3050
+Wire Wire Line
+	4850 3600 4850 3050
+$Comp
+L AcornKeyswitch:Keyswitch SW39
+U 1 1 5CA0CC0C
+P 5500 3600
+F 0 "SW39" H 5600 3700 50  0000 L CNN
+F 1 "f6" H 5600 3600 50  0000 L CNN
+F 2 "" H 5400 3600 50  0001 C CNN
+F 3 "" H 5400 3600 50  0001 C CNN
+	1    5500 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 3600 5400 3050
+$Comp
+L AcornKeyswitch:Keyswitch SW47
+U 1 1 5CA0CC14
+P 6050 3600
+F 0 "SW47" H 6150 3700 50  0000 L CNN
+F 1 "f8" H 6150 3600 50  0000 L CNN
+F 2 "" H 5950 3600 50  0001 C CNN
+F 3 "" H 5950 3600 50  0001 C CNN
+	1    6050 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L AcornKeyswitch:Keyswitch SW54
+U 1 1 5CA0CC1B
+P 6600 3600
+F 0 "SW54" H 6700 3700 50  0000 L CNN
+F 1 "f9" H 6700 3600 50  0000 L CNN
+F 2 "" H 6500 3600 50  0001 C CNN
+F 3 "" H 6500 3600 50  0001 C CNN
+	1    6600 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L AcornKeyswitch:Keyswitch SW61
+U 1 1 5CA0CC22
+P 7150 3600
+F 0 "SW61" H 7250 3700 50  0000 L CNN
+F 1 "|  \\" H 7250 3600 50  0000 L CNN
+F 2 "" H 7050 3600 50  0001 C CNN
+F 3 "" H 7050 3600 50  0001 C CNN
+	1    7150 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L AcornKeyswitch:Keyswitch SW68
+U 1 1 5CA0CC29
+P 7700 3600
+F 0 "SW68" H 7800 3700 50  0000 L CNN
+F 1 "Left" H 7800 3600 50  0000 L CNN
+F 2 "" H 7600 3600 50  0001 C CNN
+F 3 "" H 7600 3600 50  0001 C CNN
+	1    7700 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 3050 5950 3600
+Wire Wire Line
+	6500 3600 6500 3050
+Wire Wire Line
+	7050 3600 7050 3050
+Wire Wire Line
+	7600 3600 7600 3050
+$Comp
+L AcornKeyswitch:Keyswitch SW75
+U 1 1 5CA0D6A2
+P 8250 3600
+F 0 "SW75" H 8350 3700 50  0000 L CNN
+F 1 "4 (NKP)" H 8350 3600 50  0000 L CNN
+F 2 "" H 8150 3600 50  0001 C CNN
+F 3 "" H 8150 3600 50  0001 C CNN
+	1    8250 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 3600 8150 3050
+$Comp
+L AcornKeyswitch:Keyswitch SW82
+U 1 1 5CA0D88B
+P 8800 3600
+F 0 "SW82" H 8900 3700 50  0000 L CNN
+F 1 "5 (NKP)" H 8900 3600 50  0000 L CNN
+F 2 "" H 8700 3600 50  0001 C CNN
+F 3 "" H 8700 3600 50  0001 C CNN
+	1    8800 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 3600 8700 3050
+Wire Wire Line
+	5000 3450 5550 3450
+Wire Wire Line
+	5550 3450 6100 3450
+Connection ~ 5550 3450
+Wire Wire Line
+	6100 3450 6650 3450
+Connection ~ 6100 3450
+Wire Wire Line
+	6650 3450 7200 3450
+Connection ~ 6650 3450
+Wire Wire Line
+	7200 3450 7750 3450
+Connection ~ 7200 3450
+Wire Wire Line
+	7750 3450 8300 3450
+Connection ~ 7750 3450
+Wire Wire Line
+	8300 3450 8850 3450
+Connection ~ 8300 3450
+Connection ~ 8850 3450
+$Comp
+L AcornKeyswitch:Keyswitch SW2
+U 1 1 5CA0E570
+P 2750 3950
+F 0 "SW2" H 2850 4050 50  0000 L CNN
+F 1 "TAB" H 2850 3950 50  0000 L CNN
+F 2 "" H 2650 3950 50  0001 C CNN
+F 3 "" H 2650 3950 50  0001 C CNN
+	1    2750 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 3950 2650 3600
+Wire Wire Line
+	2150 3800 2800 3800
+Wire Wire Line
+	2800 3800 3350 3800
+Connection ~ 2800 3800
+$Comp
+L AcornKeyswitch:Keyswitch SW10
+U 1 1 5CA0E57A
+P 3300 3950
+F 0 "SW10" H 3400 4050 50  0000 L CNN
+F 1 "Z" H 3400 3950 50  0000 L CNN
+F 2 "" H 3200 3950 50  0001 C CNN
+F 3 "" H 3200 3950 50  0001 C CNN
+	1    3300 3950
+	1    0    0    -1  
+$EndComp
+Connection ~ 3350 3800
+Wire Wire Line
+	3350 3800 3900 3800
+$Comp
+L AcornKeyswitch:Keyswitch SW19
+U 1 1 5CA0E582
+P 3850 3950
+F 0 "SW19" H 3950 4050 50  0000 L CNN
+F 1 "SPACE" H 3950 3950 50  0000 L CNN
+F 2 "" H 3750 3950 50  0001 C CNN
+F 3 "" H 3750 3950 50  0001 C CNN
+	1    3850 3950
+	1    0    0    -1  
+$EndComp
+Connection ~ 3900 3800
+Wire Wire Line
+	3900 3800 4450 3800
+$Comp
+L AcornKeyswitch:Keyswitch SW26
+U 1 1 5CA0E58A
+P 4400 3950
+F 0 "SW26" H 4500 4050 50  0000 L CNN
+F 1 "V" H 4500 3950 50  0000 L CNN
+F 2 "" H 4300 3950 50  0001 C CNN
+F 3 "" H 4300 3950 50  0001 C CNN
+	1    4400 3950
+	1    0    0    -1  
+$EndComp
+Connection ~ 4450 3800
+Wire Wire Line
+	4450 3800 5000 3800
+$Comp
+L AcornKeyswitch:Keyswitch SW33
+U 1 1 5CA0E592
+P 4950 3950
+F 0 "SW33" H 5050 4050 50  0000 L CNN
+F 1 "B" H 5050 3950 50  0000 L CNN
+F 2 "" H 4850 3950 50  0001 C CNN
+F 3 "" H 4850 3950 50  0001 C CNN
+	1    4950 3950
+	1    0    0    -1  
+$EndComp
+Connection ~ 5000 3800
+Wire Wire Line
+	3200 3600 3200 3950
+Wire Wire Line
+	3750 3950 3750 3600
+Wire Wire Line
+	4300 3950 4300 3600
+Wire Wire Line
+	4850 3950 4850 3600
+$Comp
+L AcornKeyswitch:Keyswitch SW40
+U 1 1 5CA0E59D
+P 5500 3950
+F 0 "SW40" H 5600 4050 50  0000 L CNN
+F 1 "M" H 5600 3950 50  0000 L CNN
+F 2 "" H 5400 3950 50  0001 C CNN
+F 3 "" H 5400 3950 50  0001 C CNN
+	1    5500 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 3950 5400 3600
+$Comp
+L AcornKeyswitch:Keyswitch SW48
+U 1 1 5CA0E5A4
+P 6050 3950
+F 0 "SW48" H 6150 4050 50  0000 L CNN
+F 1 "<" H 6150 3950 50  0000 L CNN
+F 2 "" H 5950 3950 50  0001 C CNN
+F 3 "" H 5950 3950 50  0001 C CNN
+	1    6050 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L AcornKeyswitch:Keyswitch SW55
+U 1 1 5CA0E5AA
+P 6600 3950
+F 0 "SW55" H 6700 4050 50  0000 L CNN
+F 1 "> ," H 6700 3950 50  0000 L CNN
+F 2 "" H 6500 3950 50  0001 C CNN
+F 3 "" H 6500 3950 50  0001 C CNN
+	1    6600 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L AcornKeyswitch:Keyswitch SW62
+U 1 1 5CA0E5B0
+P 7150 3950
+F 0 "SW62" H 7250 4050 50  0000 L CNN
+F 1 "? /" H 7250 3950 50  0000 L CNN
+F 2 "" H 7050 3950 50  0001 C CNN
+F 3 "" H 7050 3950 50  0001 C CNN
+	1    7150 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L AcornKeyswitch:Keyswitch SW69
+U 1 1 5CA0E5B6
+P 7700 3950
+F 0 "SW69" H 7800 4050 50  0000 L CNN
+F 1 "COPY" H 7800 3950 50  0000 L CNN
+F 2 "" H 7600 3950 50  0001 C CNN
+F 3 "" H 7600 3950 50  0001 C CNN
+	1    7700 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 3600 5950 3950
+Wire Wire Line
+	6500 3950 6500 3600
+Wire Wire Line
+	7050 3950 7050 3600
+Wire Wire Line
+	7600 3950 7600 3600
+$Comp
+L AcornKeyswitch:Keyswitch SW76
+U 1 1 5CA0E5C0
+P 8250 3950
+F 0 "SW76" H 8350 4050 50  0000 L CNN
+F 1 "0 (NKP)" H 8350 3950 50  0000 L CNN
+F 2 "" H 8150 3950 50  0001 C CNN
+F 3 "" H 8150 3950 50  0001 C CNN
+	1    8250 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 3950 8150 3600
+$Comp
+L AcornKeyswitch:Keyswitch SW83
+U 1 1 5CA0E5C7
+P 8800 3950
+F 0 "SW83" H 8900 4050 50  0000 L CNN
+F 1 "1 (NKP)" H 8900 3950 50  0000 L CNN
+F 2 "" H 8700 3950 50  0001 C CNN
+F 3 "" H 8700 3950 50  0001 C CNN
+	1    8800 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 3950 8700 3600
+Wire Wire Line
+	5000 3800 5550 3800
+Wire Wire Line
+	5550 3800 6100 3800
+Connection ~ 5550 3800
+Wire Wire Line
+	6100 3800 6650 3800
+Connection ~ 6100 3800
+Wire Wire Line
+	6650 3800 7200 3800
+Connection ~ 6650 3800
+Wire Wire Line
+	7200 3800 7750 3800
+Connection ~ 7200 3800
+Wire Wire Line
+	7750 3800 8300 3800
+Connection ~ 7750 3800
+Wire Wire Line
+	8300 3800 8850 3800
+Connection ~ 8300 3800
+Connection ~ 8850 3800
+Connection ~ 2650 3600
+Connection ~ 3200 3600
+Connection ~ 3750 3600
+Connection ~ 4300 3600
+Connection ~ 4850 3600
+Connection ~ 5400 3600
+Connection ~ 5950 3600
+Connection ~ 6500 3600
+Connection ~ 7050 3600
+Connection ~ 7600 3600
+Connection ~ 8150 3600
+Connection ~ 8700 3600
+$Comp
+L AcornKeyswitch:Keyswitch SW3
+U 1 1 5CA19A24
+P 2750 4300
+F 0 "SW3" H 2850 4400 50  0000 L CNN
+F 1 "SHIFT Lk" H 2850 4300 50  0000 L CNN
+F 2 "" H 2650 4300 50  0001 C CNN
+F 3 "" H 2650 4300 50  0001 C CNN
+	1    2750 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 4300 2650 3950
+Wire Wire Line
+	2150 4150 2800 4150
+Wire Wire Line
+	2800 4150 3350 4150
+Connection ~ 2800 4150
+$Comp
+L AcornKeyswitch:Keyswitch SW11
+U 1 1 5CA19A2E
+P 3300 4300
+F 0 "SW11" H 3400 4400 50  0000 L CNN
+F 1 "S" H 3400 4300 50  0000 L CNN
+F 2 "" H 3200 4300 50  0001 C CNN
+F 3 "" H 3200 4300 50  0001 C CNN
+	1    3300 4300
+	1    0    0    -1  
+$EndComp
+Connection ~ 3350 4150
+Wire Wire Line
+	3350 4150 3900 4150
+$Comp
+L AcornKeyswitch:Keyswitch SW20
+U 1 1 5CA19A36
+P 3850 4300
+F 0 "SW20" H 3950 4400 50  0000 L CNN
+F 1 "C" H 3950 4300 50  0000 L CNN
+F 2 "" H 3750 4300 50  0001 C CNN
+F 3 "" H 3750 4300 50  0001 C CNN
+	1    3850 4300
+	1    0    0    -1  
+$EndComp
+Connection ~ 3900 4150
+Wire Wire Line
+	3900 4150 4450 4150
+$Comp
+L AcornKeyswitch:Keyswitch SW27
+U 1 1 5CA19A3E
+P 4400 4300
+F 0 "SW27" H 4500 4400 50  0000 L CNN
+F 1 "G" H 4500 4300 50  0000 L CNN
+F 2 "" H 4300 4300 50  0001 C CNN
+F 3 "" H 4300 4300 50  0001 C CNN
+	1    4400 4300
+	1    0    0    -1  
+$EndComp
+Connection ~ 4450 4150
+Wire Wire Line
+	4450 4150 5000 4150
+$Comp
+L AcornKeyswitch:Keyswitch SW34
+U 1 1 5CA19A46
+P 4950 4300
+F 0 "SW34" H 5050 4400 50  0000 L CNN
+F 1 "H" H 5050 4300 50  0000 L CNN
+F 2 "" H 4850 4300 50  0001 C CNN
+F 3 "" H 4850 4300 50  0001 C CNN
+	1    4950 4300
+	1    0    0    -1  
+$EndComp
+Connection ~ 5000 4150
+Wire Wire Line
+	3200 3950 3200 4300
+Wire Wire Line
+	3750 4300 3750 3950
+Wire Wire Line
+	4300 4300 4300 3950
+Wire Wire Line
+	4850 4300 4850 3950
+$Comp
+L AcornKeyswitch:Keyswitch SW41
+U 1 1 5CA19A51
+P 5500 4300
+F 0 "SW41" H 5600 4400 50  0000 L CNN
+F 1 "N" H 5600 4300 50  0000 L CNN
+F 2 "" H 5400 4300 50  0001 C CNN
+F 3 "" H 5400 4300 50  0001 C CNN
+	1    5500 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 4300 5400 3950
+$Comp
+L AcornKeyswitch:Keyswitch SW49
+U 1 1 5CA19A58
+P 6050 4300
+F 0 "SW49" H 6150 4400 50  0000 L CNN
+F 1 "L" H 6150 4300 50  0000 L CNN
+F 2 "" H 5950 4300 50  0001 C CNN
+F 3 "" H 5950 4300 50  0001 C CNN
+	1    6050 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L AcornKeyswitch:Keyswitch SW56
+U 1 1 5CA19A5E
+P 6600 4300
+F 0 "SW56" H 6700 4400 50  0000 L CNN
+F 1 "+ ;" H 6700 4300 50  0000 L CNN
+F 2 "" H 6500 4300 50  0001 C CNN
+F 3 "" H 6500 4300 50  0001 C CNN
+	1    6600 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L AcornKeyswitch:Keyswitch SW63
+U 1 1 5CA19A64
+P 7150 4300
+F 0 "SW63" H 7250 4400 50  0000 L CNN
+F 1 "} ]" H 7250 4300 50  0000 L CNN
+F 2 "" H 7050 4300 50  0001 C CNN
+F 3 "" H 7050 4300 50  0001 C CNN
+	1    7150 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L AcornKeyswitch:Keyswitch SW70
+U 1 1 5CA19A6A
+P 7700 4300
+F 0 "SW70" H 7800 4400 50  0000 L CNN
+F 1 "DELETE" H 7800 4300 50  0000 L CNN
+F 2 "" H 7600 4300 50  0001 C CNN
+F 3 "" H 7600 4300 50  0001 C CNN
+	1    7700 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 3950 5950 4300
+Wire Wire Line
+	6500 4300 6500 3950
+Wire Wire Line
+	7050 4300 7050 3950
+Wire Wire Line
+	7600 4300 7600 3950
+$Comp
+L AcornKeyswitch:Keyswitch SW77
+U 1 1 5CA19A74
+P 8250 4300
+F 0 "SW77" H 8350 4400 50  0000 L CNN
+F 1 "# (NKP)" H 8350 4300 50  0000 L CNN
+F 2 "" H 8150 4300 50  0001 C CNN
+F 3 "" H 8150 4300 50  0001 C CNN
+	1    8250 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 4300 8150 3950
+$Comp
+L AcornKeyswitch:Keyswitch SW84
+U 1 1 5CA19A7B
+P 8800 4300
+F 0 "SW84" H 8900 4400 50  0000 L CNN
+F 1 "* (NKP)" H 8900 4300 50  0000 L CNN
+F 2 "" H 8700 4300 50  0001 C CNN
+F 3 "" H 8700 4300 50  0001 C CNN
+	1    8800 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 4300 8700 3950
+Wire Wire Line
+	5000 4150 5550 4150
+Wire Wire Line
+	5550 4150 6100 4150
+Connection ~ 5550 4150
+Wire Wire Line
+	6100 4150 6650 4150
+Connection ~ 6100 4150
+Wire Wire Line
+	6650 4150 7200 4150
+Connection ~ 6650 4150
+Wire Wire Line
+	7200 4150 7750 4150
+Connection ~ 7200 4150
+Wire Wire Line
+	7750 4150 8300 4150
+Connection ~ 7750 4150
+Wire Wire Line
+	8300 4150 8850 4150
+Connection ~ 8300 4150
+Connection ~ 8850 4150
+Connection ~ 2650 3950
+Connection ~ 3200 3950
+Connection ~ 3750 3950
+Connection ~ 4300 3950
+Connection ~ 4850 3950
+Connection ~ 5400 3950
+Connection ~ 5950 3950
+Connection ~ 6500 3950
+Connection ~ 7050 3950
+Connection ~ 7600 3950
+Connection ~ 8150 3950
+Connection ~ 8700 3950
+$Comp
+L AcornKeyswitch:Keyswitch SW4
+U 1 1 5CA1C302
+P 2750 4650
+F 0 "SW4" H 2850 4750 50  0000 L CNN
+F 1 "CAPS Lk" H 2850 4650 50  0000 L CNN
+F 2 "" H 2650 4650 50  0001 C CNN
+F 3 "" H 2650 4650 50  0001 C CNN
+	1    2750 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 4650 2650 4300
+Wire Wire Line
+	2150 4500 2800 4500
+Wire Wire Line
+	2800 4500 3350 4500
+Connection ~ 2800 4500
+$Comp
+L AcornKeyswitch:Keyswitch SW12
+U 1 1 5CA1C30C
+P 3300 4650
+F 0 "SW12" H 3400 4750 50  0000 L CNN
+F 1 "A" H 3400 4650 50  0000 L CNN
+F 2 "" H 3200 4650 50  0001 C CNN
+F 3 "" H 3200 4650 50  0001 C CNN
+	1    3300 4650
+	1    0    0    -1  
+$EndComp
+Connection ~ 3350 4500
+Wire Wire Line
+	3350 4500 3900 4500
+$Comp
+L AcornKeyswitch:Keyswitch SW21
+U 1 1 5CA1C314
+P 3850 4650
+F 0 "SW21" H 3950 4750 50  0000 L CNN
+F 1 "X" H 3950 4650 50  0000 L CNN
+F 2 "" H 3750 4650 50  0001 C CNN
+F 3 "" H 3750 4650 50  0001 C CNN
+	1    3850 4650
+	1    0    0    -1  
+$EndComp
+Connection ~ 3900 4500
+Wire Wire Line
+	3900 4500 4450 4500
+$Comp
+L AcornKeyswitch:Keyswitch SW28
+U 1 1 5CA1C31C
+P 4400 4650
+F 0 "SW28" H 4500 4750 50  0000 L CNN
+F 1 "F" H 4500 4650 50  0000 L CNN
+F 2 "" H 4300 4650 50  0001 C CNN
+F 3 "" H 4300 4650 50  0001 C CNN
+	1    4400 4650
+	1    0    0    -1  
+$EndComp
+Connection ~ 4450 4500
+Wire Wire Line
+	4450 4500 5000 4500
+$Comp
+L AcornKeyswitch:Keyswitch SW35
+U 1 1 5CA1C324
+P 4950 4650
+F 0 "SW35" H 5050 4750 50  0000 L CNN
+F 1 "Y" H 5050 4650 50  0000 L CNN
+F 2 "" H 4850 4650 50  0001 C CNN
+F 3 "" H 4850 4650 50  0001 C CNN
+	1    4950 4650
+	1    0    0    -1  
+$EndComp
+Connection ~ 5000 4500
+Wire Wire Line
+	3200 4300 3200 4650
+Wire Wire Line
+	3750 4650 3750 4300
+Wire Wire Line
+	4300 4650 4300 4300
+Wire Wire Line
+	4850 4650 4850 4300
+$Comp
+L AcornKeyswitch:Keyswitch SW42
+U 1 1 5CA1C32F
+P 5500 4650
+F 0 "SW42" H 5600 4750 50  0000 L CNN
+F 1 "J" H 5600 4650 50  0000 L CNN
+F 2 "" H 5400 4650 50  0001 C CNN
+F 3 "" H 5400 4650 50  0001 C CNN
+	1    5500 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 4650 5400 4300
+$Comp
+L AcornKeyswitch:Keyswitch SW50
+U 1 1 5CA1C336
+P 6050 4650
+F 0 "SW50" H 6150 4750 50  0000 L CNN
+F 1 "K" H 6150 4650 50  0000 L CNN
+F 2 "" H 5950 4650 50  0001 C CNN
+F 3 "" H 5950 4650 50  0001 C CNN
+	1    6050 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L AcornKeyswitch:Keyswitch SW57
+U 1 1 5CA1C33C
+P 6600 4650
+F 0 "SW57" H 6700 4750 50  0000 L CNN
+F 1 "@" H 6700 4650 50  0000 L CNN
+F 2 "" H 6500 4650 50  0001 C CNN
+F 3 "" H 6500 4650 50  0001 C CNN
+	1    6600 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L AcornKeyswitch:Keyswitch SW64
+U 1 1 5CA1C342
+P 7150 4650
+F 0 "SW64" H 7250 4750 50  0000 L CNN
+F 1 "* :" H 7250 4650 50  0000 L CNN
+F 2 "" H 7050 4650 50  0001 C CNN
+F 3 "" H 7050 4650 50  0001 C CNN
+	1    7150 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L AcornKeyswitch:Keyswitch SW71
+U 1 1 5CA1C348
+P 7700 4650
+F 0 "SW71" H 7800 4750 50  0000 L CNN
+F 1 "RETURN" H 7800 4650 50  0000 L CNN
+F 2 "" H 7600 4650 50  0001 C CNN
+F 3 "" H 7600 4650 50  0001 C CNN
+	1    7700 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 4300 5950 4650
+Wire Wire Line
+	6500 4650 6500 4300
+Wire Wire Line
+	7050 4650 7050 4300
+Wire Wire Line
+	7600 4650 7600 4300
+$Comp
+L AcornKeyswitch:Keyswitch SW78
+U 1 1 5CA1C352
+P 8250 4650
+F 0 "SW78" H 8350 4750 50  0000 L CNN
+F 1 "/ (NKP)" H 8350 4650 50  0000 L CNN
+F 2 "" H 8150 4650 50  0001 C CNN
+F 3 "" H 8150 4650 50  0001 C CNN
+	1    8250 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 4650 8150 4300
+$Comp
+L AcornKeyswitch:Keyswitch SW85
+U 1 1 5CA1C359
+P 8800 4650
+F 0 "SW85" H 8900 4750 50  0000 L CNN
+F 1 "DEL (NKP)" H 8900 4650 50  0000 L CNN
+F 2 "" H 8700 4650 50  0001 C CNN
+F 3 "" H 8700 4650 50  0001 C CNN
+	1    8800 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 4650 8700 4300
+Wire Wire Line
+	5000 4500 5550 4500
+Wire Wire Line
+	5550 4500 6100 4500
+Connection ~ 5550 4500
+Wire Wire Line
+	6100 4500 6650 4500
+Connection ~ 6100 4500
+Wire Wire Line
+	6650 4500 7200 4500
+Connection ~ 6650 4500
+Wire Wire Line
+	7200 4500 7750 4500
+Connection ~ 7200 4500
+Wire Wire Line
+	7750 4500 8300 4500
+Connection ~ 7750 4500
+Wire Wire Line
+	8300 4500 8850 4500
+Connection ~ 8300 4500
+Connection ~ 8850 4500
+Connection ~ 2650 4300
+Connection ~ 3200 4300
+Connection ~ 3750 4300
+Connection ~ 4300 4300
+Connection ~ 4850 4300
+Connection ~ 5400 4300
+Connection ~ 5950 4300
+Connection ~ 6500 4300
+Connection ~ 7050 4300
+Connection ~ 7600 4300
+Connection ~ 8150 4300
+Connection ~ 8700 4300
+$Comp
+L AcornKeyswitch:Keyswitch SW5
+U 1 1 5CA20D08
+P 2750 5000
+F 0 "SW5" H 2850 5100 50  0000 L CNN
+F 1 "! 1" H 2850 5000 50  0000 L CNN
+F 2 "" H 2650 5000 50  0001 C CNN
+F 3 "" H 2650 5000 50  0001 C CNN
+	1    2750 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 5000 2650 4650
+Wire Wire Line
+	2150 4850 2800 4850
+Wire Wire Line
+	2800 4850 3350 4850
+Connection ~ 2800 4850
+$Comp
+L AcornKeyswitch:Keyswitch SW13
+U 1 1 5CA20D13
+P 3300 5000
+F 0 "SW13" H 3400 5100 50  0000 L CNN
+F 1 "\" 2" H 3400 5000 50  0000 L CNN
+F 2 "" H 3200 5000 50  0001 C CNN
+F 3 "" H 3200 5000 50  0001 C CNN
+	1    3300 5000
+	1    0    0    -1  
+$EndComp
+Connection ~ 3350 4850
+Wire Wire Line
+	3350 4850 3900 4850
+$Comp
+L AcornKeyswitch:Keyswitch SW22
+U 1 1 5CA20D1C
+P 3850 5000
+F 0 "SW22" H 3950 5100 50  0000 L CNN
+F 1 "D" H 3950 5000 50  0000 L CNN
+F 2 "" H 3750 5000 50  0001 C CNN
+F 3 "" H 3750 5000 50  0001 C CNN
+	1    3850 5000
+	1    0    0    -1  
+$EndComp
+Connection ~ 3900 4850
+Wire Wire Line
+	3900 4850 4450 4850
+$Comp
+L AcornKeyswitch:Keyswitch SW29
+U 1 1 5CA20D25
+P 4400 5000
+F 0 "SW29" H 4500 5100 50  0000 L CNN
+F 1 "R" H 4500 5000 50  0000 L CNN
+F 2 "" H 4300 5000 50  0001 C CNN
+F 3 "" H 4300 5000 50  0001 C CNN
+	1    4400 5000
+	1    0    0    -1  
+$EndComp
+Connection ~ 4450 4850
+Wire Wire Line
+	4450 4850 5000 4850
+$Comp
+L AcornKeyswitch:Keyswitch SW36
+U 1 1 5CA20D2E
+P 4950 5000
+F 0 "SW36" H 5050 5100 50  0000 L CNN
+F 1 "& 6" H 5050 5000 50  0000 L CNN
+F 2 "" H 4850 5000 50  0001 C CNN
+F 3 "" H 4850 5000 50  0001 C CNN
+	1    4950 5000
+	1    0    0    -1  
+$EndComp
+Connection ~ 5000 4850
+Wire Wire Line
+	3200 4650 3200 5000
+Wire Wire Line
+	3750 5000 3750 4650
+Wire Wire Line
+	4300 5000 4300 4650
+Wire Wire Line
+	4850 5000 4850 4650
+$Comp
+L AcornKeyswitch:Keyswitch SW43
+U 1 1 5CA20D3A
+P 5500 5000
+F 0 "SW43" H 5600 5100 50  0000 L CNN
+F 1 "U" H 5600 5000 50  0000 L CNN
+F 2 "" H 5400 5000 50  0001 C CNN
+F 3 "" H 5400 5000 50  0001 C CNN
+	1    5500 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 5000 5400 4650
+$Comp
+L AcornKeyswitch:Keyswitch SW51
+U 1 1 5CA20D42
+P 6050 5000
+F 0 "SW51" H 6150 5100 50  0000 L CNN
+F 1 "O" H 6150 5000 50  0000 L CNN
+F 2 "" H 5950 5000 50  0001 C CNN
+F 3 "" H 5950 5000 50  0001 C CNN
+	1    6050 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L AcornKeyswitch:Keyswitch SW58
+U 1 1 5CA20D49
+P 6600 5000
+F 0 "SW58" H 6700 5100 50  0000 L CNN
+F 1 "P" H 6700 5000 50  0000 L CNN
+F 2 "" H 6500 5000 50  0001 C CNN
+F 3 "" H 6500 5000 50  0001 C CNN
+	1    6600 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L AcornKeyswitch:Keyswitch SW65
+U 1 1 5CA20D50
+P 7150 5000
+F 0 "SW65" H 7250 5100 50  0000 L CNN
+F 1 "{ [" H 7250 5000 50  0000 L CNN
+F 2 "" H 7050 5000 50  0001 C CNN
+F 3 "" H 7050 5000 50  0001 C CNN
+	1    7150 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L AcornKeyswitch:Keyswitch SW72
+U 1 1 5CA20D57
+P 7700 5000
+F 0 "SW72" H 7800 5100 50  0000 L CNN
+F 1 "UP" H 7800 5000 50  0000 L CNN
+F 2 "" H 7600 5000 50  0001 C CNN
+F 3 "" H 7600 5000 50  0001 C CNN
+	1    7700 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 4650 5950 5000
+Wire Wire Line
+	6500 5000 6500 4650
+Wire Wire Line
+	7050 5000 7050 4650
+Wire Wire Line
+	7600 5000 7600 4650
+$Comp
+L AcornKeyswitch:Keyswitch SW79
+U 1 1 5CA20D62
+P 8250 5000
+F 0 "SW79" H 8350 5100 50  0000 L CNN
+F 1 "+ (NKP)" H 8350 5000 50  0000 L CNN
+F 2 "" H 8150 5000 50  0001 C CNN
+F 3 "" H 8150 5000 50  0001 C CNN
+	1    8250 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 5000 8150 4650
+$Comp
+L AcornKeyswitch:Keyswitch SW86
+U 1 1 5CA20D6A
+P 8800 5000
+F 0 "SW86" H 8900 5100 50  0000 L CNN
+F 1 "- (NKP)" H 8900 5000 50  0000 L CNN
+F 2 "" H 8700 5000 50  0001 C CNN
+F 3 "" H 8700 5000 50  0001 C CNN
+	1    8800 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 5000 8700 4650
+Wire Wire Line
+	5000 4850 5550 4850
+Wire Wire Line
+	5550 4850 6100 4850
+Connection ~ 5550 4850
+Wire Wire Line
+	6100 4850 6650 4850
+Connection ~ 6100 4850
+Wire Wire Line
+	6650 4850 7200 4850
+Connection ~ 6650 4850
+Wire Wire Line
+	7200 4850 7750 4850
+Connection ~ 7200 4850
+Wire Wire Line
+	7750 4850 8300 4850
+Connection ~ 7750 4850
+Wire Wire Line
+	8300 4850 8850 4850
+Connection ~ 8300 4850
+Connection ~ 8850 4850
+$Comp
+L AcornKeyswitch:Keyswitch SW6
+U 1 1 5CA26907
+P 2750 5350
+F 0 "SW6" H 2850 5450 50  0000 L CNN
+F 1 "f0" H 2850 5350 50  0000 L CNN
+F 2 "" H 2650 5350 50  0001 C CNN
+F 3 "" H 2650 5350 50  0001 C CNN
+	1    2750 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 5350 2650 5000
+Wire Wire Line
+	2150 5200 2800 5200
+Wire Wire Line
+	2800 5200 3350 5200
+Connection ~ 2800 5200
+$Comp
+L AcornKeyswitch:Keyswitch SW14
+U 1 1 5CA26912
+P 3300 5350
+F 0 "SW14" H 3400 5450 50  0000 L CNN
+F 1 "W" H 3400 5350 50  0000 L CNN
+F 2 "" H 3200 5350 50  0001 C CNN
+F 3 "" H 3200 5350 50  0001 C CNN
+	1    3300 5350
+	1    0    0    -1  
+$EndComp
+Connection ~ 3350 5200
+Wire Wire Line
+	3350 5200 3900 5200
+$Comp
+L AcornKeyswitch:Keyswitch SW23
+U 1 1 5CA2691B
+P 3850 5350
+F 0 "SW23" H 3950 5450 50  0000 L CNN
+F 1 "E" H 3950 5350 50  0000 L CNN
+F 2 "" H 3750 5350 50  0001 C CNN
+F 3 "" H 3750 5350 50  0001 C CNN
+	1    3850 5350
+	1    0    0    -1  
+$EndComp
+Connection ~ 3900 5200
+Wire Wire Line
+	3900 5200 4450 5200
+$Comp
+L AcornKeyswitch:Keyswitch SW30
+U 1 1 5CA26924
+P 4400 5350
+F 0 "SW30" H 4500 5450 50  0000 L CNN
+F 1 "T" H 4500 5350 50  0000 L CNN
+F 2 "" H 4300 5350 50  0001 C CNN
+F 3 "" H 4300 5350 50  0001 C CNN
+	1    4400 5350
+	1    0    0    -1  
+$EndComp
+Connection ~ 4450 5200
+Wire Wire Line
+	4450 5200 5000 5200
+$Comp
+L AcornKeyswitch:Keyswitch SW37
+U 1 1 5CA2692D
+P 4950 5350
+F 0 "SW37" H 5050 5450 50  0000 L CNN
+F 1 "' 7" H 5050 5350 50  0000 L CNN
+F 2 "" H 4850 5350 50  0001 C CNN
+F 3 "" H 4850 5350 50  0001 C CNN
+	1    4950 5350
+	1    0    0    -1  
+$EndComp
+Connection ~ 5000 5200
+Wire Wire Line
+	3200 5000 3200 5350
+Wire Wire Line
+	3750 5350 3750 5000
+Wire Wire Line
+	4300 5350 4300 5000
+Wire Wire Line
+	4850 5350 4850 5000
+$Comp
+L AcornKeyswitch:Keyswitch SW44
+U 1 1 5CA26939
+P 5500 5350
+F 0 "SW44" H 5600 5450 50  0000 L CNN
+F 1 "I" H 5600 5350 50  0000 L CNN
+F 2 "" H 5400 5350 50  0001 C CNN
+F 3 "" H 5400 5350 50  0001 C CNN
+	1    5500 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 5350 5400 5000
+$Comp
+L AcornKeyswitch:Keyswitch SW52
+U 1 1 5CA26941
+P 6050 5350
+F 0 "SW52" H 6150 5450 50  0000 L CNN
+F 1 ") 9" H 6150 5350 50  0000 L CNN
+F 2 "" H 5950 5350 50  0001 C CNN
+F 3 "" H 5950 5350 50  0001 C CNN
+	1    6050 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L AcornKeyswitch:Keyswitch SW59
+U 1 1 5CA26948
+P 6600 5350
+F 0 "SW59" H 6700 5450 50  0000 L CNN
+F 1 "0" H 6700 5350 50  0000 L CNN
+F 2 "" H 6500 5350 50  0001 C CNN
+F 3 "" H 6500 5350 50  0001 C CNN
+	1    6600 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L AcornKeyswitch:Keyswitch SW66
+U 1 1 5CA2694F
+P 7150 5350
+F 0 "SW66" H 7250 5450 50  0000 L CNN
+F 1 "£ _" H 7250 5350 50  0000 L CNN
+F 2 "" H 7050 5350 50  0001 C CNN
+F 3 "" H 7050 5350 50  0001 C CNN
+	1    7150 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L AcornKeyswitch:Keyswitch SW73
+U 1 1 5CA26956
+P 7700 5350
+F 0 "SW73" H 7800 5450 50  0000 L CNN
+F 1 "DOWN" H 7800 5350 50  0000 L CNN
+F 2 "" H 7600 5350 50  0001 C CNN
+F 3 "" H 7600 5350 50  0001 C CNN
+	1    7700 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 5000 5950 5350
+Wire Wire Line
+	6500 5350 6500 5000
+Wire Wire Line
+	7050 5350 7050 5000
+Wire Wire Line
+	7600 5350 7600 5000
+$Comp
+L AcornKeyswitch:Keyswitch SW80
+U 1 1 5CA26961
+P 8250 5350
+F 0 "SW80" H 8350 5450 50  0000 L CNN
+F 1 "8 (NKP)" H 8350 5350 50  0000 L CNN
+F 2 "" H 8150 5350 50  0001 C CNN
+F 3 "" H 8150 5350 50  0001 C CNN
+	1    8250 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 5350 8150 5000
+$Comp
+L AcornKeyswitch:Keyswitch SW87
+U 1 1 5CA26969
+P 8800 5350
+F 0 "SW87" H 8900 5450 50  0000 L CNN
+F 1 "9 (NKP)" H 8900 5350 50  0000 L CNN
+F 2 "" H 8700 5350 50  0001 C CNN
+F 3 "" H 8700 5350 50  0001 C CNN
+	1    8800 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 5350 8700 5000
+Wire Wire Line
+	5000 5200 5550 5200
+Wire Wire Line
+	5550 5200 6100 5200
+Connection ~ 5550 5200
+Wire Wire Line
+	6100 5200 6650 5200
+Connection ~ 6100 5200
+Wire Wire Line
+	6650 5200 7200 5200
+Connection ~ 6650 5200
+Wire Wire Line
+	7200 5200 7750 5200
+Connection ~ 7200 5200
+Wire Wire Line
+	7750 5200 8300 5200
+Connection ~ 7750 5200
+Wire Wire Line
+	8300 5200 8850 5200
+Connection ~ 8300 5200
+Connection ~ 8850 5200
+$Comp
+L AcornKeyswitch:Keyswitch SW7
+U 1 1 5CA2E6E7
+P 2750 5700
+F 0 "SW7" H 2850 5800 50  0000 L CNN
+F 1 "Q" H 2850 5700 50  0000 L CNN
+F 2 "" H 2650 5700 50  0001 C CNN
+F 3 "" H 2650 5700 50  0001 C CNN
+	1    2750 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 5700 2650 5350
+Wire Wire Line
+	2150 5550 2800 5550
+Wire Wire Line
+	2800 5550 3350 5550
+Connection ~ 2800 5550
+$Comp
+L AcornKeyswitch:Keyswitch SW15
+U 1 1 5CA2E6F2
+P 3300 5700
+F 0 "SW15" H 3400 5800 50  0000 L CNN
+F 1 "# 3" H 3400 5700 50  0000 L CNN
+F 2 "" H 3200 5700 50  0001 C CNN
+F 3 "" H 3200 5700 50  0001 C CNN
+	1    3300 5700
+	1    0    0    -1  
+$EndComp
+Connection ~ 3350 5550
+Wire Wire Line
+	3350 5550 3900 5550
+$Comp
+L AcornKeyswitch:Keyswitch SW24
+U 1 1 5CA2E6FB
+P 3850 5700
+F 0 "SW24" H 3950 5800 50  0000 L CNN
+F 1 "$ 4" H 3950 5700 50  0000 L CNN
+F 2 "" H 3750 5700 50  0001 C CNN
+F 3 "" H 3750 5700 50  0001 C CNN
+	1    3850 5700
+	1    0    0    -1  
+$EndComp
+Connection ~ 3900 5550
+Wire Wire Line
+	3900 5550 4450 5550
+$Comp
+L AcornKeyswitch:Keyswitch SW31
+U 1 1 5CA2E704
+P 4400 5700
+F 0 "SW31" H 4500 5800 50  0000 L CNN
+F 1 "% 5" H 4500 5700 50  0000 L CNN
+F 2 "" H 4300 5700 50  0001 C CNN
+F 3 "" H 4300 5700 50  0001 C CNN
+	1    4400 5700
+	1    0    0    -1  
+$EndComp
+Connection ~ 4450 5550
+Wire Wire Line
+	4450 5550 5000 5550
+$Comp
+L AcornKeyswitch:Keyswitch SW38
+U 1 1 5CA2E70D
+P 4950 5700
+F 0 "SW38" H 5050 5800 50  0000 L CNN
+F 1 "f4" H 5050 5700 50  0000 L CNN
+F 2 "" H 4850 5700 50  0001 C CNN
+F 3 "" H 4850 5700 50  0001 C CNN
+	1    4950 5700
+	1    0    0    -1  
+$EndComp
+Connection ~ 5000 5550
+Wire Wire Line
+	3200 5350 3200 5700
+Wire Wire Line
+	3750 5700 3750 5350
+Wire Wire Line
+	4300 5700 4300 5350
+Wire Wire Line
+	4850 5700 4850 5350
+$Comp
+L AcornKeyswitch:Keyswitch SW45
+U 1 1 5CA2E719
+P 5500 5700
+F 0 "SW45" H 5600 5800 50  0000 L CNN
+F 1 "( 8" H 5600 5700 50  0000 L CNN
+F 2 "" H 5400 5700 50  0001 C CNN
+F 3 "" H 5400 5700 50  0001 C CNN
+	1    5500 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 5700 5400 5350
+$Comp
+L AcornKeyswitch:Keyswitch SW53
+U 1 1 5CA2E721
+P 6050 5700
+F 0 "SW53" H 6150 5800 50  0000 L CNN
+F 1 "f7" H 6150 5700 50  0000 L CNN
+F 2 "" H 5950 5700 50  0001 C CNN
+F 3 "" H 5950 5700 50  0001 C CNN
+	1    6050 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L AcornKeyswitch:Keyswitch SW60
+U 1 1 5CA2E728
+P 6600 5700
+F 0 "SW60" H 6700 5800 50  0000 L CNN
+F 1 "= -" H 6700 5700 50  0000 L CNN
+F 2 "" H 6500 5700 50  0001 C CNN
+F 3 "" H 6500 5700 50  0001 C CNN
+	1    6600 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L AcornKeyswitch:Keyswitch SW67
+U 1 1 5CA2E72F
+P 7150 5700
+F 0 "SW67" H 7250 5800 50  0000 L CNN
+F 1 "~~ ^" H 7250 5700 50  0000 L CNN
+F 2 "" H 7050 5700 50  0001 C CNN
+F 3 "" H 7050 5700 50  0001 C CNN
+	1    7150 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L AcornKeyswitch:Keyswitch SW74
+U 1 1 5CA2E736
+P 7700 5700
+F 0 "SW74" H 7800 5800 50  0000 L CNN
+F 1 "RIGHT" H 7800 5700 50  0000 L CNN
+F 2 "" H 7600 5700 50  0001 C CNN
+F 3 "" H 7600 5700 50  0001 C CNN
+	1    7700 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 5350 5950 5700
+Wire Wire Line
+	6500 5700 6500 5350
+Wire Wire Line
+	7050 5700 7050 5350
+Wire Wire Line
+	7600 5700 7600 5350
+$Comp
+L AcornKeyswitch:Keyswitch SW81
+U 1 1 5CA2E741
+P 8250 5700
+F 0 "SW81" H 8350 5800 50  0000 L CNN
+F 1 "6 (NKP)" H 8350 5700 50  0000 L CNN
+F 2 "" H 8150 5700 50  0001 C CNN
+F 3 "" H 8150 5700 50  0001 C CNN
+	1    8250 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 5700 8150 5350
+$Comp
+L AcornKeyswitch:Keyswitch SW88
+U 1 1 5CA2E749
+P 8800 5700
+F 0 "SW88" H 8900 5800 50  0000 L CNN
+F 1 "7 (NKP)" H 8900 5700 50  0000 L CNN
+F 2 "" H 8700 5700 50  0001 C CNN
+F 3 "" H 8700 5700 50  0001 C CNN
+	1    8800 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 5700 8700 5350
+Wire Wire Line
+	5000 5550 5550 5550
+Wire Wire Line
+	5550 5550 6100 5550
+Connection ~ 5550 5550
+Wire Wire Line
+	6100 5550 6650 5550
+Connection ~ 6100 5550
+Wire Wire Line
+	6650 5550 7200 5550
+Connection ~ 6650 5550
+Wire Wire Line
+	7200 5550 7750 5550
+Connection ~ 7200 5550
+Wire Wire Line
+	7750 5550 8300 5550
+Connection ~ 7750 5550
+Wire Wire Line
+	8300 5550 8850 5550
+Connection ~ 8300 5550
+Connection ~ 8850 5550
+$Comp
+L AcornKeyswitch:Keyswitch SW89
+U 1 1 5CA4F86D
+P 9350 3600
+F 0 "SW89" H 9450 3700 50  0000 L CNN
+F 1 "2 (NKP)" H 9450 3600 50  0000 L CNN
+F 2 "" H 9250 3600 50  0001 C CNN
+F 3 "" H 9250 3600 50  0001 C CNN
+	1    9350 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L AcornKeyswitch:Keyswitch SW90
+U 1 1 5CA4F933
+P 9350 3950
+F 0 "SW90" H 9450 4050 50  0000 L CNN
+F 1 "3 (NKP)" H 9450 3950 50  0000 L CNN
+F 2 "" H 9250 3950 50  0001 C CNN
+F 3 "" H 9250 3950 50  0001 C CNN
+	1    9350 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L AcornKeyswitch:Keyswitch SW91
+U 1 1 5CA4F9FD
+P 9350 4300
+F 0 "SW91" H 9450 4400 50  0000 L CNN
+F 1 "Comma (NKP)" H 9450 4300 50  0000 L CNN
+F 2 "" H 9250 4300 50  0001 C CNN
+F 3 "" H 9250 4300 50  0001 C CNN
+	1    9350 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L AcornKeyswitch:Keyswitch SW92
+U 1 1 5CA4FAC1
+P 9350 4650
+F 0 "SW92" H 9450 4750 50  0000 L CNN
+F 1 ". (NKP)" H 9450 4650 50  0000 L CNN
+F 2 "" H 9250 4650 50  0001 C CNN
+F 3 "" H 9250 4650 50  0001 C CNN
+	1    9350 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L AcornKeyswitch:Keyswitch SW93
+U 1 1 5CA4FB8B
+P 9350 5000
+F 0 "SW93" H 9450 5100 50  0000 L CNN
+F 1 "RETURN (NKP)" H 9450 5000 50  0000 L CNN
+F 2 "" H 9250 5000 50  0001 C CNN
+F 3 "" H 9250 5000 50  0001 C CNN
+	1    9350 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 3450 9400 3450
+Wire Wire Line
+	8850 3800 9400 3800
+Wire Wire Line
+	8850 4150 9400 4150
+Wire Wire Line
+	8850 4500 9400 4500
+Wire Wire Line
+	8850 4850 9400 4850
+Wire Wire Line
+	8850 5200 9400 5200
+Wire Wire Line
+	8850 5550 9400 5550
+Wire Wire Line
+	9250 5000 9250 4650
+Connection ~ 9250 5000
+Wire Wire Line
+	9250 4650 9250 4300
+Connection ~ 9250 4650
+Wire Wire Line
+	9250 4300 9250 3950
+Connection ~ 9250 4300
+Wire Wire Line
+	9250 3950 9250 3600
+Connection ~ 9250 3950
+Wire Wire Line
+	9250 3600 9250 3050
+Connection ~ 9250 3600
+Wire Wire Line
+	9250 5000 9250 5700
+$Comp
+L AcornKeyswitch:Keyswitch SW8
+U 1 1 5CABEC34
+P 2800 6450
+F 0 "SW8" H 2900 6550 50  0000 L CNN
+F 1 "SHIFT" H 2900 6450 50  0000 L CNN
+F 2 "" H 2700 6450 50  0001 C CNN
+F 3 "" H 2700 6450 50  0001 C CNN
+	1    2800 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L AcornKeyswitch:Keyswitch SW16
+U 1 1 5CABED1C
+P 3300 6450
+F 0 "SW16" H 3400 6550 50  0000 L CNN
+F 1 "SHIFT" H 3400 6450 50  0000 L CNN
+F 2 "" H 3200 6450 50  0001 C CNN
+F 3 "" H 3200 6450 50  0001 C CNN
+	1    3300 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L AcornKeyswitch:Keyswitch SW17
+U 1 1 5CABEDFE
+P 3800 6450
+F 0 "SW17" H 3900 6550 50  0000 L CNN
+F 1 "CTRL" H 3900 6450 50  0000 L CNN
+F 2 "" H 3700 6450 50  0001 C CNN
+F 3 "" H 3700 6450 50  0001 C CNN
+	1    3800 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 6300 3350 6300
+Wire Wire Line
+	3350 6300 3850 6300
+Connection ~ 3350 6300
+Wire Wire Line
+	2850 6300 2200 6300
+Connection ~ 2850 6300
+Wire Wire Line
+	2700 6450 2700 6650
+Wire Wire Line
+	2700 6650 2200 6650
+Wire Wire Line
+	3200 6450 3200 6650
+Wire Wire Line
+	3200 6650 2700 6650
+Connection ~ 2700 6650
+Wire Wire Line
+	3700 6450 3700 7000
+Wire Wire Line
+	3700 7000 2200 7000
+Connection ~ 2650 4650
+Connection ~ 2650 5000
+Connection ~ 2650 5350
+Connection ~ 3200 4650
+Connection ~ 3200 5000
+Connection ~ 3200 5350
+Connection ~ 3750 4650
+Connection ~ 3750 5000
+Connection ~ 3750 5350
+Connection ~ 4300 4650
+Connection ~ 4300 5000
+Connection ~ 4300 5350
+Connection ~ 4850 4650
+Connection ~ 4850 5000
+Connection ~ 4850 5350
+Connection ~ 5400 4650
+Connection ~ 5400 5000
+Connection ~ 5400 5350
+Connection ~ 5950 4650
+Connection ~ 5950 5000
+Connection ~ 5950 5350
+Connection ~ 6500 4650
+Connection ~ 6500 5000
+Connection ~ 6500 5350
+Connection ~ 7050 4650
+Connection ~ 7050 5000
+Connection ~ 7050 5350
+Connection ~ 7600 4650
+Connection ~ 7600 5000
+Connection ~ 7600 5350
+Connection ~ 8150 4650
+Connection ~ 8150 5000
+Connection ~ 8150 5350
+Connection ~ 8700 4650
+Connection ~ 8700 5000
+Connection ~ 8700 5350
+Text GLabel 2150 3450 0    50   UnSpc ~ 0
+ROW0
+Text GLabel 2150 3800 0    50   UnSpc ~ 0
+ROW1
+Text GLabel 2150 4150 0    50   UnSpc ~ 0
+ROW2
+Text GLabel 2150 4500 0    50   UnSpc ~ 0
+ROW3
+Text GLabel 2150 4850 0    50   UnSpc ~ 0
+ROW4
+Text GLabel 2150 5200 0    50   UnSpc ~ 0
+ROW5
+Text GLabel 2150 5550 0    50   UnSpc ~ 0
+ROW6
+Text GLabel 2650 3050 1    50   UnSpc ~ 0
+COL0
+Text GLabel 3200 3050 1    50   UnSpc ~ 0
+COL1
+Text GLabel 3750 3050 1    50   UnSpc ~ 0
+COL2
+Text GLabel 4300 3050 1    50   UnSpc ~ 0
+COL3
+Text GLabel 4850 3050 1    50   UnSpc ~ 0
+COL4
+Text GLabel 5400 3050 1    50   UnSpc ~ 0
+COL5
+Text GLabel 5950 3050 1    50   UnSpc ~ 0
+COL6
+Text GLabel 6500 3050 1    50   UnSpc ~ 0
+COL7
+Text GLabel 7050 3050 1    50   UnSpc ~ 0
+COL8
+Text GLabel 7600 3050 1    50   UnSpc ~ 0
+COL9
+Text GLabel 8150 3050 1    50   UnSpc ~ 0
+COL10
+Text GLabel 8700 3050 1    50   UnSpc ~ 0
+COL11
+Text GLabel 9250 3050 1    50   UnSpc ~ 0
+COL12
+Text GLabel 2200 6300 0    50   UnSpc ~ 0
+MODIF
+Text GLabel 2200 6650 0    50   UnSpc ~ 0
+SHIFT
+Text GLabel 2200 7000 0    50   UnSpc ~ 0
+CTRL
+$Comp
+L Connector_Generic:Conn_01x15 J1
+U 1 1 5CAFE9C0
+P 2950 950
+F 0 "J1" V 3167 946 50  0000 C CNN
+F 1 "Keyboard 1" V 3076 946 50  0000 C CNN
+F 2 "" H 2950 950 50  0001 C CNN
+F 3 "~" H 2950 950 50  0001 C CNN
+	1    2950 950 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x15 J2
+U 1 1 5CAFEC1C
+P 4750 950
+F 0 "J2" V 4967 946 50  0000 C CNN
+F 1 "Keyboard 2" V 4876 946 50  0000 C CNN
+F 2 "" H 4750 950 50  0001 C CNN
+F 3 "~" H 4750 950 50  0001 C CNN
+	1    4750 950 
+	0    -1   -1   0   
+$EndComp
+Text GLabel 3250 1250 3    50   UnSpc ~ 0
+COL0
+Text GLabel 4350 1250 3    50   UnSpc ~ 0
+COL1
+Text GLabel 3350 1250 3    50   UnSpc ~ 0
+COL2
+Text GLabel 4250 1250 3    50   UnSpc ~ 0
+COL3
+Text GLabel 3550 1250 3    50   UnSpc ~ 0
+COL4
+Text GLabel 3650 1250 3    50   UnSpc ~ 0
+COL5
+Text GLabel 2250 1250 3    50   UnSpc ~ 0
+COL6
+Text GLabel 4150 1250 3    50   UnSpc ~ 0
+COL7
+Text GLabel 4050 1250 3    50   UnSpc ~ 0
+COL8
+Text GLabel 3450 1250 3    50   UnSpc ~ 0
+COL9
+Text GLabel 3050 1250 3    50   UnSpc ~ 0
+COL10
+Text GLabel 2950 1250 3    50   UnSpc ~ 0
+COL11
+Text GLabel 3150 1250 3    50   UnSpc ~ 0
+COL12
+Text GLabel 2450 1250 3    50   UnSpc ~ 0
+ROW0
+Text GLabel 2850 1250 3    50   UnSpc ~ 0
+ROW1
+Text GLabel 2750 1250 3    50   UnSpc ~ 0
+ROW2
+Text GLabel 4650 1250 3    50   UnSpc ~ 0
+ROW3
+Text GLabel 4550 1250 3    50   UnSpc ~ 0
+ROW4
+Text GLabel 4450 1250 3    50   UnSpc ~ 0
+ROW5
+Text GLabel 2550 1250 3    50   UnSpc ~ 0
+ROW6
+Text GLabel 4750 1250 3    50   UnSpc ~ 0
+CTRL
+Text GLabel 5150 1250 3    50   UnSpc ~ 0
+SHIFT
+Text GLabel 2650 1250 3    50   UnSpc ~ 0
+MODIF
+Wire Wire Line
+	2250 1150 2250 1250
+Wire Wire Line
+	2450 1150 2450 1250
+Wire Wire Line
+	2550 1150 2550 1250
+Wire Wire Line
+	2650 1150 2650 1250
+Wire Wire Line
+	2750 1150 2750 1250
+Wire Wire Line
+	2850 1150 2850 1250
+Wire Wire Line
+	2950 1150 2950 1250
+Wire Wire Line
+	3050 1150 3050 1250
+Wire Wire Line
+	3150 1150 3150 1250
+Wire Wire Line
+	3250 1150 3250 1250
+Wire Wire Line
+	3350 1150 3350 1250
+Wire Wire Line
+	3450 1150 3450 1250
+Wire Wire Line
+	3550 1150 3550 1250
+Wire Wire Line
+	3650 1150 3650 1250
+Wire Wire Line
+	4050 1150 4050 1250
+Wire Wire Line
+	4150 1150 4150 1250
+Wire Wire Line
+	4250 1150 4250 1250
+Wire Wire Line
+	4350 1150 4350 1250
+Wire Wire Line
+	4450 1150 4450 1250
+Wire Wire Line
+	4550 1150 4550 1250
+Wire Wire Line
+	4650 1150 4650 1250
+Wire Wire Line
+	4750 1150 4750 1250
+Wire Wire Line
+	5150 1150 5150 1250
+$Comp
+L Device:LED D1
+U 1 1 5CCDE18C
+P 7100 1850
+F 0 "D1" V 7138 1733 50  0000 R CNN
+F 1 "LED" V 7047 1733 50  0000 R CNN
+F 2 "" H 7100 1850 50  0001 C CNN
+F 3 "~" H 7100 1850 50  0001 C CNN
+	1    7100 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 5CCDE343
+P 7600 1850
+F 0 "D2" V 7638 1733 50  0000 R CNN
+F 1 "LED" V 7547 1733 50  0000 R CNN
+F 2 "" H 7600 1850 50  0001 C CNN
+F 3 "~" H 7600 1850 50  0001 C CNN
+	1    7600 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D3
+U 1 1 5CCDE431
+P 8000 1850
+F 0 "D3" V 8038 1733 50  0000 R CNN
+F 1 "LED" V 7947 1733 50  0000 R CNN
+F 2 "" H 8000 1850 50  0001 C CNN
+F 3 "~" H 8000 1850 50  0001 C CNN
+	1    8000 1850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8000 1700 8000 1600
+Wire Wire Line
+	8000 1600 7800 1600
+Wire Wire Line
+	7600 1600 7600 1700
+Wire Wire Line
+	5450 1150 5450 1400
+Wire Wire Line
+	5450 1400 7800 1400
+Wire Wire Line
+	7800 1400 7800 1600
+Connection ~ 7800 1600
+Wire Wire Line
+	7800 1600 7600 1600
+Wire Wire Line
+	7100 2000 7100 2100
+Wire Wire Line
+	7100 2100 4950 2100
+Wire Wire Line
+	4950 2100 4950 1150
+Wire Wire Line
+	7600 2000 7600 2200
+Wire Wire Line
+	7600 2200 4850 2200
+Wire Wire Line
+	4850 2200 4850 1150
+Wire Wire Line
+	8000 2000 8000 2300
+Wire Wire Line
+	8000 2300 5050 2300
+Wire Wire Line
+	5050 2300 5050 1150
+$Comp
+L AcornKeyswitch:Keyswitch SW46
+U 1 1 5CD68636
+P 5900 1750
+F 0 "SW46" H 6000 1850 50  0000 L CNN
+F 1 "BREAK" H 6000 1750 50  0000 L CNN
+F 2 "" H 5800 1750 50  0001 C CNN
+F 3 "" H 5800 1750 50  0001 C CNN
+	1    5900 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 1150 5250 1750
+Wire Wire Line
+	5250 1750 5800 1750
+Wire Wire Line
+	5350 1150 5350 1500
+Wire Wire Line
+	5350 1600 5950 1600
+$Comp
+L Device:Battery BT1
+U 1 1 5CD8516D
+P 3550 1950
+F 0 "BT1" V 3795 1950 50  0000 C CNN
+F 1 "Battery" V 3704 1950 50  0000 C CNN
+F 2 "" V 3550 2010 50  0001 C CNN
+F 3 "~" V 3550 2010 50  0001 C CNN
+	1    3550 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2350 1150 2350 1950
+Wire Wire Line
+	5350 1950 5350 1600
+Connection ~ 5350 1600
+Wire Wire Line
+	5350 1500 7100 1500
+Wire Wire Line
+	7100 1500 7100 1700
+Connection ~ 5350 1500
+Wire Wire Line
+	5350 1500 5350 1600
+Wire Wire Line
+	3750 1950 5350 1950
+Wire Wire Line
+	3350 1950 2350 1950
+Text Notes 7950 1650 3    50   ~ 0
+POWER ON
+Text Notes 7050 2050 1    50   ~ 0
+CAPS LOCK
+Text Notes 7550 2050 1    50   ~ 0
+SHIFT LOCK
+Text Notes 8400 6100 0    50   ~ 0
+Note: NPK = Numeric Key Pad
+$EndSCHEMATC
