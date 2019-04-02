@@ -581,37 +581,27 @@ Wire Wire Line
 	9250 8150 8950 8150
 NoConn ~ 9250 8550
 Wire Wire Line
-	9250 9250 9150 9250
-Wire Wire Line
 	9250 8050 9150 8050
 Wire Wire Line
 	9150 8050 9150 9250
 Wire Wire Line
 	9250 9350 9150 9350
-Connection ~ 9150 9350
-Wire Wire Line
-	9150 9350 9150 10550
 $Comp
 L power:GND #PWR?
 U 1 1 5CAA1F47
-P 9150 10700
+P 9800 10650
 AR Path="/5CA1C99E/5CAA1F47" Ref="#PWR?"  Part="1" 
 AR Path="/612282F6/5CAA1F47" Ref="#PWR?"  Part="1" 
 AR Path="/5CAA1F47" Ref="#PWR0107"  Part="1" 
-F 0 "#PWR0107" H 9150 10450 50  0001 C CNN
-F 1 "GND" H 9155 10527 50  0000 C CNN
-F 2 "" H 9150 10700 50  0001 C CNN
-F 3 "" H 9150 10700 50  0001 C CNN
-	1    9150 10700
+F 0 "#PWR0107" H 9800 10400 50  0001 C CNN
+F 1 "GND" H 9805 10477 50  0000 C CNN
+F 2 "" H 9800 10650 50  0001 C CNN
+F 3 "" H 9800 10650 50  0001 C CNN
+	1    9800 10650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	9800 10450 9800 10550
-Wire Wire Line
-	9800 10550 9150 10550
-Connection ~ 9150 10550
-Wire Wire Line
-	9150 10550 9150 10700
 $Comp
 L Device:Crystal X?
 U 1 1 5CAA1F51
@@ -728,7 +718,7 @@ F 3 "" H 9850 7550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9850 7650 9850 7550
+	9850 7650 9850 7600
 Wire Wire Line
 	8950 9550 9250 9550
 Wire Wire Line
@@ -823,9 +813,6 @@ Text Label 11400 7600 0    50   ~ 0
 A[0..15]
 Text Label 11000 10500 0    50   ~ 0
 D[0..7]
-Connection ~ 9150 9250
-Wire Wire Line
-	9150 9250 8950 9250
 Wire Wire Line
 	9150 9250 9150 9350
 $Comp
@@ -1943,8 +1930,6 @@ Wire Wire Line
 Wire Wire Line
 	9100 2150 9100 2350
 Wire Wire Line
-	9100 2350 10600 2350
-Wire Wire Line
 	10600 2350 10600 2150
 Wire Wire Line
 	10900 1950 11000 1950
@@ -1952,22 +1937,6 @@ Wire Wire Line
 	11000 1950 11000 2350
 Wire Wire Line
 	11000 2350 10600 2350
-Connection ~ 10600 2350
-$Comp
-L power:GND #PWR?
-U 1 1 5E71E99A
-P 10600 2500
-AR Path="/5CA1C99E/5E71E99A" Ref="#PWR?"  Part="1" 
-AR Path="/5E71E99A" Ref="#PWR0115"  Part="1" 
-F 0 "#PWR0115" H 10600 2250 50  0001 C CNN
-F 1 "GND" H 10605 2327 50  0000 C CNN
-F 2 "" H 10600 2500 50  0001 C CNN
-F 3 "" H 10600 2500 50  0001 C CNN
-	1    10600 2500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10600 2500 10600 2350
 Wire Wire Line
 	10300 1950 9900 1950
 Text Label 8650 1400 0    50   ~ 0
@@ -2014,18 +1983,18 @@ Text Label 6500 1800 2    50   ~ 0
 Wire Wire Line
 	9400 2850 9500 2850
 Wire Wire Line
-	9500 2850 9500 2700
+	9500 2850 9500 2350
 $Comp
 L power:+5V #PWR?
 U 1 1 5E71E9BD
-P 9500 2700
+P 9500 2250
 AR Path="/5CA1C99E/5E71E9BD" Ref="#PWR?"  Part="1" 
 AR Path="/5E71E9BD" Ref="#PWR0117"  Part="1" 
-F 0 "#PWR0117" H 9500 2550 50  0001 C CNN
-F 1 "+5V" H 9515 2873 50  0000 C CNN
-F 2 "" H 9500 2700 50  0001 C CNN
-F 3 "" H 9500 2700 50  0001 C CNN
-	1    9500 2700
+F 0 "#PWR0117" H 9500 2100 50  0001 C CNN
+F 1 "+5V" H 9515 2423 50  0000 C CNN
+F 2 "" H 9500 2250 50  0001 C CNN
+F 3 "" H 9500 2250 50  0001 C CNN
+	1    9500 2250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -2053,7 +2022,7 @@ Wire Wire Line
 	15300 900  15400 900 
 Connection ~ 15300 900 
 Text Label 15400 900  0    50   ~ 0
-phi2_out
+phi4_out
 Wire Wire Line
 	9400 1850 9800 1850
 Wire Wire Line
@@ -2237,19 +2206,6 @@ F 1 "33pF" H 10415 4605 50  0000 L CNN
 F 2 "" H 10338 4500 50  0001 C CNN
 F 3 "~" H 10300 4650 50  0001 C CNN
 	1    10300 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 5E7C48A4
-P 10300 4400
-AR Path="/5CA1C99E/5E7C48A4" Ref="#PWR?"  Part="1" 
-AR Path="/5E7C48A4" Ref="#PWR0120"  Part="1" 
-F 0 "#PWR0120" H 10300 4250 50  0001 C CNN
-F 1 "+5V" H 10315 4573 50  0000 C CNN
-F 2 "" H 10300 4400 50  0001 C CNN
-F 3 "" H 10300 4400 50  0001 C CNN
-	1    10300 4400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3344,6 +3300,28 @@ Wire Wire Line
 Connection ~ 3650 10900
 Wire Wire Line
 	3650 10900 4150 10900
+Wire Wire Line
+	8950 9250 9250 9250
+Wire Wire Line
+	9150 8050 9150 7600
+Wire Wire Line
+	9150 7600 9850 7600
+Connection ~ 9150 8050
+Connection ~ 9850 7600
+Wire Wire Line
+	9850 7600 9850 7550
+Wire Wire Line
+	9800 10550 9800 10650
+Wire Wire Line
+	9100 2350 9500 2350
+Connection ~ 9500 2350
+Wire Wire Line
+	9500 2350 9500 2250
+Wire Wire Line
+	10600 2350 9500 2350
+Connection ~ 10600 2350
+Wire Wire Line
+	10300 4400 10800 4400
 Wire Bus Line
 	4200 2450 4200 3000
 Wire Bus Line
@@ -3374,4 +3352,5 @@ Wire Bus Line
 	7600 5000 7600 8850
 Wire Bus Line
 	14050 2850 14050 6050
+Connection ~ 10800 4400
 $EndSCHEMATC
