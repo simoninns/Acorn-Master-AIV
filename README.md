@@ -18,7 +18,7 @@ In addition there is the RD[0..7] databus (between the memory controller IC and 
 
 Connections are as follows:
 
-* CD[0..7]
+* CD[0..7] (CPU databus)
   * CPU
   * Video Processor
   * CRTC
@@ -27,7 +27,7 @@ Connections are as follows:
   * Internal TUBE
   * Address Multiplexer
   * Data Multiplexer
-    * BD[0..7]
+    * BD[0..7] (internal databus)
       * SAA5050
       * Serial
       * ADC
@@ -41,7 +41,7 @@ Connections are as follows:
       * VIA B
         * User port
         * Printer port
-    * ED[0..7]
+    * ED[0..7] (external databus)
       * External TUBE
       * External 1MHz bus
 
@@ -53,15 +53,43 @@ The Master has one primary address bus A[0..15].  In addition there is DMA[0..7]
 
 The Master contains several custom ICs designed by Acorn for the computer.  The ICs are as follows:
 
-* CF30047 (IC16) - Keyboard Controller
-* CF30048 (IC31) - CRTC Multiplexer
-* CF30049 (IC21) - Peripheral Bus Controller (Databus Multiplexer)
-* CF30050 (IC15) - I/O Controller (Address Multiplexer)
-* CF30058 (IC20) - Memory controller
-* CF30060 (IC40) - Chroma chip (analogue PAL video signal generation)
-* VC2026 (IC42) - Video processor (and clock generation)
-* VC2069 (IC28) - Serial processor (RS432 and cassette)
-* MOS (IC24) = 1MB Operating System ROM
+### CF30047 (IC16) - Keyboard Controller
+
+This chip provides a mechanism for the processor to scan the keyboard matrix and determine the matrix position of a pressed key. The actual assignment of character to key can then be done via a look- up table.
+
+The keyboard controller has open collector outputs that connect to the key matrix columns, and inputs from the key matrix rows. The device can be made to drive any of the columns and examine any of the rows. In normal operation the device continuously scans all of the columns with a logic low strobe. If a key is pressed then connection is made between a column and a row, causing the device to address each key column in turn until it sees an interrupt. Holding this column address the row inputs are examined until a logic low is seen. Thus the key matrix co-ordinates of the pressed key have been determined.
+
+### CF30048 (IC31) - CRTC Multiplexer
+
+The prime function of this device is to multiplex the CRT addresses from the 6845 to form row and column addresses to the RAM when reading or writing video information. The device also generates some control signals for the Teletext chip (control of the character display period and character rounding) and for the Video Processor IC (display enable).
+
+### CF30049 (IC21) - Peripheral Bus Controller (Databus Multiplexer)
+
+The PBC controls the transfer of the data between the CD and the BD and ED buses. The BD bus connects to peripheral chips running at 1MHz (including the Teletext chip), the ED bus to the tube and 1MHz bus ports. The ED bus runs at 2MHz during TUBE access and at 1MHz during access to pages &FC and &FD (1MHz bus address space).
+
+### CF30050 (IC15) - I/O Controller (Address Multiplexer/Address Decoder)
+
+This device is responsible for decoding CPU address information into device enables/selects for the system peripherals. The CPU is also controlled by this device, in that an access to a 1MHz (slow) peripheral will cause the CPU to 'pause'.
+
+### CF30058 (IC20) - Memory controller
+
+The prime function for this device is to control the memory paging structure for both RAM and ROM. Due to the limited address range of the 6502 (and 6512) CPU, various techniques have been adopted to allow control of the additional RAM and ROM in the system. The device contains two registers, ROMSEL and ACCCON. ROMSEL controls paging of ROMs and RAM in the region &8000 to &BFFF, while ACCCON controls paging of the shadow and filing system working RAM in the regions &3000 to &7FFF, and &C000 to &DFFF. By programming these locations, the memory map can be altered to allow access to far more memory than the CPU can address directly.
+
+### CF30060 (IC40) - Chroma chip (analogue PAL video signal generation)
+
+This device generates the PAL or NTSC (US only) colour signal components required by domestic TVs. Like the other devices described, it is purely digital in its operation. However, as TV operates on an analogue system, further discrete components are required to generate a suitable signal which may be modulated and passed to a TV for display.
+
+### VC2069 (IC42) - Video processor (and clock generation)
+
+http://beebwiki.mdfs.net/Video_ULA
+
+### VC2036 (IC26) - Serial processor (RS432 and cassette)
+
+See http://beebwiki.mdfs.net/Serial_ULA for details.
+
+### MOS (IC24) - 1MB Operating System ROM
+
+This device is the Machine Operating System ROM, a one-time-programmable 1Mbit memory.
 
 ## Author
 
