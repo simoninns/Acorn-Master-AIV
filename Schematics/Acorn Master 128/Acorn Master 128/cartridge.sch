@@ -574,8 +574,8 @@ Text HLabel 8200 750  2    50   Input ~ 0
 A[0..15]
 Text HLabel 9100 1150 2    50   BiDi ~ 0
 CD[0..7]
-Text HLabel 9100 2650 2    50   BiDi ~ 0
-BD[0..7]
+Text HLabel 9100 2650 2    50   Input ~ 0
+BA[0..7]
 Text HLabel 4600 1650 0    50   Input ~ 0
 AT13
 Text HLabel 4600 1750 0    50   Input ~ 0

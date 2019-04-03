@@ -929,7 +929,7 @@ Wire Bus Line
 	7900 3200 7900 4850
 Wire Bus Line
 	7900 4850 7050 4850
+Connection ~ 7900 3200
 Wire Bus Line
 	5250 1700 5250 4650
-Connection ~ 7900 3200
 $EndSCHEMATC
