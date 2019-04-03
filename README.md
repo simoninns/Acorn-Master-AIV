@@ -8,6 +8,8 @@ This repo contains KiCAD schematic files for the Acorn BBC Master AIV system whi
 
 In addition there are a number of useful datasheets included.  Please note that these schematics are based largely on the original Acorn schematics and the author gives no guarantee of accuracy.  These schematics are provided in the hope they will be useful.
 
+Please note that the Acorn AIV SCSI controller board (required for the Acorn Master AIV) is available from https://github.com/simoninns/Acorn-AIV-SCSI-Adapter-Card
+
 ## Acorn Master 128 Databus Architecture
 
 The Master has 3 databuses.  CD[0..7] is the databus connected directly to the CPU and BD[0..7] / ED[0..7] are multiplexed by the databus multiplexer IC.  Connections are as follows:
@@ -32,7 +34,7 @@ The Master has 3 databuses.  CD[0..7] is the databus connected directly to the C
         * Keyboard controller
         * Audio
         * RTC/CMOS RAM
-        * VIA B
+      * VIA B
         * User port
         * Printer port
       * ED[0..7]
