@@ -37,9 +37,9 @@ The Master has 3 databuses.  CD[0..7] is the databus connected directly to the C
       * VIA B
         * User port
         * Printer port
-      * ED[0..7]
-        * External TUBE
-        * External 1MHz bus
+    * ED[0..7]
+      * External TUBE
+      * External 1MHz bus
 
 ## Author
 
