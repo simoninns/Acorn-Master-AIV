@@ -1055,10 +1055,6 @@ Wire Wire Line
 	7350 5150 8050 5150
 Wire Wire Line
 	7350 5250 8050 5250
-Wire Bus Line
-	8700 2350 8700 2700
-Wire Bus Line
-	8150 1200 8150 5350
 Entry Wire Line
 	8050 4750 8150 4850
 Entry Wire Line
@@ -1083,4 +1079,8 @@ Text Label 7900 4850 0    50   ~ 0
 BD1
 Text Label 7900 4750 0    50   ~ 0
 BD0
+Wire Bus Line
+	8700 2350 8700 2700
+Wire Bus Line
+	8150 1200 8150 5350
 $EndSCHEMATC

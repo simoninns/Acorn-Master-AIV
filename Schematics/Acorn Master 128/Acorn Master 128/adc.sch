@@ -642,11 +642,11 @@ F 3 "~" H 6050 1900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6050 1900 6050 2050
+Connection ~ 6050 2050
+Wire Wire Line
+	6050 2050 6350 2050
 Wire Bus Line
 	2750 2950 2750 3300
 Wire Bus Line
 	2100 3150 2100 4100
-Connection ~ 6050 2050
-Wire Wire Line
-	6050 2050 6350 2050
 $EndSCHEMATC

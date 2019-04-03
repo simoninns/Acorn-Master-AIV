@@ -310,7 +310,7 @@ Text Label 3600 1800 0    50   ~ 0
 A[0..15]
 Text HLabel 3500 1800 0    50   Input ~ 0
 A[0..15]
-Text Label 6800 2650 0    50   ~ 0
+Text Label 3600 1700 0    50   ~ 0
 CD[0..7]
 Text Label 6600 2850 0    50   ~ 0
 RD[0..7]
@@ -355,4 +355,11 @@ Wire Wire Line
 	6650 4850 7600 4850
 Text HLabel 6700 4450 2    50   Output ~ 0
 ~RAS
+Wire Bus Line
+	6800 2650 6800 1700
+Wire Bus Line
+	6800 1700 3500 1700
+Connection ~ 6800 2650
+Text HLabel 3500 1700 0    50   BiDi ~ 0
+CD[0..7]
 $EndSCHEMATC

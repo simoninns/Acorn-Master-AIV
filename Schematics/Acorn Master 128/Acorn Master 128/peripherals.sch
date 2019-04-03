@@ -254,8 +254,6 @@ Wire Bus Line
 	8750 2250 9800 2250
 Connection ~ 6000 1300
 Wire Bus Line
-	8750 2250 8750 5250
-Wire Bus Line
 	8750 5250 9800 5250
 Connection ~ 8750 2250
 Wire Bus Line
@@ -775,4 +773,6 @@ Entry Wire Line
 	8750 4900 8850 5000
 Text Label 8900 5000 0    50   ~ 0
 A0
+Wire Bus Line
+	8750 2250 8750 5250
 $EndSCHEMATC
