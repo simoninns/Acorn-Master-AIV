@@ -12,7 +12,7 @@ Please note that the Acorn AIV SCSI controller board (required for the Acorn Mas
 
 ## Acorn Master 128 Databus Architecture
 
-The Master has 3 primary databuses.  CD[0..7] is the databus connected directly to the CPU and BD[0..7] / ED[0..7] are multiplexed by the databus multiplexer IC.  Note that the ED[0..7] databus is 5V CMOS (for the external 1MHz bus and TUBE interfaces), all other databuses are 5V CMOS.
+The Master has 3 primary databuses.  CD[0..7] is the databus connected directly to the CPU and BD[0..7] / ED[0..7] are multiplexed by the Peripheral Bus Controller IC.  Note that the ED[0..7] databus is 5V CMOS (for the external 1MHz bus and TUBE interfaces), all other databuses are 5V CMOS.
 
 In addition there is the RD[0..7] databus (between the memory controller IC and the internal ROMs).
 
