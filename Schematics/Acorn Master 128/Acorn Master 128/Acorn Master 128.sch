@@ -56,8 +56,8 @@ $EndSheet
 $Sheet
 S 3450 2200 900  900 
 U 5C9C8852
-F0 "Databus Mux" 50
-F1 "databusmux.sch" 50
+F0 "Peripheral Bus Controller" 50
+F1 "pbc.sch" 50
 F2 "ED[0..7]" B R 4350 2400 50 
 F3 "BD[0..7]" B R 4350 2300 50 
 F4 "CD[0..7]" B L 3450 2300 50 
@@ -77,8 +77,8 @@ $EndSheet
 $Sheet
 S 3450 3800 900  2100
 U 5C9BABD7
-F0 "Address Mux" 50
-F1 "addressmux.sch" 50
+F0 "I/O Controller" 50
+F1 "iocontroller.sch" 50
 F2 "CD[0..7]" B L 3450 3900 50 
 F3 "A[0..15]" I L 3450 4000 50 
 F4 "~1MHz" O L 3450 4300 50 

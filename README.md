@@ -25,8 +25,8 @@ Connections are as follows:
   * Memory (ROM/RAM)
   * Econet
   * Internal TUBE
-  * Address Multiplexer
-  * Data Multiplexer
+  * I/O Controller
+  * Peripheral Bus Controller
     * BD[0..7] (internal databus)
       * SAA5050
       * Serial
@@ -63,11 +63,11 @@ The keyboard controller has open collector outputs that connect to the key matri
 
 The prime function of this device is to multiplex the CRT addresses from the 6845 to form row and column addresses to the RAM when reading or writing video information. The device also generates some control signals for the Teletext chip (control of the character display period and character rounding) and for the Video Processor IC (display enable).
 
-### CF30049 (IC21) - Peripheral Bus Controller (Databus Multiplexer)
+### CF30049 (IC21) - Peripheral Bus Controller
 
 The PBC controls the transfer of the data between the CD and the BD and ED buses. The BD bus connects to peripheral chips running at 1MHz (including the Teletext chip), the ED bus to the tube and 1MHz bus ports. The ED bus runs at 2MHz during TUBE access and at 1MHz during access to pages &FC and &FD (1MHz bus address space).
 
-### CF30050 (IC15) - I/O Controller (Address Multiplexer/Address Decoder)
+### CF30050 (IC15) - I/O Controller
 
 This device is responsible for decoding CPU address information into device enables/selects for the system peripherals. The CPU is also controlled by this device, in that an access to a 1MHz (slow) peripheral will cause the CPU to 'pause'.
 
@@ -81,7 +81,7 @@ This device generates the PAL or NTSC (US only) colour signal components require
 
 ### VC2069 (IC42) - Video processor (and clock generation)
 
-http://beebwiki.mdfs.net/Video_ULA
+See http://beebwiki.mdfs.net/Video_ULA for details.
 
 ### VC2036 (IC26) - Serial processor (RS432 and cassette)
 
