@@ -50,10 +50,10 @@ F3 "~FDCON" I L 9800 3000 50
 F4 "DRQ" O L 9800 3100 50 
 F5 "INTRQ" O L 9800 3200 50 
 F6 "BA[0..7]" I L 9800 3300 50 
-F7 "8BUFF" I L 9800 3400 50 
-F8 "~FDC" I L 9800 3500 50 
-F9 "BRnW" I L 9800 3600 50 
-F10 "BD[0..7]" B L 9800 3700 50 
+F7 "~FDC" I L 9800 3500 50 
+F8 "BRnW" I L 9800 3600 50 
+F9 "BD[0..7]" B L 9800 3700 50 
+F10 "8M" I L 9800 3400 50 
 $EndSheet
 $Sheet
 S 6300 1650 850  1500
@@ -309,7 +309,7 @@ Wire Wire Line
 Wire Wire Line
 	4400 1000 1500 1000
 Wire Wire Line
-	3000 1800 1500 1800
+	3000 1800 2250 1800
 Wire Wire Line
 	3000 4000 2350 4000
 Wire Wire Line
@@ -364,14 +364,6 @@ Connection ~ 4200 1500
 Connection ~ 6100 1500
 Wire Bus Line
 	4200 1500 4200 2700
-Wire Wire Line
-	9800 3400 8550 3400
-Wire Wire Line
-	8550 3400 8550 800 
-Wire Wire Line
-	8550 800  1500 800 
-Text HLabel 1500 800  0    50   Input ~ 0
-8BUFF
 Wire Wire Line
 	3000 1900 1950 1900
 Text HLabel 1950 1900 0    50   Output ~ 0
@@ -770,7 +762,18 @@ Wire Bus Line
 	2550 2700 2550 3600
 Wire Bus Line
 	2550 3600 3000 3600
+Connection ~ 2550 2700
+Wire Wire Line
+	2250 1800 2250 800 
+Wire Wire Line
+	2250 800  8350 800 
+Wire Wire Line
+	8350 800  8350 3400
+Wire Wire Line
+	8350 3400 9800 3400
+Connection ~ 2250 1800
+Wire Wire Line
+	2250 1800 1500 1800
 Wire Bus Line
 	8750 2250 8750 5250
-Connection ~ 2550 2700
 $EndSCHEMATC

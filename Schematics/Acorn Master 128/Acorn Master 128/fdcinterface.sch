@@ -838,32 +838,24 @@ Wire Wire Line
 	7750 3150 8350 3150
 Wire Wire Line
 	7750 3700 7750 3800
-Wire Wire Line
-	7350 2350 8600 2350
-Wire Wire Line
-	7350 2450 8600 2450
-Text Label 8350 2350 0    50   ~ 0
+Text Label 8700 2350 0    50   ~ 0
 BA1
-Text Label 8350 2450 0    50   ~ 0
+Text Label 8700 2450 0    50   ~ 0
 BA0
 Entry Wire Line
-	8600 2350 8700 2450
+	8950 2350 9050 2450
 Entry Wire Line
-	8600 2450 8700 2550
+	8950 2450 9050 2550
 Wire Bus Line
-	8700 2700 9350 2700
-Text Label 8900 2700 0    50   ~ 0
+	9050 2700 9700 2700
+Text Label 9250 2700 0    50   ~ 0
 BA[0..7]
-Text HLabel 9350 2700 2    50   Input ~ 0
+Text HLabel 9700 2700 2    50   Input ~ 0
 BA[0..7]
-Text HLabel 7500 2650 2    50   Input ~ 0
-8BUFF
 Text HLabel 7500 2750 2    50   Input ~ 0
 ~FDC
 Text HLabel 7500 2850 2    50   Input ~ 0
 BRnW
-Wire Wire Line
-	7350 2650 7500 2650
 Wire Wire Line
 	7500 2750 7350 2750
 Wire Wire Line
@@ -1079,8 +1071,35 @@ Text Label 7900 4850 0    50   ~ 0
 BD1
 Text Label 7900 4750 0    50   ~ 0
 BD0
+$Comp
+L 74xx:74LS14 IC?
+U 2 1 5CB5DECD
+P 9650 3350
+AR Path="/5C9BABD7/5CB5DECD" Ref="IC?"  Part="2" 
+AR Path="/5CAAD0BD/5CAAD19B/5CB5DECD" Ref="IC19"  Part="2" 
+F 0 "IC19" H 9650 3667 50  0000 C CNN
+F 1 "74LS14" H 9650 3576 50  0000 C CNN
+F 2 "" H 9650 3350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS14" H 9650 3350 50  0001 C CNN
+	2    9650 3350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9350 3350 8850 3350
+Wire Wire Line
+	8850 3350 8850 2650
+Wire Wire Line
+	7350 2650 8850 2650
+Wire Wire Line
+	9950 3350 10200 3350
+Text HLabel 10200 3350 2    50   Input ~ 0
+8M
+Wire Wire Line
+	7350 2350 8950 2350
+Wire Wire Line
+	7350 2450 8950 2450
 Wire Bus Line
-	8700 2350 8700 2700
+	9050 2350 9050 2700
 Wire Bus Line
 	8150 1200 8150 5350
 $EndSCHEMATC

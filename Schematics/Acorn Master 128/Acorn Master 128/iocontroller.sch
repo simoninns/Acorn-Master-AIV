@@ -101,60 +101,10 @@ Wire Wire Line
 	5150 2450 5150 2400
 Wire Wire Line
 	5150 5200 5150 5150
-$Comp
-L 74xx:74LS14 IC19
-U 1 1 5C9BDE7A
-P 6900 4650
-F 0 "IC19" H 6900 4967 50  0000 C CNN
-F 1 "74LS14" H 6900 4876 50  0000 C CNN
-F 2 "" H 6900 4650 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS14" H 6900 4650 50  0001 C CNN
-	1    6900 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS14 IC19
-U 2 1 5C9BDEF2
-P 6900 5250
-F 0 "IC19" H 6900 5567 50  0000 C CNN
-F 1 "74LS14" H 6900 5476 50  0000 C CNN
-F 2 "" H 6900 5250 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS14" H 6900 5250 50  0001 C CNN
-	2    6900 5250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5650 4350 6250 4350
-Wire Wire Line
-	6250 4350 6250 4650
-Wire Wire Line
-	6250 4650 6600 4650
-Wire Wire Line
-	5650 4450 6150 4450
-Wire Wire Line
-	6150 4450 6150 5000
-Wire Wire Line
-	6150 5250 6600 5250
 Text HLabel 6350 4350 2    50   Input ~ 0
 1M
-Text HLabel 6350 5000 2    50   Input ~ 0
+Text HLabel 6350 4450 2    50   Input ~ 0
 8M
-Wire Wire Line
-	6350 4350 6250 4350
-Connection ~ 6250 4350
-Wire Wire Line
-	6350 5000 6150 5000
-Connection ~ 6150 5000
-Wire Wire Line
-	6150 5000 6150 5250
-Text HLabel 7550 4650 2    50   Output ~ 0
-~1MHz
-Text HLabel 7550 5250 2    50   Output ~ 0
-8BUFF
-Wire Wire Line
-	7200 4650 7550 4650
-Wire Wire Line
-	7200 5250 7550 5250
 Wire Wire Line
 	5650 3850 7950 3850
 $Comp
@@ -356,6 +306,10 @@ F 3 "" H 8550 3950 50  0001 C CNN
 	1    8550 3950
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5650 4350 6350 4350
+Wire Wire Line
+	5650 4450 6350 4450
 Wire Bus Line
 	6050 2450 6050 2850
 Wire Bus Line

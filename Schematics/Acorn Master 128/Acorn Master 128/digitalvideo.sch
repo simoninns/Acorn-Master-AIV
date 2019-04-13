@@ -55,7 +55,7 @@ Wire Wire Line
 Wire Wire Line
 	4150 4750 4450 4750
 Wire Wire Line
-	4150 4850 4450 4850
+	4150 4850 4300 4850
 Wire Wire Line
 	4450 3550 3700 3550
 Wire Wire Line
@@ -214,10 +214,6 @@ Wire Wire Line
 Connection ~ 8850 3650
 Wire Wire Line
 	8850 3650 8850 3550
-Wire Wire Line
-	7750 3150 7400 3150
-Text HLabel 7400 3150 0    50   Input ~ 0
-~1MHz
 Text HLabel 7400 3050 0    50   Input ~ 0
 LOSE
 Wire Wire Line
@@ -603,8 +599,36 @@ Wire Wire Line
 NoConn ~ 8750 3950
 NoConn ~ 8750 4150
 NoConn ~ 8750 4250
+$Comp
+L 74xx:74LS14 IC?
+U 1 1 5CB37BC2
+P 5050 6000
+AR Path="/5C9BABD7/5CB37BC2" Ref="IC?"  Part="1" 
+AR Path="/5C9B687B/5D46BB20/5CB37BC2" Ref="IC19"  Part="1" 
+F 0 "IC19" H 5050 6317 50  0000 C CNN
+F 1 "74LS14" H 5050 6226 50  0000 C CNN
+F 2 "" H 5050 6000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS14" H 5050 6000 50  0001 C CNN
+	1    5050 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 6000 4300 6000
+Wire Wire Line
+	4300 6000 4300 4850
+Connection ~ 4300 4850
+Wire Wire Line
+	4300 4850 4450 4850
+Wire Wire Line
+	7000 6000 7000 3150
+Wire Wire Line
+	7000 3150 7750 3150
+Wire Wire Line
+	5350 6000 7000 6000
 Wire Bus Line
 	7100 3750 7100 5400
 Wire Bus Line
 	3600 3450 3600 4250
+Text Label 5500 6000 0    50   ~ 0
+~1MHZ
 $EndSCHEMATC
