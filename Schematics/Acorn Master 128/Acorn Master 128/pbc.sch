@@ -6,7 +6,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 9 30
 Title "Acorn Master 128 - Peripheral Bus Controller"
-Date "2019-03-30"
+Date "2019-04-13"
 Rev "1.0"
 Comp "https://www.domesday86.com"
 Comment1 "(c)2019 Simon Inns"
@@ -324,7 +324,7 @@ CHRG
 Wire Wire Line
 	7750 2800 7650 2800
 Connection ~ 7650 2800
-Text HLabel 4900 4500 0    50   Output ~ 0
+Text HLabel 4900 4500 0    50   Input ~ 0
 ~FIT
 Text HLabel 4900 4600 0    50   Input ~ 0
 RDY

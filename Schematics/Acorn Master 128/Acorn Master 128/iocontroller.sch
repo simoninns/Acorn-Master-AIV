@@ -6,7 +6,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 10 30
 Title "Acorn Master 128 - I/O Controller"
-Date "2019-03-30"
+Date "2019-04-13"
 Rev "1.0"
 Comp "https://www.domesday86.com"
 Comment1 "(c)2019 Simon Inns"
@@ -150,7 +150,7 @@ Text HLabel 5750 3050 2    50   Output ~ 0
 ~FDC
 Text HLabel 5750 3150 2    50   Output ~ 0
 ~ADC
-Text HLabel 5750 3350 2    50   Input ~ 0
+Text HLabel 5750 3350 2    50   Output ~ 0
 ~FIT
 Text HLabel 5750 3450 2    50   Output ~ 0
 ~NMI

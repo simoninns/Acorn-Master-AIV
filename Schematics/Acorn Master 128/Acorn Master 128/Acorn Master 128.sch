@@ -6,7 +6,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 30
 Title "Acorn Master 128"
-Date "2019-03-30"
+Date "2019-04-13"
 Rev "1.0"
 Comp "https://www.domesday86.com"
 Comment1 "(c)2019 Simon Inns"
@@ -72,7 +72,7 @@ F12 "~PRST" I L 3450 2800 50
 F13 "RnW" I L 3450 2600 50 
 F14 "8M" I L 3450 3000 50 
 F15 "DEN" I L 3450 2700 50 
-F16 "~FIT" O R 4350 2900 50 
+F16 "~FIT" I R 4350 2900 50 
 $EndSheet
 $Sheet
 S 3450 3800 900  2100
@@ -108,7 +108,7 @@ F27 "8M" I L 3450 4200 50
 F28 "RDY" I L 3450 5000 50 
 F29 "~VIAA" O R 4350 4600 50 
 F30 "~VIAB" O R 4350 4700 50 
-F31 "~FIT" I R 4350 4100 50 
+F31 "~FIT" O R 4350 4100 50 
 $EndSheet
 $Sheet
 S 6000 6550 850  1100
