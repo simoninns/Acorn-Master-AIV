@@ -741,7 +741,7 @@ Wire Bus Line
 	7450 1000 8250 1000
 Text Label 7550 1000 0    50   ~ 0
 DMA[0..7]
-Text HLabel 8250 1000 2    50   Input ~ 0
+Text HLabel 8250 1000 2    50   Output ~ 0
 DMA[0..7]
 Wire Wire Line
 	5200 1200 4850 1200

@@ -108,7 +108,7 @@ Wire Bus Line
 	3600 4250 3150 4250
 Text Label 3200 4250 0    50   ~ 0
 CD[0..7]
-Text HLabel 3150 4250 0    50   BiDi ~ 0
+Text HLabel 3150 4250 0    50   Input ~ 0
 CD[0..7]
 Wire Wire Line
 	7750 3450 6700 3450
@@ -272,7 +272,7 @@ Wire Bus Line
 	7100 5400 7700 5400
 Text Label 7200 5400 0    50   ~ 0
 BD[0..7]
-Text HLabel 7700 5400 2    50   BiDi ~ 0
+Text HLabel 7700 5400 2    50   Input ~ 0
 BD[0..7]
 $Comp
 L Device:R R56

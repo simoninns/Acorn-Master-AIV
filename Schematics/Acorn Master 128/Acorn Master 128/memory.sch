@@ -326,7 +326,7 @@ AT12
 Wire Bus Line
 	7350 4150 8300 4150
 Connection ~ 7350 4150
-Text HLabel 8300 4150 2    50   Output ~ 0
+Text HLabel 8300 4150 2    50   Input ~ 0
 DMA[0..7]
 Wire Wire Line
 	6000 2950 6650 2950
