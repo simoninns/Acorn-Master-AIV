@@ -324,7 +324,7 @@ CHRG
 Wire Wire Line
 	7750 2800 7650 2800
 Connection ~ 7650 2800
-Text HLabel 4900 4500 0    50   Input ~ 0
+Text HLabel 4900 4500 0    50   Output ~ 0
 ~FIT
 Text HLabel 4900 4600 0    50   Input ~ 0
 RDY

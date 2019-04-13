@@ -150,7 +150,7 @@ Text HLabel 5750 3050 2    50   Output ~ 0
 ~FDC
 Text HLabel 5750 3150 2    50   Output ~ 0
 ~ADC
-Text HLabel 5750 3350 2    50   Output ~ 0
+Text HLabel 5750 3350 2    50   Input ~ 0
 ~FIT
 Text HLabel 5750 3450 2    50   Output ~ 0
 ~NMI
