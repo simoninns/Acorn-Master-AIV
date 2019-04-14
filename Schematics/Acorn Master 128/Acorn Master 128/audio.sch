@@ -1136,28 +1136,11 @@ Wire Wire Line
 Connection ~ 9250 5650
 Wire Wire Line
 	9250 5650 9250 5600
-$Comp
-L Jumper:Jumper_3_Bridged12 LK1
-U 1 1 5CD3D704
-P 8500 5650
-F 0 "LK1" H 8500 5854 50  0000 C CNN
-F 1 "Jumper_3_Bridged12" H 8500 5763 50  0000 C CNN
-F 2 "" H 8500 5650 50  0001 C CNN
-F 3 "~" H 8500 5650 50  0001 C CNN
-	1    8500 5650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8750 5650 8900 5650
 Connection ~ 8900 5650
-Wire Wire Line
-	8250 5650 7950 5650
 Text HLabel 7950 5650 0    50   Input ~ 0
 ANALOG
-Wire Wire Line
-	8500 5800 8500 6350
-Wire Wire Line
-	8500 6350 10150 6350
 Wire Wire Line
 	10150 6350 10150 3950
 Wire Wire Line
@@ -1316,9 +1299,47 @@ Wire Wire Line
 	2300 4550 2550 4550
 Wire Wire Line
 	2250 3150 2250 3250
-Wire Bus Line
-	2500 1300 2500 2100
 Connection ~ 2250 3250
 Wire Wire Line
 	2250 3250 2550 3250
+$Comp
+L Device:Jumper LK_A1
+U 1 1 5CBBC8B7
+P 8450 5650
+F 0 "LK_A1" H 8450 5914 50  0000 C CNN
+F 1 "Jumper" H 8450 5823 50  0000 C CNN
+F 2 "" H 8450 5650 50  0001 C CNN
+F 3 "~" H 8450 5650 50  0001 C CNN
+	1    8450 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 5650 8050 5650
+$Comp
+L Device:Jumper LK_B1
+U 1 1 5CBC64B6
+P 8450 6350
+F 0 "LK_B1" H 8450 6614 50  0000 C CNN
+F 1 "Jumper" H 8450 6523 50  0000 C CNN
+F 2 "" H 8450 6350 50  0001 C CNN
+F 3 "~" H 8450 6350 50  0001 C CNN
+	1    8450 6350
+	1    0    0    -1  
+$EndComp
+Connection ~ 8050 5650
+Wire Wire Line
+	8050 5650 7950 5650
+Wire Wire Line
+	8050 6350 8150 6350
+Wire Wire Line
+	8050 5650 8050 6350
+Wire Wire Line
+	8750 6350 10150 6350
+Text HLabel 10400 6350 2    50   Output ~ 0
+ANOUT
+Wire Wire Line
+	10150 6350 10400 6350
+Wire Bus Line
+	2500 1300 2500 2100
+Connection ~ 10150 6350
 $EndSCHEMATC

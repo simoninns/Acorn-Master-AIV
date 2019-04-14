@@ -100,7 +100,7 @@ F9 "BAT" I L 6300 5150 50
 F10 "CHRG" I L 6300 5250 50 
 $EndSheet
 $Sheet
-S 6300 3400 550  600 
+S 6300 3400 600  700 
 U 5CAAD1C5
 F0 "Audio" 50
 F1 "audio.sch" 50
@@ -109,6 +109,7 @@ F3 "76489WE" I L 6300 3700 50
 F4 "SPEECH" I L 6300 3800 50 
 F5 "ANALOG" I L 6300 3900 50 
 F6 "4M" I L 6300 3600 50 
+F7 "ANOUT" O L 6300 4000 50 
 $EndSheet
 $Sheet
 S 9800 5150 650  1100
@@ -428,8 +429,6 @@ Wire Wire Line
 	6300 2750 5700 2750
 Wire Wire Line
 	6300 3050 5700 3050
-Text HLabel 5700 2450 0    50   Input ~ 0
-~EOC
 Text HLabel 5700 2750 0    50   Input ~ 0
 ~VIAA
 Text HLabel 5700 3050 0    50   Input ~ 0
@@ -458,7 +457,7 @@ Wire Wire Line
 	9800 5650 9450 5650
 Wire Wire Line
 	9800 5850 9450 5850
-Text Label 6100 2450 2    50   ~ 0
+Text Label 5700 2450 2    50   ~ 0
 ~EOC
 Text Label 9450 5850 2    50   ~ 0
 ~EOC
@@ -700,8 +699,6 @@ Wire Wire Line
 	6300 5250 5700 5250
 Text HLabel 4350 3500 2    50   Input ~ 0
 CRTC~RST
-Text HLabel 4350 3600 2    50   Input ~ 0
-ANOUT
 Text HLabel 4350 3800 2    50   Input ~ 0
 AT15
 Text HLabel 4350 3900 2    50   Input ~ 0
@@ -774,6 +771,12 @@ Wire Wire Line
 Connection ~ 2250 1800
 Wire Wire Line
 	2250 1800 1500 1800
+Wire Wire Line
+	6300 4000 5700 4000
 Wire Bus Line
 	8750 2250 8750 5250
+Text Label 5700 4000 2    50   ~ 0
+ANOUT
+Text Label 4350 3600 0    50   ~ 0
+ANOUT
 $EndSCHEMATC
