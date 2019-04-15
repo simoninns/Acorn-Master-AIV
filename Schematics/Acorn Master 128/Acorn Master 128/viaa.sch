@@ -111,7 +111,7 @@ Wire Wire Line
 	3150 2750 3350 2750
 Text HLabel 1900 2900 0    50   Input ~ 0
 LPSTB
-Text HLabel 1900 3000 0    50   Input ~ 0
+Text HLabel 1900 3000 0    50   Output ~ 0
 ~EOC
 Wire Wire Line
 	1900 2900 2050 2900
