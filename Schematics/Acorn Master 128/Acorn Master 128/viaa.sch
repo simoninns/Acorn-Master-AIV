@@ -592,7 +592,7 @@ $Comp
 L AcornMaster:CF30047 IC16
 U 1 1 5C9E4AC3
 P 2600 5950
-F 0 "IC16" H 2300 7100 50  0000 C CNN
+F 0 "IC16" H 2250 7200 50  0000 C CNN
 F 1 "CF30047" V 2600 5950 50  0000 C CNN
 F 2 "" H 2600 6000 50  0001 C CNN
 F 3 "" H 2600 6000 50  0001 C CNN
@@ -622,6 +622,8 @@ F 3 "~" H 6600 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
+	3100 4850 3400 4850
+Wire Wire Line
 	3100 4950 3400 4950
 Wire Wire Line
 	3100 5050 3400 5050
@@ -646,10 +648,6 @@ Wire Wire Line
 Wire Wire Line
 	3100 6050 3400 6050
 Wire Wire Line
-	3100 6150 3400 6150
-Wire Wire Line
-	3100 6350 3400 6350
-Wire Wire Line
 	3100 6450 3400 6450
 Wire Wire Line
 	3100 6550 3400 6550
@@ -663,47 +661,49 @@ Wire Wire Line
 	3100 6950 3400 6950
 Wire Wire Line
 	3100 7050 3400 7050
-Text Label 3200 4950 0    50   ~ 0
+Wire Wire Line
+	3100 7150 3400 7150
+Text Label 3200 4850 0    50   ~ 0
 C0
-Text Label 3200 5050 0    50   ~ 0
+Text Label 3200 4950 0    50   ~ 0
 C1
-Text Label 3200 5150 0    50   ~ 0
+Text Label 3200 5050 0    50   ~ 0
 C2
-Text Label 3200 5250 0    50   ~ 0
+Text Label 3200 5150 0    50   ~ 0
 C3
-Text Label 3200 5350 0    50   ~ 0
+Text Label 3200 5250 0    50   ~ 0
 C4
-Text Label 3200 5450 0    50   ~ 0
+Text Label 3200 5350 0    50   ~ 0
 C5
-Text Label 3200 5550 0    50   ~ 0
+Text Label 3200 5450 0    50   ~ 0
 C6
-Text Label 3200 5650 0    50   ~ 0
+Text Label 3200 5550 0    50   ~ 0
 C7
-Text Label 3200 5750 0    50   ~ 0
+Text Label 3200 5650 0    50   ~ 0
 C8
-Text Label 3200 5850 0    50   ~ 0
+Text Label 3200 5750 0    50   ~ 0
 C9
-Text Label 3200 5950 0    50   ~ 0
+Text Label 3200 5850 0    50   ~ 0
 C10
-Text Label 3200 6050 0    50   ~ 0
+Text Label 3200 5950 0    50   ~ 0
 C11
-Text Label 3200 6150 0    50   ~ 0
+Text Label 3200 6050 0    50   ~ 0
 C12
-Text Label 3200 6350 0    50   ~ 0
-R0
 Text Label 3200 6450 0    50   ~ 0
-R1
+R0
 Text Label 3200 6550 0    50   ~ 0
-R2
+R1
 Text Label 3200 6650 0    50   ~ 0
-R3
+R2
 Text Label 3200 6750 0    50   ~ 0
-R4
+R3
 Text Label 3200 6850 0    50   ~ 0
-R5
+R4
 Text Label 3200 6950 0    50   ~ 0
-R6
+R5
 Text Label 3200 7050 0    50   ~ 0
+R6
+Text Label 3200 7150 0    50   ~ 0
 R7
 Wire Wire Line
 	5100 4900 4800 4900
@@ -925,6 +925,8 @@ Caps Lock LED
 Text Notes 9100 2100 0    50   ~ 0
 Shift Lock LED
 Wire Wire Line
+	2100 5150 1250 5150
+Wire Wire Line
 	2100 5250 1250 5250
 Wire Wire Line
 	2100 5350 1250 5350
@@ -938,8 +940,8 @@ Wire Wire Line
 	2100 5750 1250 5750
 Wire Wire Line
 	2100 5850 1250 5850
-Wire Wire Line
-	2100 5950 1250 5950
+Entry Wire Line
+	1150 5050 1250 5150
 Entry Wire Line
 	1150 5150 1250 5250
 Entry Wire Line
@@ -954,8 +956,6 @@ Entry Wire Line
 	1150 5650 1250 5750
 Entry Wire Line
 	1150 5750 1250 5850
-Entry Wire Line
-	1150 5850 1250 5950
 Wire Bus Line
 	4750 4550 1150 4550
 Connection ~ 4750 4550
@@ -971,51 +971,33 @@ F 3 "~" H 2350 4400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2550 4750 2550 4400
-Wire Wire Line
-	2550 4400 2500 4400
-Wire Wire Line
-	2650 4750 2650 4400
-Wire Wire Line
-	2650 4400 2550 4400
-Connection ~ 2550 4400
-Wire Wire Line
 	2200 4400 2100 4400
 Wire Wire Line
 	2100 4400 2100 4300
-Wire Wire Line
-	2550 7400 2550 7300
-Wire Wire Line
-	2650 7250 2650 7300
-Wire Wire Line
-	2650 7300 2550 7300
-Connection ~ 2550 7300
-Wire Wire Line
-	2550 7300 2550 7250
-Text Label 1300 5250 0    50   ~ 0
+Text Label 1300 5150 0    50   ~ 0
 SA0
-Text Label 1300 5350 0    50   ~ 0
+Text Label 1300 5250 0    50   ~ 0
 SA1
-Text Label 1300 5450 0    50   ~ 0
+Text Label 1300 5350 0    50   ~ 0
 SA2
-Text Label 1300 5550 0    50   ~ 0
+Text Label 1300 5450 0    50   ~ 0
 SA3
-Text Label 1300 5650 0    50   ~ 0
+Text Label 1300 5550 0    50   ~ 0
 SA4
-Text Label 1300 5750 0    50   ~ 0
+Text Label 1300 5650 0    50   ~ 0
 SA5
-Text Label 1300 5850 0    50   ~ 0
+Text Label 1300 5750 0    50   ~ 0
 SA6
-Text Label 1300 5950 0    50   ~ 0
+Text Label 1300 5850 0    50   ~ 0
 SA7
 Wire Wire Line
 	3250 2550 3250 3900
 Wire Wire Line
 	3250 3900 1000 3900
 Wire Wire Line
-	1000 3900 1000 6150
+	1000 3900 1000 6050
 Wire Wire Line
-	1000 6150 2100 6150
+	1000 6050 2100 6050
 Connection ~ 3250 2550
 Wire Wire Line
 	3250 2550 3350 2550
@@ -1162,12 +1144,12 @@ $EndComp
 $Comp
 L AcornMaster:0VB #PWR0195
 U 1 1 5D1C80BE
-P 2550 7400
-F 0 "#PWR0195" H 2550 7150 50  0001 C CNN
-F 1 "0VB" H 2555 7227 50  0000 C CNN
-F 2 "" H 2550 7400 50  0001 C CNN
-F 3 "" H 2550 7400 50  0001 C CNN
-	1    2550 7400
+P 2550 7450
+F 0 "#PWR0195" H 2550 7200 50  0001 C CNN
+F 1 "0VB" H 2555 7277 50  0000 C CNN
+F 2 "" H 2550 7450 50  0001 C CNN
+F 3 "" H 2550 7450 50  0001 C CNN
+	1    2550 7450
 	1    0    0    -1  
 $EndComp
 Text HLabel 6900 4050 0    50   Input ~ 0
@@ -1190,14 +1172,12 @@ Wire Wire Line
 Connection ~ 7100 1450
 Text Label 7300 1450 0    50   ~ 0
 ~KBEN
-Wire Wire Line
-	2100 4950 1750 4950
-Text Label 1750 4950 2    50   ~ 0
+Text Label 1750 4850 2    50   ~ 0
 ~KBEN
 Wire Wire Line
-	2100 5050 900  5050
+	2100 4950 900  4950
 Wire Wire Line
-	900  5050 900  4000
+	900  4950 900  4000
 Wire Wire Line
 	900  4000 3900 4000
 Connection ~ 3900 4000
@@ -1216,19 +1196,43 @@ F 3 "~" H 2650 4300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2650 4300 2650 4400
+Wire Wire Line
+	1750 4850 2100 4850
+NoConn ~ 3100 6150
+NoConn ~ 3100 6250
+NoConn ~ 2100 6250
+NoConn ~ 2100 6350
+Wire Wire Line
+	2500 4400 2550 4400
+Wire Wire Line
+	2550 4650 2550 4400
+Connection ~ 2550 4400
+Wire Wire Line
+	2550 4400 2650 4400
+Wire Wire Line
+	2650 4650 2650 4400
 Connection ~ 2650 4400
+Wire Wire Line
+	2550 7350 2550 7400
+Wire Wire Line
+	2550 7400 2650 7400
+Wire Wire Line
+	2650 7400 2650 7350
 Wire Bus Line
 	3700 1050 3700 1450
 Wire Bus Line
-	5850 3350 5850 4550
-Wire Bus Line
-	4750 3150 4750 4550
-Wire Bus Line
-	6650 3150 6650 4550
-Wire Bus Line
-	1600 850  1600 1750
+	1150 4550 1150 5750
 Wire Bus Line
 	3700 1550 3700 2350
 Wire Bus Line
-	1150 4550 1150 5850
+	1600 850  1600 1750
+Wire Bus Line
+	6650 3150 6650 4550
+Wire Bus Line
+	4750 3150 4750 4550
+Wire Bus Line
+	5850 3350 5850 4550
+Connection ~ 2550 7400
+Wire Wire Line
+	2550 7400 2550 7450
 $EndSCHEMATC
