@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 10 30
 Title "Acorn Master 128 - I/O Controller"
-Date "2019-04-13"
-Rev "1.0"
+Date "2019-04-15"
+Rev "1.1"
 Comp "https://www.domesday86.com"
 Comment1 "(c)2019 Simon Inns"
 Comment2 "License: Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)"

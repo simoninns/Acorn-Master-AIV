@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 12 30
 Title "Acorn Master 128 - Peripherals"
-Date "2019-04-13"
-Rev "1.0"
+Date "2019-04-15"
+Rev "1.1"
 Comp "https://www.domesday86.com"
 Comment1 "(c)2019 Simon Inns"
 Comment2 "License: Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)"
@@ -68,48 +68,20 @@ F6 "~PRST" I L 6300 2150 50
 F7 "~IRQ" O L 6300 2250 50 
 F8 "LPSTB" I L 6300 2350 50 
 F9 "VS" I L 6300 2550 50 
-F10 "SA[0..7]" B L 6300 2650 50 
-F11 "~VIAA" I L 6300 2750 50 
-F12 "I0" I L 6300 2850 50 
-F13 "I1" I L 6300 2950 50 
-F14 "~J259" I L 6300 3050 50 
-F15 "C0" O R 7150 1750 50 
-F16 "C1" O R 7150 1850 50 
-F17 "SC1" O R 7150 1950 50 
-F18 "SC2" O R 7150 2050 50 
-F19 "BREAK" O R 7150 2150 50 
-F20 "76489WE" O R 7150 2250 50 
-F21 "RTC_AS" O R 7150 2350 50 
-F22 "RTC_CS" O R 7150 2450 50 
-F23 "BAT" I R 7150 2550 50 
-F24 "~EOC" O L 6300 2450 50 
-$EndSheet
-$Sheet
-S 6300 4350 850  1150
-U 5CAAD1BE
-F0 "RTC and CMOS RAM" 50
-F1 "rtccmos.sch" 50
-F2 "SA[0..7]" B L 6300 4450 50 
-F3 "SC1" I L 6300 4550 50 
-F4 "SC2" I L 6300 4650 50 
-F5 "~RST" I L 6300 4750 50 
-F6 "RTC_AS" I L 6300 4850 50 
-F7 "RTC_CS" I L 6300 4950 50 
-F8 "~IRQ" O L 6300 5050 50 
-F9 "BAT" I L 6300 5150 50 
-F10 "CHRG" I L 6300 5250 50 
-$EndSheet
-$Sheet
-S 6300 3400 600  700 
-U 5CAAD1C5
-F0 "Audio" 50
-F1 "audio.sch" 50
-F2 "SA[0..7]" I L 6300 3500 50 
-F3 "76489WE" I L 6300 3700 50 
-F4 "SPEECH" I L 6300 3800 50 
-F5 "ANALOG" I L 6300 3900 50 
-F6 "4M" I L 6300 3600 50 
-F7 "ANOUT" O L 6300 4000 50 
+F10 "~VIAA" I L 6300 2750 50 
+F11 "I0" I L 6300 2850 50 
+F12 "I1" I L 6300 2950 50 
+F13 "~J259" I L 6300 3050 50 
+F14 "C0" O R 7150 1750 50 
+F15 "C1" O R 7150 1850 50 
+F16 "BREAK" O R 7150 1950 50 
+F17 "~EOC" O L 6300 2450 50 
+F18 "CHRG" I R 7150 2200 50 
+F19 "4M" I R 7150 2300 50 
+F20 "~RST" I R 7150 2400 50 
+F21 "SPEECH" I R 7150 2500 50 
+F22 "ANALOG" I R 7150 2600 50 
+F23 "ANOUT" O R 7150 2700 50 
 $EndSheet
 $Sheet
 S 9800 5150 650  1100
@@ -195,17 +167,6 @@ Wire Bus Line
 Wire Bus Line
 	6300 1750 6100 1750
 Wire Bus Line
-	6300 2650 6150 2650
-Wire Bus Line
-	6150 2650 6150 3500
-Wire Bus Line
-	6150 3500 6300 3500
-Wire Bus Line
-	6150 3500 6150 4450
-Wire Bus Line
-	6150 4450 6300 4450
-Connection ~ 6150 3500
-Wire Bus Line
 	6100 1750 6100 1500
 Wire Bus Line
 	6100 1500 8650 1500
@@ -267,12 +228,6 @@ Wire Wire Line
 	3000 2600 2450 2600
 Wire Wire Line
 	2450 2600 2450 1100
-Wire Wire Line
-	2450 1100 5900 1100
-Wire Wire Line
-	5900 1100 5900 3600
-Wire Wire Line
-	5900 3600 6300 3600
 Wire Wire Line
 	2450 2600 1500 2600
 Connection ~ 2450 2600
@@ -380,10 +335,6 @@ Wire Wire Line
 Text Label 5700 2250 2    50   ~ 0
 ~IRQ
 Wire Wire Line
-	6300 5050 5700 5050
-Text Label 5700 5050 2    50   ~ 0
-~IRQ
-Wire Wire Line
 	9800 2150 9450 2150
 Text Label 9450 2150 2    50   ~ 0
 ~IRQ
@@ -434,16 +385,6 @@ Text HLabel 5700 2750 0    50   Input ~ 0
 Text HLabel 5700 3050 0    50   Input ~ 0
 ~J259
 Wire Wire Line
-	6300 3700 5300 3700
-Wire Wire Line
-	5300 3700 5300 1000
-Wire Wire Line
-	5300 1000 7250 1000
-Wire Wire Line
-	7250 1000 7250 2250
-Wire Wire Line
-	7250 2250 7150 2250
-Wire Wire Line
 	9800 1750 9300 1750
 Wire Wire Line
 	9800 3000 9450 3000
@@ -488,10 +429,6 @@ Wire Wire Line
 Text Label 2500 5450 2    50   ~ 0
 ~RST
 Wire Wire Line
-	6300 4750 5700 4750
-Text Label 5700 4750 2    50   ~ 0
-~RST
-Wire Wire Line
 	9800 1850 9450 1850
 Text Label 9450 1850 2    50   ~ 0
 ~RST
@@ -502,14 +439,6 @@ Text Label 9450 2900 2    50   ~ 0
 Wire Wire Line
 	4050 1900 4650 1900
 Text Label 4650 1900 0    50   ~ 0
-ANALOG
-Wire Wire Line
-	6300 3800 5700 3800
-Wire Wire Line
-	6300 3900 5700 3900
-Text Label 5700 3800 2    50   ~ 0
-SPEECH
-Text Label 5700 3900 2    50   ~ 0
 ANALOG
 Wire Wire Line
 	3900 4000 4350 4000
@@ -646,38 +575,6 @@ I1
 Text Label 9450 6050 2    50   ~ 0
 I0
 Wire Wire Line
-	7150 2350 7450 2350
-Wire Wire Line
-	7150 2450 7450 2450
-Wire Wire Line
-	6300 4850 5700 4850
-Wire Wire Line
-	6300 4950 5700 4950
-Text Label 7450 2350 0    50   ~ 0
-RTC_AS
-Text Label 7450 2450 0    50   ~ 0
-RTC_CS
-Text Label 5700 4850 2    50   ~ 0
-RTC_AS
-Text Label 5700 4950 2    50   ~ 0
-RTC_CS
-Wire Wire Line
-	7150 1950 7450 1950
-Wire Wire Line
-	7150 2050 7450 2050
-Text Label 7450 1950 0    50   ~ 0
-SC1
-Text Label 7450 2050 0    50   ~ 0
-SC2
-Wire Wire Line
-	6300 4550 5700 4550
-Wire Wire Line
-	6300 4650 5700 4650
-Text Label 5700 4550 2    50   ~ 0
-SC1
-Text Label 5700 4650 2    50   ~ 0
-SC2
-Wire Wire Line
 	7150 1750 7450 1750
 Wire Wire Line
 	7150 1850 7450 1850
@@ -685,18 +582,12 @@ Text HLabel 7450 1750 2    50   Output ~ 0
 C0
 Text HLabel 7450 1850 2    50   Output ~ 0
 C1
-Text HLabel 7450 2150 2    50   Output ~ 0
+Text HLabel 7450 1950 2    50   Output ~ 0
 BREAK
-Wire Wire Line
-	7450 2150 7150 2150
 Wire Wire Line
 	6300 2550 5700 2550
 Text HLabel 5700 2550 0    50   Input ~ 0
 VS
-Text HLabel 5700 5250 0    50   Input ~ 0
-CHRG
-Wire Wire Line
-	6300 5250 5700 5250
 Text HLabel 4350 3500 2    50   Input ~ 0
 CRTC~RST
 Text HLabel 4350 3800 2    50   Input ~ 0
@@ -732,14 +623,6 @@ Wire Wire Line
 Wire Wire Line
 	9800 3200 9450 3200
 Wire Wire Line
-	7150 2550 7450 2550
-Wire Wire Line
-	6300 5150 5700 5150
-Text Label 5700 5150 2    50   ~ 0
-BAT
-Text Label 7450 2550 0    50   ~ 0
-BAT
-Wire Wire Line
 	3000 3700 1750 3700
 Text HLabel 1750 3700 0    50   Input ~ 0
 AT13
@@ -771,12 +654,36 @@ Wire Wire Line
 Connection ~ 2250 1800
 Wire Wire Line
 	2250 1800 1500 1800
-Wire Wire Line
-	6300 4000 5700 4000
-Text Label 5700 4000 2    50   ~ 0
-ANOUT
 Text Label 4350 3600 0    50   ~ 0
 ANOUT
+Wire Wire Line
+	7150 1950 7450 1950
+Wire Wire Line
+	8000 1100 8000 2300
+Wire Wire Line
+	8000 2300 7150 2300
+Wire Wire Line
+	2450 1100 8000 1100
+Text HLabel 7450 2200 2    50   Input ~ 0
+CHRG
+Wire Wire Line
+	7450 2200 7150 2200
+Wire Wire Line
+	7150 2400 7450 2400
+Text Label 7450 2400 0    50   ~ 0
+~RST
+Wire Wire Line
+	7150 2500 7450 2500
+Wire Wire Line
+	7150 2600 7450 2600
+Wire Wire Line
+	7150 2700 7450 2700
 Wire Bus Line
 	8750 2250 8750 5250
+Text Label 7450 2500 0    50   ~ 0
+SPEECH
+Text Label 7450 2600 0    50   ~ 0
+ANALOG
+Text Label 7450 2700 0    50   ~ 0
+ANOUT
 $EndSCHEMATC

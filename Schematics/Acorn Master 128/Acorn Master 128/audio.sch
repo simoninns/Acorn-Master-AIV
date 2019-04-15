@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 18 30
 Title "Acorn Master 128 - Audio"
-Date "2019-04-13"
-Rev "1.0"
+Date "2019-04-15"
+Rev "1.1"
 Comp "https://www.domesday86.com"
 Comment1 "(c)2019 Simon Inns"
 Comment2 "License: Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)"
@@ -1339,7 +1339,7 @@ Text HLabel 10400 6350 2    50   Output ~ 0
 ANOUT
 Wire Wire Line
 	10150 6350 10400 6350
+Connection ~ 10150 6350
 Wire Bus Line
 	2500 1300 2500 2100
-Connection ~ 10150 6350
 $EndSCHEMATC

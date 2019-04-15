@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 16 30
 Title "Acorn Master 128 - VIA A"
-Date "2019-04-13"
-Rev "1.0"
+Date "2019-04-15"
+Rev "1.1"
 Comp "https://www.domesday86.com"
 Comment1 "(c)2019 Simon Inns"
 Comment2 "License: Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)"
@@ -99,7 +99,7 @@ Text HLabel 3350 2550 2    50   Input ~ 0
 1MHzE
 Text HLabel 3350 2650 2    50   Input ~ 0
 ~PRST
-Text HLabel 3350 2750 2    50   Output ~ 0
+Text HLabel 3650 2750 2    50   Output ~ 0
 ~IRQ
 Wire Wire Line
 	3150 2450 3350 2450
@@ -108,7 +108,7 @@ Wire Wire Line
 Wire Wire Line
 	3150 2650 3350 2650
 Wire Wire Line
-	3150 2750 3350 2750
+	3150 2750 3650 2750
 Text HLabel 1900 2900 0    50   Input ~ 0
 LPSTB
 Text HLabel 1900 3000 0    50   Output ~ 0
@@ -120,9 +120,9 @@ Wire Wire Line
 Text HLabel 3350 2950 2    50   Input ~ 0
 VS
 Wire Wire Line
-	3150 3250 3750 3250
+	3150 3250 4000 3250
 Wire Wire Line
-	3750 3250 3750 2900
+	4000 3250 4000 2900
 Wire Wire Line
 	2600 3650 2600 3550
 Wire Wire Line
@@ -194,8 +194,6 @@ Entry Wire Line
 Wire Bus Line
 	1600 850  1150 850 
 Text Label 1200 850  0    50   ~ 0
-SA[0..7]
-Text HLabel 1150 850  0    50   BiDi ~ 0
 SA[0..7]
 Text HLabel 3350 3350 2    50   Input ~ 0
 ~VIAA
@@ -314,10 +312,6 @@ Wire Wire Line
 	3150 2150 3600 2150
 Wire Wire Line
 	3150 2250 3600 2250
-Text HLabel 6750 1250 2    50   Output ~ 0
-SC1
-Text HLabel 6750 1350 2    50   Output ~ 0
-SC2
 Wire Wire Line
 	6500 1250 6750 1250
 Wire Wire Line
@@ -551,11 +545,11 @@ Wire Wire Line
 Text HLabel 4300 2450 0    50   Input ~ 0
 1MHzE
 Wire Wire Line
-	7200 4150 3900 4150
+	7200 4150 3650 4150
 Wire Wire Line
-	3900 4150 3900 4000
+	3650 4150 3650 4000
 Wire Wire Line
-	3900 3050 3150 3050
+	3650 3050 3150 3050
 Wire Wire Line
 	7200 4050 6950 4050
 Wire Wire Line
@@ -584,8 +578,6 @@ Wire Wire Line
 	7050 4450 7200 4450
 Wire Wire Line
 	7100 1450 7100 3150
-Text HLabel 6750 1150 2    50   Output ~ 0
-76489WE
 Wire Wire Line
 	6500 1150 6750 1150
 $Comp
@@ -1003,12 +995,8 @@ Wire Wire Line
 	3250 2550 3350 2550
 Wire Wire Line
 	2050 2700 1900 2700
-Text HLabel 1900 2700 0    50   Output ~ 0
-RTC_AS
 Wire Wire Line
 	2050 2600 1900 2600
-Text HLabel 1900 2600 0    50   Output ~ 0
-RTC_CS
 $Comp
 L AcornMaster:+5VB #PWR0183
 U 1 1 5D1C7C7D
@@ -1056,12 +1044,12 @@ $EndComp
 $Comp
 L AcornMaster:+5VB #PWR0187
 U 1 1 5D1C7DB2
-P 3750 2900
-F 0 "#PWR0187" H 3750 2750 50  0001 C CNN
-F 1 "+5VB" H 3765 3073 50  0000 C CNN
-F 2 "" H 3750 2900 50  0001 C CNN
-F 3 "" H 3750 2900 50  0001 C CNN
-	1    3750 2900
+P 4000 2900
+F 0 "#PWR0187" H 4000 2750 50  0001 C CNN
+F 1 "+5VB" H 4015 3073 50  0000 C CNN
+F 2 "" H 4000 2900 50  0001 C CNN
+F 3 "" H 4000 2900 50  0001 C CNN
+	1    4000 2900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1152,8 +1140,6 @@ F 3 "" H 2550 7450 50  0001 C CNN
 	1    2550 7450
 	1    0    0    -1  
 $EndComp
-Text HLabel 6900 4050 0    50   Input ~ 0
-BAT
 Wire Wire Line
 	6950 4050 6950 4700
 Wire Wire Line
@@ -1179,10 +1165,10 @@ Wire Wire Line
 Wire Wire Line
 	900  4950 900  4000
 Wire Wire Line
-	900  4000 3900 4000
-Connection ~ 3900 4000
+	900  4000 3650 4000
+Connection ~ 3650 4000
 Wire Wire Line
-	3900 4000 3900 3050
+	3650 4000 3650 3050
 $Comp
 L power:PWR_FLAG #FLG0111
 U 1 1 5CCEAC9E
@@ -1218,6 +1204,113 @@ Wire Wire Line
 	2550 7400 2650 7400
 Wire Wire Line
 	2650 7400 2650 7350
+Connection ~ 2550 7400
+Wire Wire Line
+	2550 7400 2550 7450
+$Sheet
+S 9450 4150 850  1150
+U 5CE08098
+F0 "RTC and CMOS RAM" 50
+F1 "rtccmos.sch" 50
+F2 "SA[0..7]" B L 9450 4250 50 
+F3 "SC1" I L 9450 4350 50 
+F4 "SC2" I L 9450 4450 50 
+F5 "~RST" I L 9450 4550 50 
+F6 "RTC_AS" I L 9450 4650 50 
+F7 "RTC_CS" I L 9450 4750 50 
+F8 "~IRQ" O L 9450 4850 50 
+F9 "BAT" I L 9450 4950 50 
+F10 "CHRG" I L 9450 5050 50 
+$EndSheet
+$Sheet
+S 9450 3200 600  700 
+U 5CE080A0
+F0 "Audio" 50
+F1 "audio.sch" 50
+F2 "SA[0..7]" I L 9450 3300 50 
+F3 "76489WE" I L 9450 3500 50 
+F4 "SPEECH" I L 9450 3600 50 
+F5 "ANALOG" I L 9450 3700 50 
+F6 "4M" I L 9450 3400 50 
+F7 "ANOUT" O L 9450 3800 50 
+$EndSheet
+Wire Bus Line
+	9300 3300 9450 3300
+Wire Bus Line
+	9300 3300 9300 4250
+Wire Bus Line
+	9300 4250 9450 4250
+Wire Wire Line
+	8850 3400 9450 3400
+Wire Wire Line
+	9450 4850 8850 4850
+Wire Wire Line
+	9450 3500 8800 3500
+Wire Wire Line
+	9450 4550 8850 4550
+Wire Wire Line
+	9450 3600 8850 3600
+Wire Wire Line
+	9450 3700 8850 3700
+Wire Wire Line
+	9450 4650 8850 4650
+Wire Wire Line
+	9450 4750 8850 4750
+Text Label 8850 4650 2    50   ~ 0
+RTC_AS
+Text Label 8850 4750 2    50   ~ 0
+RTC_CS
+Wire Wire Line
+	9450 4350 8850 4350
+Wire Wire Line
+	9450 4450 8850 4450
+Text Label 8850 4350 2    50   ~ 0
+SC1
+Text Label 8850 4450 2    50   ~ 0
+SC2
+Text HLabel 8850 5050 0    50   Input ~ 0
+CHRG
+Wire Wire Line
+	9450 5050 8850 5050
+Wire Wire Line
+	9450 4950 8850 4950
+Wire Wire Line
+	9450 3800 8850 3800
+Connection ~ 9300 3300
+Text Label 8800 3300 2    50   ~ 0
+SA[0..7]
+Text HLabel 8850 3400 0    50   Input ~ 0
+4M
+Text Label 6750 1150 0    50   ~ 0
+76489WE
+Text Label 6750 1250 0    50   ~ 0
+SC1
+Text Label 6750 1350 0    50   ~ 0
+SC2
+Text Label 8800 3500 2    50   ~ 0
+76489WE
+Text Label 3300 2750 0    50   ~ 0
+~IRQ
+Text HLabel 8850 4550 0    50   Input ~ 0
+~RST
+Text HLabel 8850 3600 0    50   Input ~ 0
+SPEECH
+Text HLabel 8850 3700 0    50   Input ~ 0
+ANALOG
+Text HLabel 8850 3800 0    50   Output ~ 0
+ANOUT
+Text Label 6900 4050 2    50   ~ 0
+BAT
+Text Label 8850 4950 2    50   ~ 0
+BAT
+Text Label 8850 4850 2    50   ~ 0
+~IRQ
+Wire Bus Line
+	9300 3300 8800 3300
+Text Label 1900 2600 2    50   ~ 0
+RTC_CS
+Text Label 1900 2700 2    50   ~ 0
+RTC_AS
 Wire Bus Line
 	3700 1050 3700 1450
 Wire Bus Line
@@ -1232,7 +1325,4 @@ Wire Bus Line
 	4750 3150 4750 4550
 Wire Bus Line
 	5850 3350 5850 4550
-Connection ~ 2550 7400
-Wire Wire Line
-	2550 7400 2550 7450
 $EndSCHEMATC

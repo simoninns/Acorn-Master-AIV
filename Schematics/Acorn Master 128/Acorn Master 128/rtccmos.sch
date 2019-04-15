@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 17 30
 Title "Acorn Master 128 - RTC and CMOS RAM"
-Date "2019-04-13"
-Rev "1.0"
+Date "2019-04-15"
+Rev "1.1"
 Comp "https://www.domesday86.com"
 Comment1 "(c)2019 Simon Inns"
 Comment2 "License: Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)"
@@ -657,9 +657,9 @@ F 3 "~" H 7750 1100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7750 1100 7750 1600
-Wire Bus Line
-	7150 4900 7150 5600
 Connection ~ 7750 1600
 Wire Wire Line
 	7750 1600 7150 1600
+Wire Bus Line
+	7150 4900 7150 5600
 $EndSCHEMATC
