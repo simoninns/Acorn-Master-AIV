@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 30
 Title "Acorn Master 128 - RAM"
-Date "2019-04-15"
-Rev "1.1"
+Date "2019-06-06"
+Rev "1.2"
 Comp "https://www.domesday86.com"
 Comment1 "(c)2019 Simon Inns"
 Comment2 "License: Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)"

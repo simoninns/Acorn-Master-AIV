@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 12 30
 Title "Acorn Master 128 - Peripherals"
-Date "2019-04-15"
-Rev "1.1"
+Date "2019-06-06"
+Rev "1.2"
 Comp "https://www.domesday86.com"
 Comment1 "(c)2019 Simon Inns"
 Comment2 "License: Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)"
@@ -678,12 +678,12 @@ Wire Wire Line
 	7150 2600 7450 2600
 Wire Wire Line
 	7150 2700 7450 2700
-Wire Bus Line
-	8750 2250 8750 5250
 Text Label 7450 2500 0    50   ~ 0
 SPEECH
 Text Label 7450 2600 0    50   ~ 0
 ANALOG
 Text Label 7450 2700 0    50   ~ 0
 ANOUT
+Wire Bus Line
+	8750 2250 8750 5250
 $EndSCHEMATC

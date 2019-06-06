@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 17 30
 Title "Acorn Master 128 - RTC and CMOS RAM"
-Date "2019-04-15"
-Rev "1.1"
+Date "2019-06-06"
+Rev "1.2"
 Comp "https://www.domesday86.com"
 Comment1 "(c)2019 Simon Inns"
 Comment2 "License: Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)"
@@ -19,7 +19,7 @@ L AcornMaster:MC146818A IC11
 U 1 1 5C9DD2C9
 P 6250 4850
 F 0 "IC11" H 5900 5650 50  0000 C CNN
-F 1 "MC146818A" V 6250 4850 50  0000 C CNN
+F 1 "MC146818P" V 6250 4850 50  0000 C CNN
 F 2 "" H 6250 4900 50  0001 C CNN
 F 3 "" H 6250 4900 50  0001 C CNN
 	1    6250 4850
